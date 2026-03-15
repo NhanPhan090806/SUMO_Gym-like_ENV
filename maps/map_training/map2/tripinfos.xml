@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-02-10T20:34:32.527876+07:00 by Eclipse SUMO sumo v1_25_0+0904-59bbc76848e
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="maps/map_training/map2/pasubio_buslanes.net.xml"/>
+        <route-files value="maps/map_training/map2/pasubio.rou.xml"/>
+        <additional-files value="maps/map_training/map2/pasubio_vtypes.add.xml,maps/map_training/map2/pasubio_bus_stops.add.xml,maps/map_training/map2/pasubio_busses.rou.xml,maps/map_training/map2/pasubio_detectors.add.xml,maps/map_training/map2/pasubio_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="maps/map_training/map2/tripinfos.xml"/>
+    </output>
+
+    <processing>
+        <scale value="7.0"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <log value="maps/map_training/map2/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1.0"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="44227"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <delay value="20"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="Pertini_20_0.1" depart="3.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="74.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="15.15" duration="71.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.84" rerouteNo="0" devices="tripinfo_Pertini_20_0.1 emissions_Pertini_20_0.1" vType="passenger2a" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2006.02" CO2_abs="174231.55" HC_abs="49.95" PMx_abs="19.14" NOx_abs="357.80" fuel_abs="54876.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0" depart="0.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="75.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.02" duration="75.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.32" rerouteNo="0" devices="tripinfo_Pertini_20_0 emissions_Pertini_20_0" vType="passenger2a" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1175.89" CO2_abs="155067.69" HC_abs="38.67" PMx_abs="13.82" NOx_abs="294.84" fuel_abs="48840.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0.3" depart="8.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="77.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.63" duration="69.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.81" rerouteNo="0" devices="tripinfo_Pertini_20_0.3 emissions_Pertini_20_0.3" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="1064.91" CO2_abs="149580.37" HC_abs="36.09" PMx_abs="12.87" NOx_abs="283.22" fuel_abs="47112.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0.4" depart="11.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="11.00" arrival="77.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.72" duration="66.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.31" rerouteNo="0" devices="tripinfo_Pertini_20_0.4 emissions_Pertini_20_0.4" vType="passenger2a" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="1241.90" CO2_abs="147491.70" HC_abs="37.35" PMx_abs="13.76" NOx_abs="287.19" fuel_abs="46454.15" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0.5" depart="13.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="13.00" arrival="80.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.00" duration="67.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.73" rerouteNo="0" devices="tripinfo_Pertini_20_0.5 emissions_Pertini_20_0.5" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="910.53" CO2_abs="151959.97" HC_abs="34.16" PMx_abs="12.54" NOx_abs="281.79" fuel_abs="47861.49" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0" depart="0.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="82.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="11.90" duration="82.00" routeLength="409.63" waitingTime="38.00" waitingCount="1" stopTime="0.00" timeLoss="47.92" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0 emissions_Prati_Capraia_10_0" vType="passenger1" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1103.06" CO2_abs="116903.09" HC_abs="39.35" PMx_abs="9.66" NOx_abs="213.52" fuel_abs="36819.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.1" depart="3.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="83.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.03" duration="80.00" routeLength="409.63" waitingTime="37.00" waitingCount="1" stopTime="0.00" timeLoss="50.33" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.1 emissions_Prati_Capraia_10_0.1" vType="passenger5" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1386.46" CO2_abs="126838.11" HC_abs="43.97" PMx_abs="11.55" NOx_abs="240.48" fuel_abs="39949.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.2" depart="6.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="87.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="11.37" duration="81.00" routeLength="409.63" waitingTime="35.00" waitingCount="1" stopTime="0.00" timeLoss="46.04" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.2 emissions_Prati_Capraia_10_0.2" vType="passenger4" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="1019.42" CO2_abs="113706.09" HC_abs="38.07" PMx_abs="9.25" NOx_abs="206.41" fuel_abs="35812.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.3" depart="9.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="9.00" arrival="88.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.67" duration="79.00" routeLength="409.63" waitingTime="33.00" waitingCount="1" stopTime="0.00" timeLoss="50.58" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.3 emissions_Prati_Capraia_10_0.3" vType="passenger2a" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1648.50" CO2_abs="133150.51" HC_abs="46.93" PMx_abs="13.98" NOx_abs="263.15" fuel_abs="41937.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0" depart="0.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="90.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.94" duration="90.00" routeLength="602.57" waitingTime="39.00" waitingCount="1" stopTime="0.00" timeLoss="48.85" rerouteNo="0" devices="tripinfo_Certosa_9_0 emissions_Certosa_9_0" vType="passenger3" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1700.51" CO2_abs="161911.09" HC_abs="52.24" PMx_abs="15.22" NOx_abs="311.26" fuel_abs="50995.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.4" depart="11.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="11.00" arrival="90.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="15.92" duration="79.00" routeLength="409.63" waitingTime="33.00" waitingCount="1" stopTime="0.00" timeLoss="52.53" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.4 emissions_Prati_Capraia_10_0.4" vType="passenger2a" speedFactor="1.17" vaporized="">
+        <emissions CO_abs="1862.25" CO2_abs="140332.73" HC_abs="50.68" PMx_abs="15.30" NOx_abs="282.16" fuel_abs="44199.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0.2" depart="5.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="91.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.35" duration="86.00" routeLength="895.82" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.89" rerouteNo="0" devices="tripinfo_Pertini_20_0.2 emissions_Pertini_20_0.2" vType="passenger5" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="774.00" CO2_abs="143706.69" HC_abs="33.88" PMx_abs="11.18" NOx_abs="259.82" fuel_abs="45262.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.5" depart="14.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="92.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.09" duration="78.00" routeLength="409.63" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="48.31" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.5 emissions_Prati_Capraia_10_0.5" vType="passenger2b" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1568.34" CO2_abs="132422.94" HC_abs="46.08" PMx_abs="12.97" NOx_abs="258.19" fuel_abs="41708.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_0.6" depart="16.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="16.00" arrival="93.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="13.44" duration="77.00" routeLength="409.63" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="46.57" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_0.6 emissions_Prati_Capraia_10_0.6" vType="passenger4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1295.77" CO2_abs="123588.35" HC_abs="41.74" PMx_abs="11.18" NOx_abs="233.67" fuel_abs="38925.49" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1" depart="19.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="15.00" arrival="95.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.62" duration="76.00" routeLength="409.63" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="46.79" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1 emissions_Prati_Capraia_10_1" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1519.71" CO2_abs="132064.70" HC_abs="45.39" PMx_abs="12.69" NOx_abs="256.08" fuel_abs="41595.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.2" depart="5.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="96.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.38" duration="91.00" routeLength="602.57" waitingTime="35.00" waitingCount="1" stopTime="0.00" timeLoss="51.44" rerouteNo="0" devices="tripinfo_Certosa_9_0.2 emissions_Certosa_9_0.2" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="1788.20" CO2_abs="157507.67" HC_abs="52.42" PMx_abs="15.61" NOx_abs="307.75" fuel_abs="49608.76" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.1" depart="2.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="97.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.74" duration="95.00" routeLength="602.57" waitingTime="35.00" waitingCount="1" stopTime="0.00" timeLoss="46.67" rerouteNo="0" devices="tripinfo_Certosa_9_0.1 emissions_Certosa_9_0.1" vType="passenger2b" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1384.84" CO2_abs="143722.84" HC_abs="46.40" PMx_abs="12.55" NOx_abs="269.03" fuel_abs="45267.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.1" depart="22.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="18.00" arrival="97.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.90" duration="75.00" routeLength="409.63" waitingTime="29.00" waitingCount="1" stopTime="0.00" timeLoss="46.90" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.1 emissions_Prati_Capraia_10_1.1" vType="passenger1" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="1555.76" CO2_abs="139071.65" HC_abs="46.80" PMx_abs="13.11" NOx_abs="269.26" fuel_abs="43802.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1" depart="18.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="16.00" arrival="98.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.55" duration="80.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.08" rerouteNo="0" devices="tripinfo_Pertini_20_1 emissions_Pertini_20_1" vType="passenger4" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="1232.66" CO2_abs="157217.73" HC_abs="40.24" PMx_abs="14.41" NOx_abs="300.33" fuel_abs="49517.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.2" depart="24.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="20.00" arrival="98.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="13.29" duration="74.00" routeLength="409.63" waitingTime="29.00" waitingCount="2" stopTime="0.00" timeLoss="44.02" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.2 emissions_Prati_Capraia_10_1.2" vType="passenger3" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1208.93" CO2_abs="115097.37" HC_abs="38.74" PMx_abs="10.50" NOx_abs="218.45" fuel_abs="36251.17" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.2" depart="24.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="22.00" arrival="100.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.07" duration="76.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.76" rerouteNo="0" devices="tripinfo_Pertini_20_1.2 emissions_Pertini_20_1.2" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1478.01" CO2_abs="162738.29" HC_abs="43.22" PMx_abs="15.44" NOx_abs="318.08" fuel_abs="51256.22" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.3" depart="28.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="24.00" arrival="100.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="15.65" duration="72.00" routeLength="409.63" waitingTime="26.00" waitingCount="1" stopTime="0.00" timeLoss="44.57" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.3 emissions_Prati_Capraia_10_1.3" vType="passenger3" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1652.96" CO2_abs="132215.05" HC_abs="45.43" PMx_abs="14.03" NOx_abs="263.72" fuel_abs="41642.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.4" depart="31.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="27.00" arrival="101.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="16.53" duration="70.00" routeLength="409.63" waitingTime="26.00" waitingCount="1" stopTime="0.00" timeLoss="44.99" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.4 emissions_Prati_Capraia_10_1.4" vType="passenger2a" speedFactor="1.21" vaporized="">
+        <emissions CO_abs="1841.75" CO2_abs="141976.43" HC_abs="48.78" PMx_abs="16.08" NOx_abs="287.96" fuel_abs="44717.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.3" depart="7.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="7.00" arrival="102.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.03" duration="95.00" routeLength="602.57" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="45.56" rerouteNo="0" devices="tripinfo_Certosa_9_0.3 emissions_Certosa_9_0.3" vType="passenger1" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1200.84" CO2_abs="140705.79" HC_abs="44.24" PMx_abs="11.47" NOx_abs="257.66" fuel_abs="44316.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.4" depart="28.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="26.00" arrival="102.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.49" duration="74.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.92" rerouteNo="0" devices="tripinfo_Pertini_20_1.4 emissions_Pertini_20_1.4" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1066.96" CO2_abs="158318.60" HC_abs="37.75" PMx_abs="13.57" NOx_abs="296.61" fuel_abs="49864.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.4" depart="10.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="10.00" arrival="103.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="12.77" duration="93.00" routeLength="602.57" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="45.31" rerouteNo="0" devices="tripinfo_Certosa_9_0.4 emissions_Certosa_9_0.4" vType="passenger5" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="1250.13" CO2_abs="142923.88" HC_abs="44.98" PMx_abs="11.76" NOx_abs="263.30" fuel_abs="45015.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.5" depart="13.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="13.00" arrival="105.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.09" duration="92.00" routeLength="602.57" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="49.14" rerouteNo="0" devices="tripinfo_Certosa_9_0.5 emissions_Certosa_9_0.5" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1832.31" CO2_abs="158273.40" HC_abs="52.94" PMx_abs="15.69" NOx_abs="310.93" fuel_abs="49849.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.6" depart="31.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="105.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="12.72" duration="74.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.14" rerouteNo="0" devices="tripinfo_Pertini_20_1.6 emissions_Pertini_20_1.6" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1032.95" CO2_abs="146990.10" HC_abs="35.52" PMx_abs="12.70" NOx_abs="276.39" fuel_abs="46296.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_0.6" depart="16.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="16.00" arrival="106.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="9.57" duration="90.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.41" rerouteNo="0" devices="tripinfo_Pertini_20_0.6 emissions_Pertini_20_0.6" vType="passenger3" speedFactor="0.77" vaporized="">
+        <emissions CO_abs="850.22" CO2_abs="146362.35" HC_abs="35.48" PMx_abs="11.49" NOx_abs="264.99" fuel_abs="46098.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2.2" depart="36.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="32.00" arrival="107.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.32" duration="71.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.18" rerouteNo="0" devices="tripinfo_Pertini_20_2.2 emissions_Pertini_20_2.2" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1156.60" CO2_abs="155416.12" HC_abs="38.01" PMx_abs="13.58" NOx_abs="295.20" fuel_abs="48950.03" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_0.6" depart="16.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="16.00" arrival="108.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="11.67" duration="92.00" routeLength="602.57" waitingTime="29.00" waitingCount="1" stopTime="0.00" timeLoss="44.57" rerouteNo="0" devices="tripinfo_Certosa_9_0.6 emissions_Certosa_9_0.6" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1435.05" CO2_abs="149954.41" HC_abs="47.05" PMx_abs="13.54" NOx_abs="282.31" fuel_abs="47229.78" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2" depart="33.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="108.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.84" duration="75.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.86" rerouteNo="0" devices="tripinfo_Pertini_20_2 emissions_Pertini_20_2" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="1253.73" CO2_abs="156802.33" HC_abs="39.77" PMx_abs="14.29" NOx_abs="300.81" fuel_abs="49386.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.5" depart="33.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="108.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="12.17" duration="75.00" routeLength="409.63" waitingTime="24.00" waitingCount="1" stopTime="0.00" timeLoss="39.82" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.5 emissions_Prati_Capraia_10_1.5" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1207.50" CO2_abs="115771.09" HC_abs="38.78" PMx_abs="10.80" NOx_abs="219.99" fuel_abs="36463.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_1.6" depart="35.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="31.00" arrival="109.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="12.55" duration="74.00" routeLength="409.63" waitingTime="24.00" waitingCount="2" stopTime="0.00" timeLoss="42.12" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_1.6 emissions_Prati_Capraia_10_1.6" vType="passenger2b" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1397.93" CO2_abs="125197.87" HC_abs="42.05" PMx_abs="12.18" NOx_abs="242.67" fuel_abs="39432.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2.4" depart="39.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="35.00" arrival="110.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.85" duration="71.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.36" rerouteNo="0" devices="tripinfo_Pertini_20_2.4 emissions_Pertini_20_2.4" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1292.97" CO2_abs="153612.81" HC_abs="38.98" PMx_abs="14.20" NOx_abs="297.18" fuel_abs="48382.05" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2.6" depart="41.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="37.00" arrival="111.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.56" duration="70.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.44" rerouteNo="0" devices="tripinfo_Pertini_20_2.6 emissions_Pertini_20_2.6" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="834.16" CO2_abs="144606.32" HC_abs="32.76" PMx_abs="11.73" NOx_abs="266.57" fuel_abs="45545.37" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7" depart="44.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="111.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.99" duration="67.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.20" rerouteNo="0" devices="tripinfo_Pertini_20_7 emissions_Pertini_20_7" vType="passenger2a" speedFactor="1.19" vaporized="">
+        <emissions CO_abs="1967.40" CO2_abs="175442.74" HC_abs="49.34" PMx_abs="19.07" NOx_abs="359.34" fuel_abs="55257.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1" depart="20.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="11.00" arrival="118.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="15.55" duration="98.00" routeLength="1123.23" waitingTime="11.00" waitingCount="1" stopTime="0.00" timeLoss="25.59" rerouteNo="0" devices="tripinfo_Sabotino_9_1 emissions_Sabotino_9_1" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2042.84" CO2_abs="213083.22" HC_abs="58.63" PMx_abs="20.33" NOx_abs="418.47" fuel_abs="67112.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0" depart="0.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="120.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="14.41" duration="120.00" routeLength="1123.23" waitingTime="28.00" waitingCount="2" stopTime="0.00" timeLoss="45.86" rerouteNo="0" devices="tripinfo_Sabotino_9_0 emissions_Sabotino_9_0" vType="passenger5" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2073.93" CO2_abs="239681.82" HC_abs="66.85" PMx_abs="21.35" NOx_abs="456.02" fuel_abs="75490.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.3" depart="9.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="9.00" arrival="120.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.82" duration="111.00" routeLength="1123.23" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="31.36" rerouteNo="0" devices="tripinfo_Sabotino_9_0.3 emissions_Sabotino_9_0.3" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1563.99" CO2_abs="207159.13" HC_abs="54.96" PMx_abs="17.32" NOx_abs="387.19" fuel_abs="65247.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.5" depart="14.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="120.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.39" duration="106.00" routeLength="1123.23" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="33.22" rerouteNo="0" devices="tripinfo_Sabotino_9_0.5 emissions_Sabotino_9_0.5" vType="passenger2a" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2188.40" CO2_abs="216527.75" HC_abs="62.17" PMx_abs="21.23" NOx_abs="426.82" fuel_abs="68197.80" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.1" depart="22.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="20.00" arrival="120.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.54" duration="98.00" routeLength="882.71" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="27.97" rerouteNo="0" devices="tripinfo_Pertini_20_1.1 emissions_Pertini_20_1.1" vType="passenger2a" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1385.12" CO2_abs="177985.87" HC_abs="48.30" PMx_abs="15.41" NOx_abs="332.84" fuel_abs="56058.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.3" depart="28.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="26.00" arrival="122.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.26" duration="94.00" routeLength="882.71" waitingTime="12.00" waitingCount="1" stopTime="0.00" timeLoss="23.18" rerouteNo="0" devices="tripinfo_Pertini_20_1.3 emissions_Pertini_20_1.3" vType="passenger2b" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1262.18" CO2_abs="164779.18" HC_abs="44.42" PMx_abs="14.08" NOx_abs="307.77" fuel_abs="51899.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_2.4" depart="38.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="123.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="14.17" duration="85.00" routeLength="624.48" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="41.19" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_2.4 emissions_Prati_Capraia_100_2.4" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1528.15" CO2_abs="150418.40" HC_abs="46.83" PMx_abs="14.20" NOx_abs="289.92" fuel_abs="47375.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_2.2" depart="33.00" departLane="3[0]_1" departPos="0.00" departSpeed="0.00" departDelay="24.00" arrival="124.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="15.28" duration="91.00" routeLength="624.48" waitingTime="23.00" waitingCount="2" stopTime="0.00" timeLoss="51.31" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_2.2 emissions_Prati_Capraia_100_2.2" vType="passenger3" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="1527.95" CO2_abs="152834.13" HC_abs="48.37" PMx_abs="13.67" NOx_abs="290.75" fuel_abs="48136.78" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.5" depart="34.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="25.00" arrival="124.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="15.38" duration="90.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.98" rerouteNo="0" devices="tripinfo_Sabotino_9_1.5 emissions_Sabotino_9_1.5" vType="passenger2a" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="2098.95" CO2_abs="209558.26" HC_abs="56.75" PMx_abs="21.08" NOx_abs="418.49" fuel_abs="66002.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.2" depart="6.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="125.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.58" duration="119.00" routeLength="1123.23" waitingTime="20.00" waitingCount="1" stopTime="0.00" timeLoss="34.62" rerouteNo="0" devices="tripinfo_Sabotino_9_0.2 emissions_Sabotino_9_0.2" vType="passenger3" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1673.57" CO2_abs="205462.98" HC_abs="57.00" PMx_abs="17.84" NOx_abs="386.86" fuel_abs="64712.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_2" depart="28.00" departLane="3[0]_1" departPos="0.00" departSpeed="0.00" departDelay="19.00" arrival="125.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="13.52" duration="97.00" routeLength="624.48" waitingTime="29.00" waitingCount="2" stopTime="0.00" timeLoss="53.12" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_2 emissions_Prati_Capraia_100_2" vType="passenger5" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1333.89" CO2_abs="146939.51" HC_abs="46.58" PMx_abs="12.23" NOx_abs="271.95" fuel_abs="46280.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_2.6" depart="41.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="32.00" arrival="126.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="15.35" duration="85.00" routeLength="624.48" waitingTime="22.00" waitingCount="1" stopTime="0.00" timeLoss="45.02" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_2.6 emissions_Prati_Capraia_100_2.6" vType="passenger3" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1444.15" CO2_abs="144921.76" HC_abs="45.21" PMx_abs="13.30" NOx_abs="277.64" fuel_abs="45644.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2.3" depart="47.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="126.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="18.17" duration="79.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.95" rerouteNo="0" devices="tripinfo_Sabotino_9_2.3 emissions_Sabotino_9_2.3" vType="passenger2a" speedFactor="1.32" vaporized="">
+        <emissions CO_abs="2597.21" CO2_abs="228633.33" HC_abs="63.93" PMx_abs="24.42" NOx_abs="469.99" fuel_abs="72010.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.1" depart="3.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="127.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.41" duration="124.00" routeLength="1123.23" waitingTime="21.00" waitingCount="1" stopTime="0.00" timeLoss="33.79" rerouteNo="0" devices="tripinfo_Sabotino_9_0.1 emissions_Sabotino_9_0.1" vType="passenger4" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1163.20" CO2_abs="203690.50" HC_abs="51.47" PMx_abs="15.45" NOx_abs="363.54" fuel_abs="64154.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.4" depart="12.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="12.00" arrival="127.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="13.58" duration="115.00" routeLength="1123.23" waitingTime="17.00" waitingCount="1" stopTime="0.00" timeLoss="33.28" rerouteNo="0" devices="tripinfo_Sabotino_9_0.4 emissions_Sabotino_9_0.4" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1977.13" CO2_abs="217995.85" HC_abs="61.68" PMx_abs="19.74" NOx_abs="419.45" fuel_abs="68660.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2.5" depart="40.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="36.00" arrival="127.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.19" duration="87.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="20.32" rerouteNo="0" devices="tripinfo_Pertini_20_2.5 emissions_Pertini_20_2.5" vType="passenger3" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1611.25" CO2_abs="177952.09" HC_abs="48.47" PMx_abs="16.96" NOx_abs="346.08" fuel_abs="56047.96" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_0.6" depart="17.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="17.00" arrival="128.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="13.10" duration="111.00" routeLength="1123.23" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="29.32" rerouteNo="0" devices="tripinfo_Sabotino_9_0.6 emissions_Sabotino_9_0.6" vType="passenger5" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1434.62" CO2_abs="204271.57" HC_abs="52.60" PMx_abs="16.83" NOx_abs="378.25" fuel_abs="64337.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_2.1" depart="34.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="30.00" arrival="128.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.43" duration="94.00" routeLength="882.71" waitingTime="5.00" waitingCount="1" stopTime="0.00" timeLoss="17.54" rerouteNo="0" devices="tripinfo_Pertini_20_2.1 emissions_Pertini_20_2.1" vType="passenger3" speedFactor="0.84" vaporized="">
+        <emissions CO_abs="1109.17" CO2_abs="164643.74" HC_abs="42.24" PMx_abs="13.72" NOx_abs="303.19" fuel_abs="51856.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.1" depart="23.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="129.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.49" duration="106.00" routeLength="1123.23" waitingTime="7.00" waitingCount="2" stopTime="0.00" timeLoss="22.28" rerouteNo="0" devices="tripinfo_Sabotino_9_1.1 emissions_Sabotino_9_1.1" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1501.18" CO2_abs="191958.28" HC_abs="50.53" PMx_abs="16.87" NOx_abs="363.27" fuel_abs="60459.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.1" depart="47.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="32.00" arrival="130.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.59" duration="83.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.09" rerouteNo="0" devices="tripinfo_Pertini_20_7.1 emissions_Pertini_20_7.1" vType="passenger2a" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="1065.46" CO2_abs="156379.59" HC_abs="38.93" PMx_abs="13.21" NOx_abs="291.92" fuel_abs="49253.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2" depart="39.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="21.00" arrival="130.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.57" duration="91.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.80" rerouteNo="0" devices="tripinfo_Sabotino_9_2 emissions_Sabotino_9_2" vType="passenger3" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1586.70" CO2_abs="186105.65" HC_abs="47.93" PMx_abs="17.22" NOx_abs="360.80" fuel_abs="58616.03" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_3.1" depart="44.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="30.00" arrival="131.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.56" duration="87.00" routeLength="624.48" waitingTime="22.00" waitingCount="1" stopTime="0.00" timeLoss="41.75" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_3.1 emissions_Prati_Capraia_100_3.1" vType="passenger2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1263.79" CO2_abs="136341.74" HC_abs="41.44" PMx_abs="12.33" NOx_abs="257.82" fuel_abs="42942.32" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.2" depart="49.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="34.00" arrival="131.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="12.37" duration="82.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.83" rerouteNo="0" devices="tripinfo_Pertini_20_7.2 emissions_Pertini_20_7.2" vType="passenger2a" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1154.23" CO2_abs="157680.38" HC_abs="39.52" PMx_abs="13.98" NOx_abs="297.09" fuel_abs="49663.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.3" depart="52.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="37.00" arrival="132.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.84" duration="80.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.80" rerouteNo="0" devices="tripinfo_Pertini_20_7.3 emissions_Pertini_20_7.3" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1275.96" CO2_abs="156586.93" HC_abs="40.63" PMx_abs="14.18" NOx_abs="299.82" fuel_abs="49318.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.4" depart="55.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="40.00" arrival="132.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.22" duration="77.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="19.84" rerouteNo="0" devices="tripinfo_Pertini_20_7.4 emissions_Pertini_20_7.4" vType="passenger4" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="1649.96" CO2_abs="171499.91" HC_abs="46.81" PMx_abs="16.48" NOx_abs="338.04" fuel_abs="54015.78" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2.1" depart="41.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="23.00" arrival="132.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.75" duration="91.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.11" rerouteNo="0" devices="tripinfo_Sabotino_9_2.1 emissions_Sabotino_9_2.1" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1686.97" CO2_abs="198682.13" HC_abs="51.22" PMx_abs="18.24" NOx_abs="385.34" fuel_abs="62577.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.4" depart="31.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="22.00" arrival="133.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.19" duration="102.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.47" rerouteNo="0" devices="tripinfo_Sabotino_9_1.4 emissions_Sabotino_9_1.4" vType="passenger2b" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1489.14" CO2_abs="197465.37" HC_abs="49.93" PMx_abs="17.52" NOx_abs="374.28" fuel_abs="62193.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.6" depart="36.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="27.00" arrival="133.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="13.23" duration="97.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.81" rerouteNo="0" devices="tripinfo_Sabotino_9_1.6 emissions_Sabotino_9_1.6" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1477.05" CO2_abs="201142.31" HC_abs="49.92" PMx_abs="17.41" NOx_abs="380.84" fuel_abs="63352.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_3.3" depart="46.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="32.00" arrival="133.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="13.26" duration="87.00" routeLength="624.48" waitingTime="20.00" waitingCount="1" stopTime="0.00" timeLoss="41.15" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_3.3 emissions_Prati_Capraia_100_3.3" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1173.35" CO2_abs="139090.80" HC_abs="41.49" PMx_abs="11.85" NOx_abs="258.52" fuel_abs="43808.17" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.5" depart="58.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="43.00" arrival="134.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.03" duration="76.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.34" rerouteNo="0" devices="tripinfo_Pertini_20_7.5 emissions_Pertini_20_7.5" vType="passenger3" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1500.77" CO2_abs="172146.66" HC_abs="45.08" PMx_abs="16.45" NOx_abs="335.36" fuel_abs="54219.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_7.6" depart="61.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="46.00" arrival="134.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.34" duration="73.00" routeLength="882.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.63" rerouteNo="0" devices="tripinfo_Pertini_20_7.6 emissions_Pertini_20_7.6" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1140.35" CO2_abs="151375.75" HC_abs="37.68" PMx_abs="13.30" NOx_abs="288.33" fuel_abs="47677.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11" depart="61.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="44.00" arrival="134.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="11.70" duration="73.00" routeLength="512.45" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="31.66" rerouteNo="0" devices="tripinfo_Gandhi_80_11 emissions_Gandhi_80_11" vType="passenger2b" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1325.38" CO2_abs="128193.77" HC_abs="40.32" PMx_abs="12.39" NOx_abs="247.84" fuel_abs="40376.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7" depart="96.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="62.00" arrival="135.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.57" duration="39.00" routeLength="409.63" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.22" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7 emissions_Prati_Capraia_10_7" vType="passenger2b" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="912.45" CO2_abs="90386.00" HC_abs="25.56" PMx_abs="9.07" NOx_abs="179.97" fuel_abs="28468.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.1" depart="64.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="47.00" arrival="136.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="13.39" duration="72.00" routeLength="512.45" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="33.18" rerouteNo="0" devices="tripinfo_Gandhi_80_11.1 emissions_Gandhi_80_11.1" vType="passenger1" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="1291.12" CO2_abs="128283.44" HC_abs="40.03" PMx_abs="11.80" NOx_abs="246.58" fuel_abs="40404.26" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.3" depart="29.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="20.00" arrival="137.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.91" duration="108.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="24.05" rerouteNo="0" devices="tripinfo_Sabotino_9_1.3 emissions_Sabotino_9_1.3" vType="passenger3" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1436.01" CO2_abs="201611.29" HC_abs="51.06" PMx_abs="17.12" NOx_abs="377.22" fuel_abs="63499.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.2" depart="67.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="50.00" arrival="138.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="11.99" duration="71.00" routeLength="512.45" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="31.17" rerouteNo="0" devices="tripinfo_Gandhi_80_11.2 emissions_Gandhi_80_11.2" vType="passenger2a" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1396.25" CO2_abs="124986.59" HC_abs="39.65" PMx_abs="12.67" NOx_abs="246.33" fuel_abs="39365.88" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2.5" depart="52.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="34.00" arrival="138.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.20" duration="86.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.49" rerouteNo="0" devices="tripinfo_Sabotino_9_2.5 emissions_Sabotino_9_2.5" vType="passenger2a" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1389.02" CO2_abs="183389.84" HC_abs="45.01" PMx_abs="16.21" NOx_abs="350.95" fuel_abs="57760.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.3" depart="69.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="52.00" arrival="139.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="14.53" duration="70.00" routeLength="512.45" waitingTime="14.00" waitingCount="1" stopTime="0.00" timeLoss="34.12" rerouteNo="0" devices="tripinfo_Gandhi_80_11.3 emissions_Gandhi_80_11.3" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1611.94" CO2_abs="140796.78" HC_abs="44.93" PMx_abs="14.19" NOx_abs="279.85" fuel_abs="44345.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.4" depart="72.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="55.00" arrival="141.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="14.78" duration="69.00" routeLength="512.45" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="34.30" rerouteNo="0" devices="tripinfo_Gandhi_80_11.4 emissions_Gandhi_80_11.4" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="1714.65" CO2_abs="143685.74" HC_abs="46.16" PMx_abs="15.15" NOx_abs="288.69" fuel_abs="45255.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2.4" depart="49.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="31.00" arrival="141.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="13.09" duration="92.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.50" rerouteNo="0" devices="tripinfo_Sabotino_9_2.4 emissions_Sabotino_9_2.4" vType="passenger1" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="1214.44" CO2_abs="185603.42" HC_abs="43.96" PMx_abs="15.60" NOx_abs="346.73" fuel_abs="58457.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4" depart="52.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="33.00" arrival="142.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="11.16" duration="90.00" routeLength="624.48" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="38.72" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4 emissions_Prati_Capraia_100_4" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1097.71" CO2_abs="131392.61" HC_abs="39.57" PMx_abs="10.86" NOx_abs="241.57" fuel_abs="41383.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_3.5" depart="49.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="35.00" arrival="143.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="10.31" duration="94.00" routeLength="624.48" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="38.54" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_3.5 emissions_Prati_Capraia_100_3.5" vType="passenger2b" speedFactor="0.82" vaporized="">
+        <emissions CO_abs="1050.09" CO2_abs="134709.54" HC_abs="40.34" PMx_abs="10.85" NOx_abs="245.11" fuel_abs="42428.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4.4" depart="58.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="39.00" arrival="143.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="13.69" duration="85.00" routeLength="624.48" waitingTime="17.00" waitingCount="1" stopTime="0.00" timeLoss="44.89" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4.4 emissions_Prati_Capraia_100_4.4" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="1534.29" CO2_abs="150041.97" HC_abs="46.86" PMx_abs="14.05" NOx_abs="289.34" fuel_abs="47257.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4.6" depart="61.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="42.00" arrival="144.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="14.44" duration="83.00" routeLength="624.48" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="43.96" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4.6 emissions_Prati_Capraia_100_4.6" vType="passenger1" speedFactor="1.16" vaporized="">
+        <emissions CO_abs="1858.49" CO2_abs="158664.66" HC_abs="51.43" PMx_abs="16.39" NOx_abs="316.55" fuel_abs="49973.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_5.2" depart="66.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="42.00" arrival="145.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="15.88" duration="79.00" routeLength="624.48" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="42.28" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_5.2 emissions_Prati_Capraia_100_5.2" vType="passenger2b" speedFactor="1.24" vaporized="">
+        <emissions CO_abs="1743.49" CO2_abs="161243.11" HC_abs="50.13" PMx_abs="15.58" NOx_abs="316.25" fuel_abs="50785.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_80_0" depart="0.00" departLane="43_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="147.00" arrivalLane="21_1" arrivalPos="89.26" arrivalSpeed="14.82" duration="147.00" routeLength="960.77" waitingTime="72.00" waitingCount="1" stopTime="0.00" timeLoss="84.58" rerouteNo="0" devices="tripinfo_Montefiorino_80_0 emissions_Montefiorino_80_0" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2127.92" CO2_abs="222393.98" HC_abs="72.80" PMx_abs="18.75" NOx_abs="413.49" fuel_abs="70045.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_2.2" depart="44.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="26.00" arrival="147.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="11.99" duration="103.00" routeLength="1123.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.24" rerouteNo="0" devices="tripinfo_Sabotino_9_2.2 emissions_Sabotino_9_2.2" vType="passenger1" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="1019.42" CO2_abs="179231.72" HC_abs="42.47" PMx_abs="14.04" NOx_abs="327.30" fuel_abs="56451.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_5.1" depart="64.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="40.00" arrival="147.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="14.58" duration="83.00" routeLength="624.48" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="40.89" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_5.1 emissions_Prati_Capraia_100_5.1" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1279.55" CO2_abs="138458.89" HC_abs="41.75" PMx_abs="12.45" NOx_abs="262.02" fuel_abs="43609.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4.2" depart="55.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="36.00" arrival="148.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="10.89" duration="93.00" routeLength="624.48" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="35.93" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4.2 emissions_Prati_Capraia_100_4.2" vType="passenger1" speedFactor="0.80" vaporized="">
+        <emissions CO_abs="1007.01" CO2_abs="137556.97" HC_abs="39.98" PMx_abs="11.10" NOx_abs="248.26" fuel_abs="43325.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Sabotino_9_1.2" depart="26.00" departLane="41_0" departPos="0.00" departSpeed="0.00" departDelay="17.00" arrival="151.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="9.16" duration="125.00" routeLength="1123.23" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="18.51" rerouteNo="0" devices="tripinfo_Sabotino_9_1.2 emissions_Sabotino_9_1.2" vType="passenger2a" speedFactor="0.76" vaporized="">
+        <emissions CO_abs="1067.13" CO2_abs="189335.94" HC_abs="47.34" PMx_abs="14.53" NOx_abs="339.84" fuel_abs="59633.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_5.6" depart="93.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="69.00" arrival="151.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="12.18" duration="58.00" routeLength="624.48" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.01" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_5.6 emissions_Prati_Capraia_100_5.6" vType="passenger2b" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="793.96" CO2_abs="111653.85" HC_abs="27.82" PMx_abs="9.64" NOx_abs="209.30" fuel_abs="35166.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6" depart="37.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="151.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="12.69" duration="114.00" routeLength="1161.06" waitingTime="17.00" waitingCount="1" stopTime="0.00" timeLoss="29.38" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6 emissions_Nigrisoli_50_6" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1848.37" CO2_abs="224806.32" HC_abs="60.27" PMx_abs="20.42" NOx_abs="428.02" fuel_abs="70805.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_5.3" depart="69.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="45.00" arrival="153.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="11.59" duration="84.00" routeLength="624.48" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="31.81" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_5.3 emissions_Prati_Capraia_100_5.3" vType="passenger2b" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="833.89" CO2_abs="125459.51" HC_abs="34.87" PMx_abs="9.47" NOx_abs="223.92" fuel_abs="39514.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.1" depart="40.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="153.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="13.33" duration="113.00" routeLength="1161.06" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="28.09" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.1 emissions_Nigrisoli_50_6.1" vType="ignoring4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1882.32" CO2_abs="223523.15" HC_abs="60.65" PMx_abs="19.65" NOx_abs="425.52" fuel_abs="70401.08" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.2" depart="43.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="154.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="12.96" duration="111.00" routeLength="1161.06" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="26.82" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.2 emissions_Nigrisoli_50_6.2" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1711.89" CO2_abs="216166.59" HC_abs="57.06" PMx_abs="19.02" NOx_abs="409.60" fuel_abs="68084.05" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.3" depart="46.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="9.00" arrival="156.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="12.75" duration="110.00" routeLength="1161.06" waitingTime="10.00" waitingCount="1" stopTime="0.00" timeLoss="25.49" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.3 emissions_Nigrisoli_50_6.3" vType="ignoring3" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1813.87" CO2_abs="218991.13" HC_abs="58.12" PMx_abs="20.00" NOx_abs="418.58" fuel_abs="68973.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.4" depart="49.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="12.00" arrival="158.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="13.47" duration="109.00" routeLength="1161.06" waitingTime="9.00" waitingCount="1" stopTime="0.00" timeLoss="24.62" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.4 emissions_Nigrisoli_50_6.4" vType="ignoring2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1816.82" CO2_abs="224589.91" HC_abs="59.45" PMx_abs="20.15" NOx_abs="428.47" fuel_abs="70737.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.5" depart="52.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="15.00" arrival="160.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="13.76" duration="108.00" routeLength="1161.06" waitingTime="9.00" waitingCount="1" stopTime="0.00" timeLoss="23.41" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.5 emissions_Nigrisoli_50_6.5" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1724.79" CO2_abs="217225.61" HC_abs="56.74" PMx_abs="19.33" NOx_abs="412.85" fuel_abs="68417.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.1" depart="3.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="162.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="14.96" duration="159.00" routeLength="797.07" waitingTime="90.00" waitingCount="1" stopTime="0.00" timeLoss="105.04" rerouteNo="0" devices="tripinfo_Borgo_100_0.1 emissions_Borgo_100_0.1" vType="passenger1" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2108.37" CO2_abs="216929.92" HC_abs="75.42" PMx_abs="17.87" NOx_abs="396.32" fuel_abs="68324.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Nigrisoli_50_6.6" depart="55.00" departLane="65_0" departPos="0.00" departSpeed="0.00" departDelay="18.00" arrival="162.00" arrivalLane="35[1][1][1][1]_0" arrivalPos="257.67" arrivalSpeed="13.23" duration="107.00" routeLength="1161.06" waitingTime="6.00" waitingCount="1" stopTime="0.00" timeLoss="22.54" rerouteNo="0" devices="tripinfo_Nigrisoli_50_6.6 emissions_Nigrisoli_50_6.6" vType="ignoring4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1562.76" CO2_abs="215082.54" HC_abs="54.36" PMx_abs="18.36" NOx_abs="403.65" fuel_abs="67742.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0" depart="0.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="164.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.72" duration="164.00" routeLength="797.07" waitingTime="92.00" waitingCount="1" stopTime="0.00" timeLoss="103.59" rerouteNo="0" devices="tripinfo_Borgo_100_0 emissions_Borgo_100_0" vType="passenger4" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1763.36" CO2_abs="208764.49" HC_abs="71.10" PMx_abs="15.78" NOx_abs="369.24" fuel_abs="65752.66" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.2" depart="5.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="165.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="14.55" duration="160.00" routeLength="797.07" waitingTime="90.00" waitingCount="1" stopTime="0.00" timeLoss="111.36" rerouteNo="0" devices="tripinfo_Borgo_100_0.2 emissions_Borgo_100_0.2" vType="passenger2b" speedFactor="1.20" vaporized="">
+        <emissions CO_abs="2412.85" CO2_abs="224167.55" HC_abs="80.03" PMx_abs="19.80" NOx_abs="418.98" fuel_abs="70604.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.3" depart="8.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="167.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="13.04" duration="159.00" routeLength="797.07" waitingTime="89.00" waitingCount="1" stopTime="0.00" timeLoss="102.92" rerouteNo="0" devices="tripinfo_Borgo_100_0.3 emissions_Borgo_100_0.3" vType="passenger2a" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="2176.13" CO2_abs="216355.67" HC_abs="75.98" PMx_abs="18.34" NOx_abs="398.25" fuel_abs="68143.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.4" depart="10.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="10.00" arrival="169.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="14.76" duration="159.00" routeLength="797.07" waitingTime="87.00" waitingCount="1" stopTime="0.00" timeLoss="104.09" rerouteNo="0" devices="tripinfo_Borgo_100_0.4 emissions_Borgo_100_0.4" vType="passenger1" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2219.66" CO2_abs="215326.13" HC_abs="76.24" PMx_abs="18.16" NOx_abs="397.40" fuel_abs="67819.32" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.6" depart="15.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="15.00" arrival="174.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="13.33" duration="159.00" routeLength="797.07" waitingTime="82.00" waitingCount="2" stopTime="0.00" timeLoss="101.57" rerouteNo="0" devices="tripinfo_Borgo_100_0.6 emissions_Borgo_100_0.6" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2114.21" CO2_abs="211246.60" HC_abs="73.78" PMx_abs="17.72" NOx_abs="387.88" fuel_abs="66534.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_0.5" depart="13.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="13.00" arrival="175.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.68" duration="162.00" routeLength="797.07" waitingTime="83.00" waitingCount="1" stopTime="0.00" timeLoss="99.53" rerouteNo="0" devices="tripinfo_Borgo_100_0.5 emissions_Borgo_100_0.5" vType="passenger2b" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1761.90" CO2_abs="201278.73" HC_abs="69.06" PMx_abs="15.39" NOx_abs="358.02" fuel_abs="63394.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_2" depart="18.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="176.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="13.76" duration="158.00" routeLength="797.07" waitingTime="81.00" waitingCount="1" stopTime="0.00" timeLoss="102.62" rerouteNo="0" devices="tripinfo_Borgo_100_2 emissions_Borgo_100_2" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="2058.95" CO2_abs="212876.72" HC_abs="73.71" PMx_abs="17.42" NOx_abs="388.95" fuel_abs="67047.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_2.2" depart="24.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="12.00" arrival="177.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="15.31" duration="153.00" routeLength="797.07" waitingTime="80.00" waitingCount="1" stopTime="0.00" timeLoss="101.91" rerouteNo="0" devices="tripinfo_Borgo_100_2.2 emissions_Borgo_100_2.2" vType="passenger2a" speedFactor="1.16" vaporized="">
+        <emissions CO_abs="2390.86" CO2_abs="226789.19" HC_abs="78.35" PMx_abs="20.01" NOx_abs="425.92" fuel_abs="71429.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_2.1" depart="21.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="9.00" arrival="179.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.95" duration="158.00" routeLength="797.07" waitingTime="81.00" waitingCount="1" stopTime="0.00" timeLoss="100.05" rerouteNo="0" devices="tripinfo_Borgo_100_2.1 emissions_Borgo_100_2.1" vType="passenger3" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1824.53" CO2_abs="207889.43" HC_abs="69.61" PMx_abs="16.24" NOx_abs="371.98" fuel_abs="65477.05" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Borgo_100_2.3" depart="26.00" departLane="6_0" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="184.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.17" duration="158.00" routeLength="797.07" waitingTime="79.00" waitingCount="1" stopTime="0.00" timeLoss="97.86" rerouteNo="0" devices="tripinfo_Borgo_100_2.3 emissions_Borgo_100_2.3" vType="passenger2a" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1871.17" CO2_abs="198101.34" HC_abs="68.60" PMx_abs="16.06" NOx_abs="357.97" fuel_abs="62394.17" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3" depart="109.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="184.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.09" duration="75.00" routeLength="602.57" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="28.60" rerouteNo="0" devices="tripinfo_Certosa_9_3 emissions_Certosa_9_3" vType="passenger3" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1375.42" CO2_abs="143689.85" HC_abs="42.64" PMx_abs="13.55" NOx_abs="275.52" fuel_abs="45256.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.1" depart="112.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="185.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.37" duration="73.00" routeLength="602.57" waitingTime="17.00" waitingCount="1" stopTime="0.00" timeLoss="30.36" rerouteNo="0" devices="tripinfo_Certosa_9_3.1 emissions_Certosa_9_3.1" vType="passenger2b" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1639.15" CO2_abs="154238.20" HC_abs="46.94" PMx_abs="15.48" NOx_abs="303.94" fuel_abs="48579.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.3" depart="117.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="188.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="15.18" duration="71.00" routeLength="602.57" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="31.14" rerouteNo="0" devices="tripinfo_Certosa_9_3.3 emissions_Certosa_9_3.3" vType="passenger5" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="1482.89" CO2_abs="144482.51" HC_abs="43.60" PMx_abs="13.65" NOx_abs="281.53" fuel_abs="45506.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.2" depart="114.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="189.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.71" duration="75.00" routeLength="602.57" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="27.19" rerouteNo="0" devices="tripinfo_Certosa_9_3.2 emissions_Certosa_9_3.2" vType="passenger2b" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="1139.59" CO2_abs="128410.07" HC_abs="37.53" PMx_abs="11.46" NOx_abs="242.73" fuel_abs="40444.15" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.4" depart="119.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="10.00" arrival="190.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.75" duration="71.00" routeLength="602.57" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="30.54" rerouteNo="0" devices="tripinfo_Certosa_9_3.4 emissions_Certosa_9_3.4" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="1676.25" CO2_abs="150432.96" HC_abs="46.36" PMx_abs="15.35" NOx_abs="299.23" fuel_abs="47380.51" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Saffi_103_0" depart="0.00" departLane="12_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="191.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.71" duration="191.00" routeLength="2048.21" waitingTime="19.00" waitingCount="2" stopTime="0.00" timeLoss="40.49" rerouteNo="0" devices="tripinfo_Saffi_103_0 emissions_Saffi_103_0" vType="passenger3" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="2441.56" CO2_abs="357593.98" HC_abs="89.61" PMx_abs="29.64" NOx_abs="663.76" fuel_abs="112628.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Saffi_103_0.1" depart="3.00" departLane="12_1" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="191.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="12.16" duration="188.00" routeLength="2042.96" waitingTime="14.00" waitingCount="2" stopTime="0.00" timeLoss="33.94" rerouteNo="0" devices="tripinfo_Saffi_103_0.1 emissions_Saffi_103_0.1" vType="passenger1" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2250.67" CO2_abs="349110.08" HC_abs="85.06" PMx_abs="29.15" NOx_abs="644.65" fuel_abs="109956.08" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Saffi_103_0.4" depart="11.00" departLane="12_1" departPos="0.00" departSpeed="0.00" departDelay="11.00" arrival="193.00" arrivalLane="3[1]b_1" arrivalPos="238.77" arrivalSpeed="13.97" duration="182.00" routeLength="2042.96" waitingTime="4.00" waitingCount="1" stopTime="0.00" timeLoss="36.60" rerouteNo="0" devices="tripinfo_Saffi_103_0.4 emissions_Saffi_103_0.4" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3421.42" CO2_abs="385500.25" HC_abs="102.81" PMx_abs="36.17" NOx_abs="749.52" fuel_abs="121417.55" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Saffi_103_0.3" depart="9.00" departLane="12_1" departPos="0.00" departSpeed="0.00" departDelay="9.00" arrival="194.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="12.46" duration="185.00" routeLength="2048.21" waitingTime="6.00" waitingCount="1" stopTime="0.00" timeLoss="28.81" rerouteNo="0" devices="tripinfo_Saffi_103_0.3 emissions_Saffi_103_0.3" vType="passenger2a" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2723.37" CO2_abs="357075.50" HC_abs="90.86" PMx_abs="31.48" NOx_abs="676.33" fuel_abs="112464.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.5" depart="74.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="57.00" arrival="194.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="11.29" duration="120.00" routeLength="512.45" waitingTime="53.00" waitingCount="2" stopTime="0.00" timeLoss="74.69" rerouteNo="0" devices="tripinfo_Gandhi_80_11.5 emissions_Gandhi_80_11.5" vType="passenger2b" speedFactor="0.84" vaporized="">
+        <emissions CO_abs="1478.11" CO2_abs="154724.30" HC_abs="54.57" PMx_abs="12.74" NOx_abs="279.42" fuel_abs="48732.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.6" depart="126.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="17.00" arrival="194.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="15.85" duration="68.00" routeLength="602.57" waitingTime="8.00" waitingCount="1" stopTime="0.00" timeLoss="30.54" rerouteNo="0" devices="tripinfo_Certosa_9_3.6 emissions_Certosa_9_3.6" vType="passenger2b" speedFactor="1.19" vaporized="">
+        <emissions CO_abs="1714.06" CO2_abs="150012.00" HC_abs="45.84" PMx_abs="15.74" NOx_abs="301.33" fuel_abs="47247.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_9_3.5" depart="123.00" departLane="22[0]_1" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="195.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.67" duration="72.00" routeLength="602.57" waitingTime="10.00" waitingCount="1" stopTime="0.00" timeLoss="23.90" rerouteNo="0" devices="tripinfo_Certosa_9_3.5 emissions_Certosa_9_3.5" vType="passenger4" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1112.39" CO2_abs="130552.47" HC_abs="37.26" PMx_abs="11.51" NOx_abs="246.80" fuel_abs="41118.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_80_11.6" depart="77.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="60.00" arrival="196.00" arrivalLane="21_0" arrivalPos="89.26" arrivalSpeed="12.24" duration="119.00" routeLength="512.45" waitingTime="51.00" waitingCount="2" stopTime="0.00" timeLoss="76.36" rerouteNo="0" devices="tripinfo_Gandhi_80_11.6 emissions_Gandhi_80_11.6" vType="passenger1" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1606.55" CO2_abs="159471.86" HC_abs="56.25" PMx_abs="13.58" NOx_abs="292.66" fuel_abs="50227.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Saffi_103_0.2" depart="6.00" departLane="12_1" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="198.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="11.27" duration="192.00" routeLength="2048.21" waitingTime="7.00" waitingCount="1" stopTime="0.00" timeLoss="28.16" rerouteNo="0" devices="tripinfo_Saffi_103_0.2 emissions_Saffi_103_0.2" vType="passenger2a" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2180.12" CO2_abs="341252.29" HC_abs="83.01" PMx_abs="28.18" NOx_abs="629.21" fuel_abs="107481.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_1.5" depart="31.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="29.00" arrival="200.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="15.01" duration="169.00" routeLength="882.71" waitingTime="81.00" waitingCount="3" stopTime="0.00" timeLoss="110.18" rerouteNo="0" devices="tripinfo_Pertini_20_1.5 emissions_Pertini_20_1.5" vType="passenger2a" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2909.37" CO2_abs="257296.84" HC_abs="90.10" PMx_abs="24.51" NOx_abs="492.79" fuel_abs="81038.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9" depart="62.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="43.00" arrival="201.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.36" duration="139.00" routeLength="882.71" waitingTime="61.00" waitingCount="1" stopTime="0.00" timeLoss="78.53" rerouteNo="0" devices="tripinfo_Pertini_20_9 emissions_Pertini_20_9" vType="passenger3" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2340.90" CO2_abs="227692.93" HC_abs="74.34" PMx_abs="20.79" NOx_abs="433.18" fuel_abs="71714.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9.1" depart="63.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="44.00" arrival="205.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="12.15" duration="142.00" routeLength="882.71" waitingTime="51.00" waitingCount="1" stopTime="0.00" timeLoss="69.24" rerouteNo="0" devices="tripinfo_Pertini_20_9.1 emissions_Pertini_20_9.1" vType="passenger2b" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="1716.25" CO2_abs="201028.79" HC_abs="63.40" PMx_abs="16.37" NOx_abs="367.25" fuel_abs="63316.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9.3" depart="66.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="47.00" arrival="205.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="10.93" duration="139.00" routeLength="882.71" waitingTime="50.00" waitingCount="1" stopTime="0.00" timeLoss="66.92" rerouteNo="0" devices="tripinfo_Pertini_20_9.3 emissions_Pertini_20_9.3" vType="passenger2a" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1895.90" CO2_abs="207900.65" HC_abs="65.83" PMx_abs="17.80" NOx_abs="385.30" fuel_abs="65480.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.1" depart="98.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="64.00" arrival="206.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="13.48" duration="108.00" routeLength="409.63" waitingTime="61.00" waitingCount="1" stopTime="0.00" timeLoss="77.68" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.1 emissions_Prati_Capraia_10_7.1" vType="passenger2a" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1770.27" CO2_abs="151159.22" HC_abs="56.34" PMx_abs="14.30" NOx_abs="286.24" fuel_abs="47609.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9.4" depart="68.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="49.00" arrival="207.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.53" duration="139.00" routeLength="882.71" waitingTime="50.00" waitingCount="1" stopTime="0.00" timeLoss="82.40" rerouteNo="0" devices="tripinfo_Pertini_20_9.4 emissions_Pertini_20_9.4" vType="passenger2a" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2872.02" CO2_abs="241595.76" HC_abs="81.04" PMx_abs="24.62" NOx_abs="477.14" fuel_abs="76093.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9.5" depart="68.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="49.00" arrival="207.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.92" duration="139.00" routeLength="882.71" waitingTime="48.00" waitingCount="2" stopTime="0.00" timeLoss="64.61" rerouteNo="0" devices="tripinfo_Pertini_20_9.5 emissions_Pertini_20_9.5" vType="passenger2b" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="1826.12" CO2_abs="196162.56" HC_abs="62.82" PMx_abs="16.98" NOx_abs="364.45" fuel_abs="61783.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.2" depart="101.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="67.00" arrival="208.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="14.35" duration="107.00" routeLength="409.63" waitingTime="61.00" waitingCount="1" stopTime="0.00" timeLoss="78.91" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.2 emissions_Prati_Capraia_10_7.2" vType="passenger1" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="1637.10" CO2_abs="146164.51" HC_abs="54.20" PMx_abs="12.95" NOx_abs="272.26" fuel_abs="46036.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10" depart="72.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="51.00" arrival="209.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.44" duration="137.00" routeLength="882.71" waitingTime="49.00" waitingCount="1" stopTime="0.00" timeLoss="75.07" rerouteNo="0" devices="tripinfo_Pertini_20_10 emissions_Pertini_20_10" vType="passenger2a" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2219.96" CO2_abs="214421.78" HC_abs="69.79" PMx_abs="19.92" NOx_abs="409.33" fuel_abs="67534.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11.1" depart="84.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="61.00" arrival="209.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.08" duration="125.00" routeLength="882.71" waitingTime="46.00" waitingCount="1" stopTime="0.00" timeLoss="63.60" rerouteNo="0" devices="tripinfo_Pertini_20_11.1 emissions_Pertini_20_11.1" vType="passenger5" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2127.19" CO2_abs="219265.65" HC_abs="68.72" PMx_abs="19.34" NOx_abs="415.60" fuel_abs="69060.11" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10.2" depart="75.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="54.00" arrival="210.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="15.73" duration="135.00" routeLength="882.71" waitingTime="48.00" waitingCount="1" stopTime="0.00" timeLoss="78.98" rerouteNo="0" devices="tripinfo_Pertini_20_10.2 emissions_Pertini_20_10.2" vType="passenger4" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="2543.66" CO2_abs="228682.27" HC_abs="75.77" PMx_abs="21.59" NOx_abs="443.29" fuel_abs="72025.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1" depart="4.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="211.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="13.04" duration="207.00" routeLength="1204.75" waitingTime="105.00" waitingCount="2" stopTime="0.00" timeLoss="121.77" rerouteNo="0" devices="tripinfo_Montefiorino_90_1 emissions_Montefiorino_90_1" vType="passenger2b" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2830.17" CO2_abs="290458.18" HC_abs="98.22" PMx_abs="24.21" NOx_abs="535.69" fuel_abs="91482.98" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.1" depart="7.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="211.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="14.12" duration="204.00" routeLength="1204.75" waitingTime="99.00" waitingCount="2" stopTime="0.00" timeLoss="117.73" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.1 emissions_Montefiorino_90_1.1" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2508.96" CO2_abs="291299.49" HC_abs="94.25" PMx_abs="23.26" NOx_abs="528.27" fuel_abs="91747.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11.5" depart="90.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="67.00" arrival="211.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.85" duration="121.00" routeLength="882.71" waitingTime="42.00" waitingCount="1" stopTime="0.00" timeLoss="61.06" rerouteNo="0" devices="tripinfo_Pertini_20_11.5 emissions_Pertini_20_11.5" vType="passenger1" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="2128.94" CO2_abs="202784.51" HC_abs="64.82" PMx_abs="19.21" NOx_abs="391.22" fuel_abs="63869.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10.4" depart="78.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="57.00" arrival="212.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.13" duration="134.00" routeLength="882.71" waitingTime="48.00" waitingCount="1" stopTime="0.00" timeLoss="67.42" rerouteNo="0" devices="tripinfo_Pertini_20_10.4 emissions_Pertini_20_10.4" vType="passenger3" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1987.07" CO2_abs="213668.19" HC_abs="67.10" PMx_abs="18.51" NOx_abs="399.61" fuel_abs="67297.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.3" depart="104.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="70.00" arrival="212.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="13.12" duration="108.00" routeLength="409.63" waitingTime="58.00" waitingCount="1" stopTime="0.00" timeLoss="76.04" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.3 emissions_Prati_Capraia_10_7.3" vType="passenger3" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1398.48" CO2_abs="138959.64" HC_abs="50.54" PMx_abs="11.38" NOx_abs="251.91" fuel_abs="43766.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.3" depart="12.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="213.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="14.31" duration="201.00" routeLength="1204.75" waitingTime="92.00" waitingCount="2" stopTime="0.00" timeLoss="115.44" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.3 emissions_Montefiorino_90_1.3" vType="passenger2a" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2917.45" CO2_abs="294884.63" HC_abs="98.30" PMx_abs="25.67" NOx_abs="551.49" fuel_abs="92877.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.4" depart="14.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="10.00" arrival="213.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="13.19" duration="199.00" routeLength="1204.75" waitingTime="89.00" waitingCount="2" stopTime="0.00" timeLoss="111.85" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.4 emissions_Montefiorino_90_1.4" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2484.01" CO2_abs="286025.40" HC_abs="90.92" PMx_abs="23.42" NOx_abs="521.36" fuel_abs="90086.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10.6" depart="81.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="60.00" arrival="213.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.00" duration="132.00" routeLength="882.71" waitingTime="46.00" waitingCount="1" stopTime="0.00" timeLoss="66.68" rerouteNo="0" devices="tripinfo_Pertini_20_10.6 emissions_Pertini_20_10.6" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2034.96" CO2_abs="211856.99" HC_abs="67.00" PMx_abs="18.75" NOx_abs="398.12" fuel_abs="66726.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.6" depart="19.00" departLane="43_1" departPos="0.00" departSpeed="0.00" departDelay="15.00" arrival="215.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="14.63" duration="196.00" routeLength="1198.14" waitingTime="81.00" waitingCount="2" stopTime="0.00" timeLoss="116.28" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.6 emissions_Montefiorino_90_1.6" vType="passenger4" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3055.49" CO2_abs="304479.61" HC_abs="99.99" PMx_abs="26.79" NOx_abs="572.45" fuel_abs="95899.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10.5" depart="80.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="59.00" arrival="215.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.23" duration="135.00" routeLength="882.71" waitingTime="47.00" waitingCount="1" stopTime="0.00" timeLoss="71.46" rerouteNo="0" devices="tripinfo_Pertini_20_10.5 emissions_Pertini_20_10.5" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2345.30" CO2_abs="224812.04" HC_abs="72.87" PMx_abs="20.55" NOx_abs="430.61" fuel_abs="70807.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11.3" depart="87.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="64.00" arrival="215.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.03" duration="128.00" routeLength="882.71" waitingTime="41.00" waitingCount="1" stopTime="0.00" timeLoss="59.92" rerouteNo="0" devices="tripinfo_Pertini_20_11.3 emissions_Pertini_20_11.3" vType="passenger3" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1819.48" CO2_abs="197019.58" HC_abs="60.89" PMx_abs="17.35" NOx_abs="369.21" fuel_abs="62053.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11.6" depart="92.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="69.00" arrival="216.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="12.01" duration="124.00" routeLength="882.71" waitingTime="37.00" waitingCount="1" stopTime="0.00" timeLoss="56.59" rerouteNo="0" devices="tripinfo_Pertini_20_11.6 emissions_Pertini_20_11.6" vType="passenger2b" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1795.43" CO2_abs="192159.60" HC_abs="59.78" PMx_abs="16.90" NOx_abs="361.63" fuel_abs="60522.76" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2.1" depart="3.00" departLane="1[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="217.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="14.90" duration="214.00" routeLength="1697.53" waitingTime="86.00" waitingCount="2" stopTime="0.00" timeLoss="106.20" rerouteNo="0" devices="tripinfo_Gandhi_60_2.1 emissions_Gandhi_60_2.1" vType="passenger1" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="3375.67" CO2_abs="372052.17" HC_abs="112.32" PMx_abs="32.21" NOx_abs="699.71" fuel_abs="117181.96" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2.3" depart="6.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="217.00" arrivalLane="40[1]_1" arrivalPos="496.68" arrivalSpeed="15.37" duration="211.00" routeLength="1697.53" waitingTime="82.00" waitingCount="2" stopTime="0.00" timeLoss="104.12" rerouteNo="0" devices="tripinfo_Gandhi_60_2.3 emissions_Gandhi_60_2.3" vType="passenger3" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="3384.05" CO2_abs="375609.00" HC_abs="112.14" PMx_abs="32.48" NOx_abs="706.18" fuel_abs="118302.22" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_2.1" depart="22.00" departLane="43_1" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="217.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.72" duration="195.00" routeLength="1198.14" waitingTime="79.00" waitingCount="2" stopTime="0.00" timeLoss="101.88" rerouteNo="0" devices="tripinfo_Montefiorino_90_2.1 emissions_Montefiorino_90_2.1" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="2178.87" CO2_abs="269298.78" HC_abs="84.93" PMx_abs="20.95" NOx_abs="484.63" fuel_abs="84818.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_12" depart="93.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="68.00" arrival="217.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="15.02" duration="124.00" routeLength="882.71" waitingTime="43.00" waitingCount="1" stopTime="0.00" timeLoss="64.72" rerouteNo="0" devices="tripinfo_Pertini_20_12 emissions_Pertini_20_12" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2085.45" CO2_abs="210263.20" HC_abs="66.45" PMx_abs="18.64" NOx_abs="399.74" fuel_abs="66224.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.4" depart="107.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="73.00" arrival="217.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="12.09" duration="110.00" routeLength="409.63" waitingTime="58.00" waitingCount="1" stopTime="0.00" timeLoss="77.36" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.4 emissions_Prati_Capraia_10_7.4" vType="passenger1" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1421.15" CO2_abs="136654.44" HC_abs="50.82" PMx_abs="11.34" NOx_abs="248.39" fuel_abs="43040.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.5" depart="17.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="13.00" arrival="218.00" arrivalLane="2[1][1][1]b_2" arrivalPos="324.74" arrivalSpeed="15.30" duration="201.00" routeLength="1198.14" waitingTime="80.00" waitingCount="4" stopTime="0.00" timeLoss="122.83" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.5 emissions_Montefiorino_90_1.5" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="3077.68" CO2_abs="315568.99" HC_abs="102.79" PMx_abs="27.48" NOx_abs="591.08" fuel_abs="99391.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_9.2" depart="65.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="46.00" arrival="218.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.00" duration="153.00" routeLength="882.71" waitingTime="46.00" waitingCount="2" stopTime="0.00" timeLoss="90.23" rerouteNo="0" devices="tripinfo_Pertini_20_9.2 emissions_Pertini_20_9.2" vType="passenger3" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2479.05" CO2_abs="241401.38" HC_abs="78.64" PMx_abs="21.98" NOx_abs="458.78" fuel_abs="76031.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11" depart="83.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="60.00" arrival="218.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.62" duration="135.00" routeLength="882.71" waitingTime="36.00" waitingCount="2" stopTime="0.00" timeLoss="81.86" rerouteNo="0" devices="tripinfo_Pertini_20_11 emissions_Pertini_20_11" vType="passenger1" speedFactor="1.21" vaporized="">
+        <emissions CO_abs="2691.39" CO2_abs="235946.28" HC_abs="76.94" PMx_abs="23.40" NOx_abs="463.57" fuel_abs="74313.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.5" depart="109.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="75.00" arrival="218.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="15.43" duration="109.00" routeLength="409.63" waitingTime="57.00" waitingCount="1" stopTime="0.00" timeLoss="82.58" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.5 emissions_Prati_Capraia_10_7.5" vType="passenger2b" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="1879.40" CO2_abs="154608.03" HC_abs="58.10" PMx_abs="14.89" NOx_abs="295.71" fuel_abs="48695.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_1.2" depart="9.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="219.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="11.34" duration="210.00" routeLength="1204.75" waitingTime="89.00" waitingCount="2" stopTime="0.00" timeLoss="110.64" rerouteNo="0" devices="tripinfo_Montefiorino_90_1.2 emissions_Montefiorino_90_1.2" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2251.64" CO2_abs="268810.32" HC_abs="87.73" PMx_abs="20.91" NOx_abs="480.97" fuel_abs="84664.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_2" depart="20.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="12.00" arrival="219.00" arrivalLane="2[1][1][1]b_1" arrivalPos="324.74" arrivalSpeed="12.72" duration="199.00" routeLength="1204.75" waitingTime="83.00" waitingCount="2" stopTime="0.00" timeLoss="104.72" rerouteNo="0" devices="tripinfo_Montefiorino_90_2 emissions_Montefiorino_90_2" vType="passenger1" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2257.65" CO2_abs="269869.34" HC_abs="86.78" PMx_abs="21.19" NOx_abs="487.03" fuel_abs="84998.29" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2.2" depart="5.00" departLane="1[0]_1" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="220.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="13.91" duration="215.00" routeLength="1697.53" waitingTime="82.00" waitingCount="2" stopTime="0.00" timeLoss="102.88" rerouteNo="0" devices="tripinfo_Gandhi_60_2.2 emissions_Gandhi_60_2.2" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3123.05" CO2_abs="356324.31" HC_abs="107.00" PMx_abs="30.15" NOx_abs="665.31" fuel_abs="112228.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4.3" depart="56.00" departLane="3[0]_1" departPos="0.00" departSpeed="0.00" departDelay="37.00" arrival="220.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="13.58" duration="164.00" routeLength="624.48" waitingTime="88.00" waitingCount="3" stopTime="0.00" timeLoss="118.76" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4.3 emissions_Prati_Capraia_100_4.3" vType="passenger2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2023.27" CO2_abs="198245.34" HC_abs="73.86" PMx_abs="16.03" NOx_abs="358.15" fuel_abs="62439.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_10.1" depart="74.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="53.00" arrival="220.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.86" duration="146.00" routeLength="882.71" waitingTime="42.00" waitingCount="2" stopTime="0.00" timeLoss="82.86" rerouteNo="0" devices="tripinfo_Pertini_20_10.1 emissions_Pertini_20_10.1" vType="passenger2a" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2492.04" CO2_abs="233632.47" HC_abs="76.06" PMx_abs="22.28" NOx_abs="450.16" fuel_abs="73585.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_12.4" depart="99.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="74.00" arrival="220.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="17.37" duration="121.00" routeLength="882.71" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="69.47" rerouteNo="0" devices="tripinfo_Pertini_20_12.4 emissions_Pertini_20_12.4" vType="passenger3" speedFactor="1.25" vaporized="">
+        <emissions CO_abs="2505.55" CO2_abs="217015.89" HC_abs="70.09" PMx_abs="21.79" NOx_abs="430.02" fuel_abs="68351.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_2.2" depart="23.00" departLane="43_0" departPos="0.00" departSpeed="0.00" departDelay="15.00" arrival="222.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="12.61" duration="199.00" routeLength="1204.75" waitingTime="79.00" waitingCount="2" stopTime="0.00" timeLoss="102.64" rerouteNo="0" devices="tripinfo_Montefiorino_90_2.2 emissions_Montefiorino_90_2.2" vType="passenger1" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="1977.38" CO2_abs="265919.15" HC_abs="83.00" PMx_abs="19.75" NOx_abs="470.96" fuel_abs="83754.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_11.4" depart="89.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="66.00" arrival="222.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.43" duration="133.00" routeLength="882.71" waitingTime="38.00" waitingCount="1" stopTime="0.00" timeLoss="70.72" rerouteNo="0" devices="tripinfo_Pertini_20_11.4 emissions_Pertini_20_11.4" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2439.30" CO2_abs="236743.68" HC_abs="74.21" PMx_abs="22.32" NOx_abs="456.49" fuel_abs="74565.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_10_7.6" depart="112.00" departLane="3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="78.00" arrival="222.00" arrivalLane="10_0" arrivalPos="223.30" arrivalSpeed="12.78" duration="110.00" routeLength="409.63" waitingTime="57.00" waitingCount="1" stopTime="0.00" timeLoss="78.18" rerouteNo="0" devices="tripinfo_Prati_Capraia_10_7.6 emissions_Prati_Capraia_10_7.6" vType="passenger1" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1458.73" CO2_abs="141971.43" HC_abs="52.20" PMx_abs="11.82" NOx_abs="258.50" fuel_abs="44715.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Montefiorino_90_2.3" depart="25.00" departLane="43_1" departPos="0.00" departSpeed="0.00" departDelay="17.00" arrival="223.00" arrivalLane="2[1][1][1]b_0" arrivalPos="324.74" arrivalSpeed="11.88" duration="198.00" routeLength="1198.14" waitingTime="75.00" waitingCount="2" stopTime="0.00" timeLoss="99.28" rerouteNo="0" devices="tripinfo_Montefiorino_90_2.3 emissions_Montefiorino_90_2.3" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2229.96" CO2_abs="272622.56" HC_abs="85.95" PMx_abs="21.62" NOx_abs="491.35" fuel_abs="85865.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_14.3" depart="107.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="77.00" arrival="223.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.16" duration="116.00" routeLength="882.71" waitingTime="27.00" waitingCount="1" stopTime="0.00" timeLoss="55.77" rerouteNo="0" devices="tripinfo_Pertini_20_14.3 emissions_Pertini_20_14.3" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2288.96" CO2_abs="219208.79" HC_abs="67.62" PMx_abs="21.04" NOx_abs="426.73" fuel_abs="69042.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_12.2" depart="96.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="71.00" arrival="224.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="11.78" duration="128.00" routeLength="882.71" waitingTime="35.00" waitingCount="1" stopTime="0.00" timeLoss="58.96" rerouteNo="0" devices="tripinfo_Pertini_20_12.2 emissions_Pertini_20_12.2" vType="passenger3" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="1643.73" CO2_abs="197037.75" HC_abs="59.26" PMx_abs="16.57" NOx_abs="362.87" fuel_abs="62059.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2.4" depart="8.00" departLane="1[0]_1" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="225.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="13.37" duration="217.00" routeLength="1697.53" waitingTime="69.00" waitingCount="2" stopTime="0.00" timeLoss="90.44" rerouteNo="0" devices="tripinfo_Gandhi_60_2.4 emissions_Gandhi_60_2.4" vType="passenger2a" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2662.41" CO2_abs="354749.25" HC_abs="101.28" PMx_abs="28.70" NOx_abs="647.84" fuel_abs="111732.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_12.6" depart="101.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="76.00" arrival="225.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="15.43" duration="124.00" routeLength="882.71" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="66.79" rerouteNo="0" devices="tripinfo_Pertini_20_12.6 emissions_Pertini_20_12.6" vType="passenger2a" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2464.89" CO2_abs="224220.38" HC_abs="71.62" PMx_abs="22.05" NOx_abs="438.92" fuel_abs="70620.65" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_14.4" depart="109.00" departLane="63[0]_1" departPos="0.00" departSpeed="0.00" departDelay="79.00" arrival="226.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.04" duration="117.00" routeLength="882.71" waitingTime="26.00" waitingCount="1" stopTime="0.00" timeLoss="54.01" rerouteNo="0" devices="tripinfo_Pertini_20_14.4 emissions_Pertini_20_14.4" vType="passenger3" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2195.54" CO2_abs="216179.95" HC_abs="66.11" PMx_abs="20.61" NOx_abs="418.90" fuel_abs="68088.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2.5" depart="9.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="6.00" arrival="227.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="12.38" duration="218.00" routeLength="1697.53" waitingTime="67.00" waitingCount="2" stopTime="0.00" timeLoss="89.10" rerouteNo="0" devices="tripinfo_Gandhi_60_2.5 emissions_Gandhi_60_2.5" vType="passenger1" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2535.24" CO2_abs="336170.03" HC_abs="96.77" PMx_abs="26.99" NOx_abs="612.53" fuel_abs="105880.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_14.1" depart="104.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="74.00" arrival="227.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.60" duration="123.00" routeLength="882.71" waitingTime="33.00" waitingCount="1" stopTime="0.00" timeLoss="63.95" rerouteNo="0" devices="tripinfo_Pertini_20_14.1 emissions_Pertini_20_14.1" vType="passenger2a" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2463.56" CO2_abs="222241.26" HC_abs="70.36" PMx_abs="22.42" NOx_abs="436.48" fuel_abs="69997.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_15.4" depart="117.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="85.00" arrival="227.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.95" duration="110.00" routeLength="882.71" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="46.82" rerouteNo="0" devices="tripinfo_Pertini_20_15.4 emissions_Pertini_20_15.4" vType="passenger5" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2019.01" CO2_abs="207786.12" HC_abs="62.47" PMx_abs="19.25" NOx_abs="400.45" fuel_abs="65444.51" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_14.5" depart="109.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="79.00" arrival="228.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.69" duration="119.00" routeLength="882.71" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="60.90" rerouteNo="0" devices="tripinfo_Pertini_20_14.5 emissions_Pertini_20_14.5" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2571.12" CO2_abs="233689.56" HC_abs="73.47" PMx_abs="23.56" NOx_abs="460.31" fuel_abs="73603.08" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1.2" depart="41.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="5.00" arrival="228.00" arrivalLane="40[1]_1" arrivalPos="496.68" arrivalSpeed="14.23" duration="187.00" routeLength="1491.16" waitingTime="53.00" waitingCount="2" stopTime="0.00" timeLoss="85.33" rerouteNo="0" devices="tripinfo_Certosa_6_1.2 emissions_Certosa_6_1.2" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2951.62" CO2_abs="325355.20" HC_abs="96.30" PMx_abs="29.09" NOx_abs="615.59" fuel_abs="102474.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Gandhi_60_2" depart="3.00" departLane="1[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="229.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="11.35" duration="226.00" routeLength="1697.53" waitingTime="70.00" waitingCount="2" stopTime="0.00" timeLoss="90.95" rerouteNo="0" devices="tripinfo_Gandhi_60_2 emissions_Gandhi_60_2" vType="passenger1" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2316.36" CO2_abs="327384.57" HC_abs="93.67" PMx_abs="25.78" NOx_abs="587.78" fuel_abs="103113.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_16.1" depart="124.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="90.00" arrival="229.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="15.72" duration="105.00" routeLength="882.71" waitingTime="20.00" waitingCount="1" stopTime="0.00" timeLoss="50.89" rerouteNo="0" devices="tripinfo_Pertini_20_16.1 emissions_Pertini_20_16.1" vType="passenger4" speedFactor="1.19" vaporized="">
+        <emissions CO_abs="2446.61" CO2_abs="222109.15" HC_abs="68.63" PMx_abs="21.79" NOx_abs="439.29" fuel_abs="69955.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_15" depart="112.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="80.00" arrival="230.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="14.46" duration="118.00" routeLength="882.71" waitingTime="30.00" waitingCount="1" stopTime="0.00" timeLoss="57.85" rerouteNo="0" devices="tripinfo_Pertini_20_15 emissions_Pertini_20_15" vType="passenger2b" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="2361.58" CO2_abs="224195.73" HC_abs="69.90" PMx_abs="21.40" NOx_abs="436.26" fuel_abs="70612.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_15.2" depart="115.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="83.00" arrival="231.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="13.44" duration="116.00" routeLength="882.71" waitingTime="29.00" waitingCount="1" stopTime="0.00" timeLoss="52.56" rerouteNo="0" devices="tripinfo_Pertini_20_15.2 emissions_Pertini_20_15.2" vType="passenger2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2164.75" CO2_abs="208702.10" HC_abs="64.82" PMx_abs="19.97" NOx_abs="405.28" fuel_abs="65733.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1" depart="36.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="231.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="14.22" duration="195.00" routeLength="1491.16" waitingTime="58.00" waitingCount="3" stopTime="0.00" timeLoss="92.31" rerouteNo="0" devices="tripinfo_Certosa_6_1 emissions_Certosa_6_1" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="3382.00" CO2_abs="347214.39" HC_abs="106.32" PMx_abs="31.88" NOx_abs="664.02" fuel_abs="109358.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1.4" depart="47.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="11.00" arrival="231.00" arrivalLane="40[1]_1" arrivalPos="496.68" arrivalSpeed="13.09" duration="184.00" routeLength="1491.16" waitingTime="47.00" waitingCount="2" stopTime="0.00" timeLoss="72.85" rerouteNo="0" devices="tripinfo_Certosa_6_1.4 emissions_Certosa_6_1.4" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2505.21" CO2_abs="301820.66" HC_abs="87.04" PMx_abs="25.79" NOx_abs="561.51" fuel_abs="95061.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1.5" depart="50.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="14.00" arrival="232.00" arrivalLane="40[1]_1" arrivalPos="496.68" arrivalSpeed="15.04" duration="182.00" routeLength="1491.16" waitingTime="45.00" waitingCount="2" stopTime="0.00" timeLoss="87.50" rerouteNo="0" devices="tripinfo_Certosa_6_1.5 emissions_Certosa_6_1.5" vType="passenger2a" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="3321.36" CO2_abs="339559.10" HC_abs="102.12" PMx_abs="31.74" NOx_abs="654.49" fuel_abs="106947.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Prati_Capraia_100_4.1" depart="53.00" departLane="3[0]_1" departPos="0.00" departSpeed="0.00" departDelay="34.00" arrival="233.00" arrivalLane="3[1]b_0" arrivalPos="238.77" arrivalSpeed="11.32" duration="180.00" routeLength="624.48" waitingTime="95.00" waitingCount="4" stopTime="0.00" timeLoss="128.09" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_4.1 emissions_Prati_Capraia_100_4.1" vType="passenger3" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1647.85" CO2_abs="195698.70" HC_abs="71.55" PMx_abs="13.81" NOx_abs="335.39" fuel_abs="61637.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_15.6" depart="121.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="89.00" arrival="233.00" arrivalLane="4[1][1][1]_1" arrivalPos="170.54" arrivalSpeed="13.64" duration="112.00" routeLength="882.71" waitingTime="29.00" waitingCount="1" stopTime="0.00" timeLoss="48.28" rerouteNo="0" devices="tripinfo_Pertini_20_15.6 emissions_Pertini_20_15.6" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2165.58" CO2_abs="208208.85" HC_abs="64.46" PMx_abs="19.84" NOx_abs="404.58" fuel_abs="65577.65" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1.1" depart="38.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="233.00" arrivalLane="40[1]_0" arrivalPos="496.68" arrivalSpeed="12.01" duration="195.00" routeLength="1491.16" waitingTime="47.00" waitingCount="2" stopTime="0.00" timeLoss="76.58" rerouteNo="0" devices="tripinfo_Certosa_6_1.1 emissions_Certosa_6_1.1" vType="passenger2a" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2520.88" CO2_abs="317286.12" HC_abs="91.21" PMx_abs="27.00" NOx_abs="585.36" fuel_abs="99932.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Certosa_6_1.6" depart="53.00" departLane="22[0]_0" departPos="0.00" departSpeed="0.00" departDelay="17.00" arrival="234.00" arrivalLane="40[1]_1" arrivalPos="496.68" arrivalSpeed="12.53" duration="181.00" routeLength="1491.16" waitingTime="44.00" waitingCount="2" stopTime="0.00" timeLoss="70.40" rerouteNo="0" devices="tripinfo_Certosa_6_1.6 emissions_Certosa_6_1.6" vType="passenger2b" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2534.89" CO2_abs="304914.08" HC_abs="87.49" PMx_abs="26.40" NOx_abs="568.74" fuel_abs="96036.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pertini_20_17" depart="133.00" departLane="63[0]_2" departPos="0.00" departSpeed="0.00" departDelay="97.00" arrival="234.00" arrivalLane="4[1][1][1]_0" arrivalPos="170.54" arrivalSpeed="14.67" duration="101.00" routeLength="882.71" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="42.43" rerouteNo="0" devices="tripinfo_Pertini_20_17 emissions_Pertini_20_17" vType="passenger1" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="1884.88" CO2_abs="193177.02" HC_abs="56.51" PMx_abs="18.40" NOx_abs="375.81" fuel_abs="60843.22" electricity_abs="0.00"/>
+    </tripinfo>
+</tripinfos>

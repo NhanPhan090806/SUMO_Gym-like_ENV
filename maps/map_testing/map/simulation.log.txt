@@ -1,0 +1,26 @@
+Loading net-file from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/network.net.xml' ... done (77ms).
+Loading additional-files from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/busStops.add.xml' ... done (24ms).
+Loading route-files incrementally from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/bus_route.rou.xml'
+Loading route-files incrementally from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/vType.xml'
+Loading route-files incrementally from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/PKW_automatic.rou.xml.gz'
+Loading route-files incrementally from '/home/ducanh/My_SUMO/maps/Project-Energy-Management/map_testing/map/LKW_automatic.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 78.00.
+Performance:
+ Duration: 10.59s
+ Real time factor: 7.36683
+ UPS: 1844.163204
+Vehicles:
+ Inserted: 478 (Loaded: 1204)
+ Running: 474
+ Waiting: 2
+Statistics (avg of 4):
+ RouteLength: 710.39
+ Speed: 11.10
+ Duration: 64.75
+ WaitingTime: 4.50
+ TimeLoss: 13.02
+ DepartDelay: 0.19
+DijkstraRouter answered 458 queries and explored 93.75 edges on average.
+DijkstraRouter spent 0.02s answering queries (0.05ms on average).

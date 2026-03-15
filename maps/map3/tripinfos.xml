@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-10T22:07:09.452445+07:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="maps/map3/acosta_buslanes.net.xml"/>
+        <route-files value="maps/map3/acosta.rou.xml,maps/map3/acosta_busses.rou.xml"/>
+        <additional-files value="maps/map3/acosta_vtypes.add.xml,maps/map3/acosta_detectors.add.xml,maps/map3/acosta_bus_stops.add.xml,maps/map3/acosta_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="maps/map3/tripinfos.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.5"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.check-junctions value="true"/>
+        <scale value="1.0"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <log value="maps/map3/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1.0"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="35247"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="maps/map3/settings.gui.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <delay value="0"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="Pepoli_8_16" depart="27.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="80.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="14.94" duration="53.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.25" rerouteNo="0" devices="tripinfo_Pepoli_8_16 emissions_Pepoli_8_16" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1217.46" CO2_abs="132953.97" HC_abs="34.82" PMx_abs="12.91" NOx_abs="261.80" fuel_abs="41875.33" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_21" depart="36.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="90.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="16.90" duration="54.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.08" rerouteNo="0" devices="tripinfo_Pepoli_8_21 emissions_Pepoli_8_21" vType="passenger1" speedFactor="1.25" vaporized="">
+        <emissions CO_abs="1451.29" CO2_abs="141947.78" HC_abs="38.82" PMx_abs="14.38" NOx_abs="284.60" fuel_abs="44708.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_23" depart="39.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="93.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="15.57" duration="54.50" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.43" rerouteNo="0" devices="tripinfo_Pepoli_8_23 emissions_Pepoli_8_23" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1398.16" CO2_abs="140644.15" HC_abs="38.28" PMx_abs="13.91" NOx_abs="280.27" fuel_abs="44297.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_8" depart="11.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="98.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="15.19" duration="87.00" routeLength="1145.48" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.37" rerouteNo="0" devices="tripinfo_Togliatti_2_8 emissions_Togliatti_2_8" vType="passenger2a" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2442.10" CO2_abs="229476.60" HC_abs="62.82" PMx_abs="24.77" NOx_abs="466.25" fuel_abs="72276.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_25" depart="42.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="99.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="13.67" duration="57.50" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.41" rerouteNo="0" devices="tripinfo_Pepoli_8_25 emissions_Pepoli_8_25" vType="passenger2a" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="1363.39" CO2_abs="136675.92" HC_abs="37.13" PMx_abs="14.08" NOx_abs="272.48" fuel_abs="43047.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_4" depart="14.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="111.50" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="13.78" duration="97.50" routeLength="1182.48" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.99" rerouteNo="0" devices="tripinfo_Costa_1_4 emissions_Costa_1_4" vType="passenger2a" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="2003.44" CO2_abs="223059.82" HC_abs="58.48" PMx_abs="21.98" NOx_abs="437.54" fuel_abs="70255.15" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_2" depart="9.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="113.00" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="13.64" duration="104.00" routeLength="1188.84" waitingTime="6.50" waitingCount="1" stopTime="0.00" timeLoss="18.45" rerouteNo="0" devices="tripinfo_Costa_1_2 emissions_Costa_1_2" vType="passenger2b" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2000.78" CO2_abs="232793.96" HC_abs="61.35" PMx_abs="21.74" NOx_abs="449.84" fuel_abs="73321.03" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_0" depart="0.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="113.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.73" duration="113.50" routeLength="1416.38" waitingTime="0.50" waitingCount="1" stopTime="0.00" timeLoss="16.91" rerouteNo="0" devices="tripinfo_Costa_12_0 emissions_Costa_12_0" vType="passenger1" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="3012.36" CO2_abs="298088.32" HC_abs="81.22" PMx_abs="30.52" NOx_abs="596.78" fuel_abs="93886.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_1" depart="6.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.50" arrival="116.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.11" duration="110.00" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.04" rerouteNo="0" devices="tripinfo_Costa_12_1 emissions_Costa_12_1" vType="passenger2b" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2854.87" CO2_abs="287152.08" HC_abs="77.00" PMx_abs="29.50" NOx_abs="574.72" fuel_abs="90441.72" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Audinot_7_0" depart="0.00" departLane="131_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="123.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.50" duration="123.50" routeLength="873.23" waitingTime="46.50" waitingCount="1" stopTime="0.00" timeLoss="57.32" rerouteNo="0" devices="tripinfo_Audinot_7_0 emissions_Audinot_7_0" vType="passenger4" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1634.66" CO2_abs="199878.91" HC_abs="59.92" PMx_abs="16.50" NOx_abs="366.46" fuel_abs="62954.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_3_21" depart="54.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="125.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="15.63" duration="70.50" routeLength="850.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.14" rerouteNo="0" devices="tripinfo_Costa_3_21 emissions_Costa_3_21" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1537.12" CO2_abs="165947.64" HC_abs="44.00" PMx_abs="16.25" NOx_abs="325.98" fuel_abs="52267.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_3" depart="11.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.50" arrival="126.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.43" duration="115.00" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.01" rerouteNo="0" devices="tripinfo_Costa_12_3 emissions_Costa_12_3" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2348.54" CO2_abs="272273.49" HC_abs="69.96" PMx_abs="26.16" NOx_abs="530.39" fuel_abs="85755.54" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_7" depart="18.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="128.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.96" duration="110.50" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.90" rerouteNo="0" devices="tripinfo_Costa_12_7 emissions_Costa_12_7" vType="passenger5" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2553.55" CO2_abs="270264.48" HC_abs="71.82" PMx_abs="26.17" NOx_abs="533.78" fuel_abs="85122.78" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_11" depart="28.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="138.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.34" duration="110.50" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.04" rerouteNo="0" devices="tripinfo_Costa_12_11 emissions_Costa_12_11" vType="passenger2a" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="3079.58" CO2_abs="287351.61" HC_abs="79.19" PMx_abs="30.99" NOx_abs="583.36" fuel_abs="90504.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Turati_3_2" depart="69.00" departLane="195_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="145.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.40" duration="76.50" routeLength="947.57" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.50" rerouteNo="0" devices="tripinfo_Turati_3_2 emissions_Turati_3_2" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1492.90" CO2_abs="176486.84" HC_abs="45.16" PMx_abs="16.51" NOx_abs="342.06" fuel_abs="55586.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_0" depart="0.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="152.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.19" duration="152.50" routeLength="1941.55" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.71" rerouteNo="0" devices="tripinfo_Pepoli_3_0 emissions_Pepoli_3_0" vType="ignoring2b" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2723.85" CO2_abs="338250.82" HC_abs="84.48" PMx_abs="31.25" NOx_abs="652.39" fuel_abs="106535.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_28" depart="48.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="152.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="15.02" duration="104.50" routeLength="692.71" waitingTime="41.50" waitingCount="1" stopTime="0.00" timeLoss="59.22" rerouteNo="0" devices="tripinfo_Pepoli_8_28 emissions_Pepoli_8_28" vType="passenger3" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1695.40" CO2_abs="169294.41" HC_abs="54.64" PMx_abs="15.31" NOx_abs="321.05" fuel_abs="53321.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_2" depart="3.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="155.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.48" duration="152.50" routeLength="1941.55" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.23" rerouteNo="0" devices="tripinfo_Pepoli_3_2 emissions_Pepoli_3_2" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2489.12" CO2_abs="327304.79" HC_abs="80.35" PMx_abs="29.49" NOx_abs="626.17" fuel_abs="103088.27" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_9" depart="21.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="156.00" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="15.87" duration="135.00" routeLength="1114.25" waitingTime="44.00" waitingCount="1" stopTime="0.00" timeLoss="64.70" rerouteNo="0" devices="tripinfo_Silvani_11_9 emissions_Silvani_11_9" vType="passenger4" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="2120.72" CO2_abs="233167.91" HC_abs="69.43" PMx_abs="20.54" NOx_abs="440.88" fuel_abs="73438.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_15" depart="21.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="157.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.49" duration="136.00" routeLength="909.95" waitingTime="53.00" waitingCount="1" stopTime="0.00" timeLoss="64.27" rerouteNo="0" devices="tripinfo_Togliatti_12_15 emissions_Togliatti_12_15" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="2131.21" CO2_abs="213431.38" HC_abs="68.80" PMx_abs="19.49" NOx_abs="404.29" fuel_abs="67222.54" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_13_0" depart="0.00" departLane="55_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="157.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.68" duration="157.50" routeLength="1058.08" waitingTime="21.50" waitingCount="1" stopTime="40.00" timeLoss="28.28" rerouteNo="0" devices="tripinfo_bus_13_0 emissions_bus_13_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2099.02" CO2_abs="1925779.29" HC_abs="750.23" PMx_abs="250.09" NOx_abs="15873.10" fuel_abs="606544.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_81_0" depart="4.00" departLane="55_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="157.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.52" duration="153.50" routeLength="1058.08" waitingTime="13.50" waitingCount="2" stopTime="40.00" timeLoss="24.07" rerouteNo="0" devices="tripinfo_bus_81_0 emissions_bus_81_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2046.19" CO2_abs="1940445.89" HC_abs="740.11" PMx_abs="248.26" NOx_abs="15830.79" fuel_abs="611163.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_24" depart="34.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="159.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.73" duration="125.00" routeLength="909.95" waitingTime="39.00" waitingCount="1" stopTime="0.00" timeLoss="54.56" rerouteNo="0" devices="tripinfo_Togliatti_12_24 emissions_Togliatti_12_24" vType="passenger1" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2082.61" CO2_abs="210727.43" HC_abs="65.50" PMx_abs="19.70" NOx_abs="402.82" fuel_abs="66370.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_1" depart="2.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="160.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.26" duration="158.00" routeLength="1114.25" waitingTime="56.00" waitingCount="1" stopTime="0.00" timeLoss="70.80" rerouteNo="0" devices="tripinfo_Silvani_11_1 emissions_Silvani_11_1" vType="passenger2b" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1796.11" CO2_abs="225783.83" HC_abs="68.07" PMx_abs="18.19" NOx_abs="410.01" fuel_abs="71113.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_48" depart="68.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="160.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.14" duration="92.50" routeLength="909.95" waitingTime="8.00" waitingCount="1" stopTime="0.00" timeLoss="28.11" rerouteNo="0" devices="tripinfo_Togliatti_12_48 emissions_Togliatti_12_48" vType="passenger2a" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2266.45" CO2_abs="202459.21" HC_abs="60.10" PMx_abs="21.57" NOx_abs="408.38" fuel_abs="63766.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_13" depart="30.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="161.00" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="14.62" duration="130.50" routeLength="1114.25" waitingTime="37.50" waitingCount="1" stopTime="0.00" timeLoss="53.92" rerouteNo="0" devices="tripinfo_Silvani_11_13 emissions_Silvani_11_13" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1678.51" CO2_abs="220608.17" HC_abs="61.72" PMx_abs="18.08" NOx_abs="406.46" fuel_abs="69482.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_10" depart="17.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="161.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="16.08" duration="144.50" routeLength="1470.65" waitingTime="30.50" waitingCount="1" stopTime="0.00" timeLoss="53.84" rerouteNo="0" devices="tripinfo_Pepoli_10_10 emissions_Pepoli_10_10" vType="passenger2a" speedFactor="1.17" vaporized="">
+        <emissions CO_abs="2799.61" CO2_abs="288032.86" HC_abs="82.78" PMx_abs="27.24" NOx_abs="561.20" fuel_abs="90719.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_59" depart="84.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="162.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.23" duration="78.00" routeLength="909.95" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.03" rerouteNo="0" devices="tripinfo_Togliatti_12_59 emissions_Togliatti_12_59" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2071.19" CO2_abs="186402.49" HC_abs="53.45" PMx_abs="19.65" NOx_abs="378.66" fuel_abs="58709.51" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_14" depart="33.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="162.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="15.45" duration="129.50" routeLength="1114.25" waitingTime="36.50" waitingCount="1" stopTime="0.00" timeLoss="58.72" rerouteNo="0" devices="tripinfo_Silvani_11_14 emissions_Silvani_11_14" vType="passenger3" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="2293.63" CO2_abs="236534.07" HC_abs="70.78" PMx_abs="21.72" NOx_abs="455.25" fuel_abs="74499.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_8" depart="18.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="164.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.35" duration="146.00" routeLength="1114.25" waitingTime="45.50" waitingCount="1" stopTime="0.00" timeLoss="62.14" rerouteNo="0" devices="tripinfo_Silvani_11_8 emissions_Silvani_11_8" vType="passenger3" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1984.43" CO2_abs="233716.74" HC_abs="69.49" PMx_abs="20.04" NOx_abs="434.36" fuel_abs="73611.65" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_2_12" depart="42.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="164.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="15.21" duration="122.00" routeLength="976.81" waitingTime="32.00" waitingCount="2" stopTime="0.00" timeLoss="56.79" rerouteNo="0" devices="tripinfo_XXI_Aprile_2_12 emissions_XXI_Aprile_2_12" vType="passenger4" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2399.42" CO2_abs="234910.82" HC_abs="71.70" PMx_abs="22.36" NOx_abs="456.24" fuel_abs="73987.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_44" depart="75.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="164.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="11.74" duration="89.00" routeLength="692.71" waitingTime="15.50" waitingCount="1" stopTime="0.00" timeLoss="29.07" rerouteNo="0" devices="tripinfo_Pepoli_8_44 emissions_Pepoli_8_44" vType="passenger3" speedFactor="0.85" vaporized="">
+        <emissions CO_abs="1156.47" CO2_abs="140147.24" HC_abs="40.74" PMx_abs="12.13" NOx_abs="261.23" fuel_abs="44140.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_0" depart="0.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="164.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.35" duration="164.50" routeLength="1114.25" waitingTime="59.00" waitingCount="1" stopTime="0.00" timeLoss="67.68" rerouteNo="0" devices="tripinfo_Silvani_11_0 emissions_Silvani_11_0" vType="passenger3" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="1568.08" CO2_abs="224132.31" HC_abs="66.69" PMx_abs="16.88" NOx_abs="397.55" fuel_abs="70592.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_12" depart="28.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="165.00" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="13.08" duration="137.00" routeLength="1114.25" waitingTime="39.00" waitingCount="1" stopTime="0.00" timeLoss="54.28" rerouteNo="0" devices="tripinfo_Silvani_11_12 emissions_Silvani_11_12" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1901.12" CO2_abs="220711.37" HC_abs="65.11" PMx_abs="18.93" NOx_abs="412.74" fuel_abs="69515.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_16" depart="37.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="165.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.75" duration="128.50" routeLength="1114.25" waitingTime="34.00" waitingCount="1" stopTime="0.00" timeLoss="49.60" rerouteNo="0" devices="tripinfo_Silvani_11_16 emissions_Silvani_11_16" vType="passenger3" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="1783.65" CO2_abs="219010.64" HC_abs="62.12" PMx_abs="18.75" NOx_abs="408.29" fuel_abs="68979.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_48" depart="82.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="165.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="14.77" duration="83.50" routeLength="692.71" waitingTime="13.50" waitingCount="1" stopTime="0.00" timeLoss="37.51" rerouteNo="0" devices="tripinfo_Pepoli_8_48 emissions_Pepoli_8_48" vType="passenger2a" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="1844.24" CO2_abs="161297.81" HC_abs="50.46" PMx_abs="16.92" NOx_abs="322.65" fuel_abs="50802.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_91_0" depart="8.00" departLane="55_0" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="166.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.29" duration="158.50" routeLength="1058.08" waitingTime="17.50" waitingCount="1" stopTime="40.00" timeLoss="24.97" rerouteNo="0" devices="tripinfo_bus_91_0 emissions_bus_91_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2087.12" CO2_abs="1896738.53" HC_abs="753.71" PMx_abs="248.94" NOx_abs="15640.00" fuel_abs="597397.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_51" depart="87.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="167.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="12.76" duration="80.00" routeLength="692.71" waitingTime="9.50" waitingCount="1" stopTime="0.00" timeLoss="25.87" rerouteNo="0" devices="tripinfo_Pepoli_8_51 emissions_Pepoli_8_51" vType="passenger1" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1164.78" CO2_abs="137484.96" HC_abs="38.91" PMx_abs="12.31" NOx_abs="259.81" fuel_abs="43302.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_18" depart="30.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="168.00" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.10" duration="138.00" routeLength="1470.65" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="37.22" rerouteNo="0" devices="tripinfo_Pepoli_10_18 emissions_Pepoli_10_18" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="1921.22" CO2_abs="259875.24" HC_abs="67.10" PMx_abs="22.03" NOx_abs="486.39" fuel_abs="81850.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_24" depart="56.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="168.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.17" duration="112.00" routeLength="1114.25" waitingTime="16.50" waitingCount="1" stopTime="0.00" timeLoss="36.04" rerouteNo="0" devices="tripinfo_Silvani_11_24 emissions_Silvani_11_24" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1696.37" CO2_abs="204802.74" HC_abs="55.83" PMx_abs="18.02" NOx_abs="388.19" fuel_abs="64504.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_4" depart="6.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="169.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.69" duration="163.50" routeLength="1470.65" waitingTime="34.00" waitingCount="1" stopTime="0.00" timeLoss="44.41" rerouteNo="0" devices="tripinfo_Pepoli_10_4 emissions_Pepoli_10_4" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1665.99" CO2_abs="256700.96" HC_abs="67.46" PMx_abs="20.36" NOx_abs="463.84" fuel_abs="80850.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_4" depart="18.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="170.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="13.22" duration="152.00" routeLength="1143.28" waitingTime="55.50" waitingCount="1" stopTime="0.00" timeLoss="67.71" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_4 emissions_Vittorio_Veneto_1_4" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2278.16" CO2_abs="251382.77" HC_abs="76.38" PMx_abs="22.08" NOx_abs="471.31" fuel_abs="79175.76" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_27" depart="63.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="170.00" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="14.29" duration="107.00" routeLength="1114.25" waitingTime="14.50" waitingCount="1" stopTime="0.00" timeLoss="31.54" rerouteNo="0" devices="tripinfo_Silvani_11_27 emissions_Silvani_11_27" vType="passenger2a" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="1924.51" CO2_abs="211808.74" HC_abs="58.73" PMx_abs="19.74" NOx_abs="409.51" fuel_abs="66711.51" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_17" depart="40.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="171.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.60" duration="131.50" routeLength="1114.25" waitingTime="31.50" waitingCount="1" stopTime="0.00" timeLoss="46.02" rerouteNo="0" devices="tripinfo_Silvani_11_17 emissions_Silvani_11_17" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1826.26" CO2_abs="218739.16" HC_abs="62.74" PMx_abs="18.85" NOx_abs="408.88" fuel_abs="68894.30" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_2" depart="2.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="172.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="15.07" duration="169.50" routeLength="2025.50" waitingTime="23.50" waitingCount="1" stopTime="0.00" timeLoss="38.71" rerouteNo="0" devices="tripinfo_Togliatti_71_2 emissions_Togliatti_71_2" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2819.58" CO2_abs="361596.63" HC_abs="92.23" PMx_abs="31.60" NOx_abs="687.89" fuel_abs="113888.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_11" depart="19.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="172.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="12.40" duration="153.00" routeLength="1470.65" waitingTime="20.50" waitingCount="1" stopTime="0.00" timeLoss="35.06" rerouteNo="0" devices="tripinfo_Pepoli_10_11 emissions_Pepoli_10_11" vType="passenger4" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1512.28" CO2_abs="245530.30" HC_abs="62.74" PMx_abs="19.07" NOx_abs="444.82" fuel_abs="77332.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_4" depart="9.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="172.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="15.60" duration="163.50" routeLength="1451.40" waitingTime="55.50" waitingCount="1" stopTime="0.00" timeLoss="72.51" rerouteNo="0" devices="tripinfo_Silvani_7_4 emissions_Silvani_7_4" vType="passenger2a" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="3019.24" CO2_abs="305479.63" HC_abs="91.78" PMx_abs="28.54" NOx_abs="590.20" fuel_abs="96214.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_32" depart="75.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="172.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.91" duration="97.00" routeLength="1114.25" waitingTime="2.50" waitingCount="1" stopTime="0.00" timeLoss="19.58" rerouteNo="0" devices="tripinfo_Silvani_11_32 emissions_Silvani_11_32" vType="passenger5" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1415.50" CO2_abs="199407.61" HC_abs="49.60" PMx_abs="17.02" NOx_abs="374.71" fuel_abs="62805.64" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_20" depart="34.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="173.00" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="13.30" duration="139.00" routeLength="1470.65" waitingTime="13.50" waitingCount="1" stopTime="0.00" timeLoss="29.25" rerouteNo="0" devices="tripinfo_Pepoli_10_20 emissions_Pepoli_10_20" vType="passenger2a" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1857.79" CO2_abs="253054.66" HC_abs="65.56" PMx_abs="21.39" NOx_abs="474.05" fuel_abs="79702.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_23" depart="54.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="174.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.57" duration="120.50" routeLength="1114.25" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="32.50" rerouteNo="0" devices="tripinfo_Silvani_11_23 emissions_Silvani_11_23" vType="passenger3" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="1413.16" CO2_abs="200250.34" HC_abs="53.27" PMx_abs="16.38" NOx_abs="368.01" fuel_abs="63071.05" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_33" depart="78.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="174.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.29" duration="96.00" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.36" rerouteNo="0" devices="tripinfo_Silvani_11_33 emissions_Silvani_11_33" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="1514.75" CO2_abs="200126.10" HC_abs="50.17" PMx_abs="17.61" NOx_abs="379.67" fuel_abs="63031.94" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_62" depart="106.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="175.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="12.25" duration="69.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.48" rerouteNo="0" devices="tripinfo_Pepoli_8_62 emissions_Pepoli_8_62" vType="passenger1" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="1003.85" CO2_abs="129877.22" HC_abs="34.14" PMx_abs="11.44" NOx_abs="245.58" fuel_abs="40906.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_0" depart="0.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="176.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.79" duration="176.00" routeLength="2025.50" waitingTime="15.50" waitingCount="1" stopTime="0.00" timeLoss="28.54" rerouteNo="0" devices="tripinfo_Togliatti_71_0 emissions_Togliatti_71_0" vType="passenger2b" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2526.99" CO2_abs="338814.80" HC_abs="85.20" PMx_abs="29.49" NOx_abs="638.79" fuel_abs="106713.48" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_70" depart="121.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="176.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="15.32" duration="55.50" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.57" rerouteNo="0" devices="tripinfo_Pepoli_8_70 emissions_Pepoli_8_70" vType="passenger1" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="1330.45" CO2_abs="137412.01" HC_abs="37.01" PMx_abs="13.59" NOx_abs="272.45" fuel_abs="43279.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_32" depart="46.50" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="177.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.80" duration="130.50" routeLength="1145.48" waitingTime="30.50" waitingCount="1" stopTime="0.00" timeLoss="48.74" rerouteNo="0" devices="tripinfo_Togliatti_2_32 emissions_Togliatti_2_32" vType="passenger3" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2236.55" CO2_abs="242209.08" HC_abs="70.48" PMx_abs="22.21" NOx_abs="464.03" fuel_abs="76286.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_41" depart="96.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="177.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="15.68" duration="81.00" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.02" rerouteNo="0" devices="tripinfo_Silvani_11_41 emissions_Silvani_11_41" vType="passenger1" speedFactor="1.16" vaporized="">
+        <emissions CO_abs="1774.18" CO2_abs="190056.85" HC_abs="49.29" PMx_abs="18.70" NOx_abs="376.70" fuel_abs="59860.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_7" depart="16.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="177.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="14.69" duration="161.50" routeLength="1454.90" waitingTime="47.00" waitingCount="1" stopTime="0.00" timeLoss="62.63" rerouteNo="0" devices="tripinfo_Silvani_7_7 emissions_Silvani_7_7" vType="passenger2a" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2227.47" CO2_abs="275855.73" HC_abs="77.74" PMx_abs="23.24" NOx_abs="514.13" fuel_abs="86883.82" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_18" depart="25.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="178.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="12.30" duration="153.50" routeLength="1110.28" waitingTime="48.00" waitingCount="1" stopTime="0.00" timeLoss="63.92" rerouteNo="0" devices="tripinfo_Togliatti_3_18 emissions_Togliatti_3_18" vType="passenger2a" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="2847.11" CO2_abs="260481.54" HC_abs="83.78" PMx_abs="26.00" NOx_abs="508.80" fuel_abs="82041.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_22" depart="37.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="179.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.55" duration="142.50" routeLength="1470.65" waitingTime="5.00" waitingCount="1" stopTime="0.00" timeLoss="20.06" rerouteNo="0" devices="tripinfo_Pepoli_10_22 emissions_Pepoli_10_22" vType="passenger2a" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1534.05" CO2_abs="243334.63" HC_abs="60.42" PMx_abs="19.55" NOx_abs="446.58" fuel_abs="76640.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_31" depart="44.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="180.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.96" duration="136.00" routeLength="1107.06" waitingTime="32.50" waitingCount="1" stopTime="0.00" timeLoss="56.67" rerouteNo="0" devices="tripinfo_Togliatti_3_31 emissions_Togliatti_3_31" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2539.92" CO2_abs="253145.66" HC_abs="76.54" PMx_abs="24.04" NOx_abs="490.19" fuel_abs="79731.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_3_33" depart="86.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="181.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.15" duration="95.50" routeLength="850.23" waitingTime="6.50" waitingCount="1" stopTime="0.00" timeLoss="30.16" rerouteNo="0" devices="tripinfo_Costa_3_33 emissions_Costa_3_33" vType="passenger2b" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1702.89" CO2_abs="175026.87" HC_abs="50.60" PMx_abs="17.00" NOx_abs="341.07" fuel_abs="55126.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_39" depart="92.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="182.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.21" duration="90.00" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.78" rerouteNo="0" devices="tripinfo_Silvani_11_39 emissions_Silvani_11_39" vType="passenger2a" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1510.84" CO2_abs="185073.44" HC_abs="46.98" PMx_abs="16.90" NOx_abs="356.63" fuel_abs="58290.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_19" depart="32.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="182.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="12.13" duration="150.50" routeLength="1470.65" waitingTime="11.50" waitingCount="1" stopTime="0.00" timeLoss="33.66" rerouteNo="0" devices="tripinfo_Pepoli_10_19 emissions_Pepoli_10_19" vType="passenger1" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="1598.92" CO2_abs="252950.56" HC_abs="63.13" PMx_abs="20.51" NOx_abs="461.96" fuel_abs="79669.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_3_38" depart="99.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="183.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="12.70" duration="84.00" routeLength="850.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.57" rerouteNo="0" devices="tripinfo_Costa_3_38 emissions_Costa_3_38" vType="passenger1" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1471.37" CO2_abs="160242.16" HC_abs="44.43" PMx_abs="15.10" NOx_abs="311.72" fuel_abs="50470.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Turati_10_0" depart="0.00" departLane="195_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="183.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="12.02" duration="183.50" routeLength="2032.35" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.48" rerouteNo="0" devices="tripinfo_Turati_10_0 emissions_Turati_10_0" vType="passenger4" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2419.00" CO2_abs="352087.77" HC_abs="86.16" PMx_abs="30.21" NOx_abs="657.54" fuel_abs="110893.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_2" depart="4.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="183.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.68" duration="179.50" routeLength="1454.90" waitingTime="58.50" waitingCount="1" stopTime="0.00" timeLoss="69.33" rerouteNo="0" devices="tripinfo_Silvani_7_2 emissions_Silvani_7_2" vType="passenger1" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1844.09" CO2_abs="271822.19" HC_abs="76.08" PMx_abs="20.71" NOx_abs="487.77" fuel_abs="85613.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_43" depart="101.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="183.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.80" duration="82.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.79" rerouteNo="0" devices="tripinfo_Silvani_11_43 emissions_Silvani_11_43" vType="passenger2b" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="1509.40" CO2_abs="185928.90" HC_abs="46.16" PMx_abs="17.05" NOx_abs="359.50" fuel_abs="58560.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_39" depart="55.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="185.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.22" duration="130.00" routeLength="1107.06" waitingTime="25.50" waitingCount="1" stopTime="0.00" timeLoss="46.58" rerouteNo="0" devices="tripinfo_Togliatti_3_39 emissions_Togliatti_3_39" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2233.59" CO2_abs="237137.40" HC_abs="69.76" PMx_abs="22.18" NOx_abs="455.82" fuel_abs="74689.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_75" depart="128.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="185.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="16.34" duration="57.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.49" rerouteNo="0" devices="tripinfo_Pepoli_8_75 emissions_Pepoli_8_75" vType="passenger2b" speedFactor="1.22" vaporized="">
+        <emissions CO_abs="1375.52" CO2_abs="138482.02" HC_abs="37.73" PMx_abs="14.05" NOx_abs="275.96" fuel_abs="43616.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_15" depart="35.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="185.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="14.86" duration="150.50" routeLength="1451.40" waitingTime="29.50" waitingCount="1" stopTime="0.00" timeLoss="53.24" rerouteNo="0" devices="tripinfo_Silvani_7_15 emissions_Silvani_7_15" vType="passenger5" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2306.63" CO2_abs="281090.50" HC_abs="77.22" PMx_abs="24.23" NOx_abs="529.93" fuel_abs="88532.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_5" depart="8.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="187.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="15.20" duration="179.00" routeLength="1738.36" waitingTime="45.50" waitingCount="2" stopTime="0.00" timeLoss="67.95" rerouteNo="0" devices="tripinfo_Pepoli_11_5 emissions_Pepoli_11_5" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="3085.08" CO2_abs="338208.79" HC_abs="96.59" PMx_abs="30.54" NOx_abs="647.48" fuel_abs="106522.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_10" depart="45.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="187.50" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="13.77" duration="142.50" routeLength="1143.28" waitingTime="50.00" waitingCount="1" stopTime="0.00" timeLoss="59.50" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_10 emissions_Vittorio_Veneto_1_10" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2026.69" CO2_abs="237806.53" HC_abs="70.14" PMx_abs="20.46" NOx_abs="443.21" fuel_abs="74899.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_8" depart="16.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="188.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="14.12" duration="172.50" routeLength="1735.40" waitingTime="39.50" waitingCount="2" stopTime="0.00" timeLoss="55.08" rerouteNo="0" devices="tripinfo_Pepoli_11_8 emissions_Pepoli_11_8" vType="passenger2a" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="2997.65" CO2_abs="333663.24" HC_abs="93.76" PMx_abs="30.77" NOx_abs="641.13" fuel_abs="105090.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_11" depart="25.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="188.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="13.85" duration="163.50" routeLength="1451.40" waitingTime="38.00" waitingCount="1" stopTime="0.00" timeLoss="62.12" rerouteNo="0" devices="tripinfo_Silvani_7_11 emissions_Silvani_7_11" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2341.74" CO2_abs="281667.88" HC_abs="79.55" PMx_abs="24.32" NOx_abs="528.47" fuel_abs="88714.40" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Audinot_10_2" depart="42.00" departLane="131_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="188.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.64" duration="146.50" routeLength="1645.14" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.53" rerouteNo="0" devices="tripinfo_Audinot_10_2 emissions_Audinot_10_2" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1955.09" CO2_abs="277474.36" HC_abs="68.31" PMx_abs="24.21" NOx_abs="521.31" fuel_abs="87393.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_5" depart="11.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="189.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.39" duration="178.00" routeLength="1458.40" waitingTime="51.00" waitingCount="1" stopTime="0.00" timeLoss="65.86" rerouteNo="0" devices="tripinfo_Silvani_7_5 emissions_Silvani_7_5" vType="passenger2a" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="2256.46" CO2_abs="278806.88" HC_abs="81.02" PMx_abs="23.21" NOx_abs="516.18" fuel_abs="87813.29" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Turati_10_1" depart="34.00" departLane="195_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="190.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="14.54" duration="156.00" routeLength="2032.35" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.20" rerouteNo="0" devices="tripinfo_Turati_10_1 emissions_Turati_10_1" vType="passenger1" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="3351.17" CO2_abs="378352.96" HC_abs="97.33" PMx_abs="36.30" NOx_abs="741.79" fuel_abs="119166.46" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_18" depart="42.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="190.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.88" duration="148.00" routeLength="1454.90" waitingTime="24.00" waitingCount="1" stopTime="0.00" timeLoss="43.60" rerouteNo="0" devices="tripinfo_Silvani_7_18 emissions_Silvani_7_18" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2095.18" CO2_abs="268006.01" HC_abs="72.00" PMx_abs="22.98" NOx_abs="502.37" fuel_abs="84411.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_20" depart="47.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="191.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="13.71" duration="144.00" routeLength="1451.40" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="40.52" rerouteNo="0" devices="tripinfo_Silvani_7_20 emissions_Silvani_7_20" vType="passenger3" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2103.87" CO2_abs="261614.53" HC_abs="70.41" PMx_abs="22.77" NOx_abs="494.45" fuel_abs="82398.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_3" depart="7.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="191.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.84" duration="184.50" routeLength="1451.40" waitingTime="50.00" waitingCount="2" stopTime="0.00" timeLoss="64.66" rerouteNo="0" devices="tripinfo_Silvani_7_3 emissions_Silvani_7_3" vType="passenger1" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1710.97" CO2_abs="261607.61" HC_abs="72.79" PMx_abs="19.89" NOx_abs="466.20" fuel_abs="82396.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_15" depart="25.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="192.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="15.32" duration="167.00" routeLength="1735.40" waitingTime="25.00" waitingCount="1" stopTime="0.00" timeLoss="54.67" rerouteNo="0" devices="tripinfo_Pepoli_11_15 emissions_Pepoli_11_15" vType="passenger1" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="2559.92" CO2_abs="312036.32" HC_abs="83.88" PMx_abs="27.31" NOx_abs="592.36" fuel_abs="98279.30" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_40" depart="57.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="192.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.16" duration="135.00" routeLength="1145.48" waitingTime="25.00" waitingCount="1" stopTime="0.00" timeLoss="46.72" rerouteNo="0" devices="tripinfo_Togliatti_2_40 emissions_Togliatti_2_40" vType="passenger2b" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2082.17" CO2_abs="236965.84" HC_abs="68.13" PMx_abs="21.48" NOx_abs="450.03" fuel_abs="74634.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_45" depart="64.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="193.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.15" duration="129.50" routeLength="1145.48" waitingTime="21.50" waitingCount="1" stopTime="0.00" timeLoss="47.61" rerouteNo="0" devices="tripinfo_Togliatti_2_45 emissions_Togliatti_2_45" vType="passenger3" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2362.90" CO2_abs="239390.61" HC_abs="70.38" PMx_abs="22.90" NOx_abs="464.61" fuel_abs="75398.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_56" depart="79.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="193.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="15.25" duration="114.50" routeLength="1110.28" waitingTime="12.50" waitingCount="2" stopTime="0.00" timeLoss="41.69" rerouteNo="0" devices="tripinfo_Togliatti_3_56 emissions_Togliatti_3_56" vType="passenger1" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2752.34" CO2_abs="258806.93" HC_abs="75.95" PMx_abs="26.15" NOx_abs="514.72" fuel_abs="81514.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_10" depart="23.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="194.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.96" duration="171.50" routeLength="1454.90" waitingTime="37.50" waitingCount="1" stopTime="0.00" timeLoss="52.84" rerouteNo="0" devices="tripinfo_Silvani_7_10 emissions_Silvani_7_10" vType="passenger3" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="1803.39" CO2_abs="260517.76" HC_abs="71.35" PMx_abs="20.52" NOx_abs="472.19" fuel_abs="82052.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_47" depart="66.50" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="195.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.41" duration="129.00" routeLength="1145.48" waitingTime="18.50" waitingCount="1" stopTime="0.00" timeLoss="42.92" rerouteNo="0" devices="tripinfo_Togliatti_2_47 emissions_Togliatti_2_47" vType="passenger3" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1953.80" CO2_abs="226537.42" HC_abs="63.78" PMx_abs="20.36" NOx_abs="429.81" fuel_abs="71350.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_34" depart="81.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="195.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="10.45" duration="114.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.38" rerouteNo="0" devices="tripinfo_Silvani_11_34 emissions_Silvani_11_34" vType="passenger2a" speedFactor="0.76" vaporized="">
+        <emissions CO_abs="1183.89" CO2_abs="188007.74" HC_abs="46.58" PMx_abs="15.47" NOx_abs="344.53" fuel_abs="59215.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_6" depart="10.50" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="196.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.32" duration="186.00" routeLength="1738.36" waitingTime="34.00" waitingCount="2" stopTime="0.00" timeLoss="56.31" rerouteNo="0" devices="tripinfo_Pepoli_11_6 emissions_Pepoli_11_6" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2391.58" CO2_abs="319769.51" HC_abs="86.03" PMx_abs="26.92" NOx_abs="593.71" fuel_abs="100714.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_17" depart="29.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="202.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.90" duration="173.00" routeLength="1738.36" waitingTime="15.50" waitingCount="1" stopTime="0.00" timeLoss="39.69" rerouteNo="0" devices="tripinfo_Pepoli_11_17 emissions_Pepoli_11_17" vType="passenger4" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1824.96" CO2_abs="295086.35" HC_abs="73.74" PMx_abs="23.26" NOx_abs="538.34" fuel_abs="92940.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_24" depart="41.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="202.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.78" duration="161.00" routeLength="1735.40" waitingTime="8.50" waitingCount="1" stopTime="0.00" timeLoss="38.63" rerouteNo="0" devices="tripinfo_Pepoli_11_24 emissions_Pepoli_11_24" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2179.41" CO2_abs="302795.36" HC_abs="76.51" PMx_abs="25.85" NOx_abs="567.59" fuel_abs="95368.75" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_63" depart="89.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="205.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="12.61" duration="116.00" routeLength="1145.48" waitingTime="3.00" waitingCount="1" stopTime="0.00" timeLoss="26.75" rerouteNo="0" devices="tripinfo_Togliatti_2_63 emissions_Togliatti_2_63" vType="passenger2b" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2054.90" CO2_abs="227909.63" HC_abs="62.09" PMx_abs="22.10" NOx_abs="441.52" fuel_abs="71782.63" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_9" depart="18.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="205.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.51" duration="187.50" routeLength="1735.40" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="44.60" rerouteNo="0" devices="tripinfo_Pepoli_11_9 emissions_Pepoli_11_9" vType="passenger2b" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="1973.25" CO2_abs="299762.25" HC_abs="77.48" PMx_abs="24.22" NOx_abs="546.98" fuel_abs="94413.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_3" depart="5.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="207.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.14" duration="202.00" routeLength="1735.40" waitingTime="27.50" waitingCount="1" stopTime="0.00" timeLoss="46.30" rerouteNo="0" devices="tripinfo_Pepoli_11_3 emissions_Pepoli_11_3" vType="passenger5" speedFactor="0.80" vaporized="">
+        <emissions CO_abs="1507.43" CO2_abs="302019.13" HC_abs="75.45" PMx_abs="21.97" NOx_abs="529.47" fuel_abs="95124.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_7" depart="13.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="208.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="11.45" duration="195.00" routeLength="1738.36" waitingTime="22.50" waitingCount="1" stopTime="0.00" timeLoss="44.84" rerouteNo="0" devices="tripinfo_Pepoli_11_7 emissions_Pepoli_11_7" vType="passenger5" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="1679.80" CO2_abs="299066.15" HC_abs="75.58" PMx_abs="22.41" NOx_abs="532.35" fuel_abs="94194.16" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_66" depart="93.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="208.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="12.91" duration="115.00" routeLength="1145.48" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="25.54" rerouteNo="0" devices="tripinfo_Togliatti_2_66 emissions_Togliatti_2_66" vType="passenger4" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1703.99" CO2_abs="219102.49" HC_abs="57.34" PMx_abs="19.45" NOx_abs="414.40" fuel_abs="69008.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_0" depart="0.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="212.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.65" duration="212.50" routeLength="2111.89" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="57.17" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_0 emissions_XXI_Aprile_7_0" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="4323.92" CO2_abs="451079.04" HC_abs="127.76" PMx_abs="43.89" NOx_abs="880.70" fuel_abs="142072.30" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_15" depart="39.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="214.50" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="16.00" duration="175.50" routeLength="1185.31" waitingTime="82.50" waitingCount="1" stopTime="0.00" timeLoss="101.36" rerouteNo="0" devices="tripinfo_Costa_1_15 emissions_Costa_1_15" vType="passenger4" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="3057.75" CO2_abs="292473.13" HC_abs="95.91" PMx_abs="26.65" NOx_abs="557.81" fuel_abs="92117.63" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_1" depart="3.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="215.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.67" duration="212.50" routeLength="2111.89" waitingTime="26.00" waitingCount="1" stopTime="0.00" timeLoss="53.09" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_1 emissions_XXI_Aprile_7_1" vType="passenger1" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="3966.66" CO2_abs="436339.50" HC_abs="120.99" PMx_abs="41.19" NOx_abs="843.81" fuel_abs="137429.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_7" depart="24.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="216.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="14.51" duration="192.00" routeLength="2111.89" waitingTime="14.50" waitingCount="1" stopTime="0.00" timeLoss="42.83" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_7 emissions_XXI_Aprile_7_7" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="4537.32" CO2_abs="446447.04" HC_abs="125.64" PMx_abs="44.89" NOx_abs="887.03" fuel_abs="140613.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_19" depart="49.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="216.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="16.31" duration="166.50" routeLength="1182.48" waitingTime="73.00" waitingCount="1" stopTime="0.00" timeLoss="94.43" rerouteNo="0" devices="tripinfo_Costa_1_19 emissions_Costa_1_19" vType="passenger2a" speedFactor="1.21" vaporized="">
+        <emissions CO_abs="3548.45" CO2_abs="306132.92" HC_abs="101.40" PMx_abs="30.48" NOx_abs="602.29" fuel_abs="96419.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_17" depart="44.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="217.50" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="14.21" duration="173.50" routeLength="1188.84" waitingTime="77.00" waitingCount="1" stopTime="0.00" timeLoss="89.10" rerouteNo="0" devices="tripinfo_Costa_1_17 emissions_Costa_1_17" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2439.72" CO2_abs="269366.92" HC_abs="84.84" PMx_abs="22.81" NOx_abs="499.45" fuel_abs="84840.07" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_3_7" depart="32.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="218.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="15.80" duration="186.50" routeLength="1594.60" waitingTime="53.50" waitingCount="1" stopTime="0.00" timeLoss="83.29" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_3_7 emissions_Vittorio_Veneto_3_7" vType="passenger1" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="3574.59" CO2_abs="348675.07" HC_abs="105.72" PMx_abs="33.13" NOx_abs="677.76" fuel_abs="109819.05" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_8" depart="28.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="219.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.37" duration="191.00" routeLength="2111.89" waitingTime="6.50" waitingCount="1" stopTime="0.00" timeLoss="34.67" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_8 emissions_XXI_Aprile_7_8" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="3980.39" CO2_abs="425273.52" HC_abs="115.36" PMx_abs="41.81" NOx_abs="834.74" fuel_abs="133944.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_13" depart="46.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="219.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="14.66" duration="173.50" routeLength="2111.89" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="24.77" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_13 emissions_XXI_Aprile_7_13" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="4290.06" CO2_abs="435302.80" HC_abs="117.63" PMx_abs="44.31" NOx_abs="867.23" fuel_abs="137103.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_18" depart="64.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="221.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="15.85" duration="157.00" routeLength="1119.11" waitingTime="37.00" waitingCount="2" stopTime="0.00" timeLoss="85.52" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_18 emissions_XXI_Aprile_1_18" vType="passenger2a" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="3146.32" CO2_abs="278755.68" HC_abs="89.40" PMx_abs="28.15" NOx_abs="550.02" fuel_abs="87797.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_76" depart="108.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="222.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="11.16" duration="114.00" routeLength="1145.48" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.08" rerouteNo="0" devices="tripinfo_Togliatti_2_76 emissions_Togliatti_2_76" vType="passenger3" speedFactor="0.84" vaporized="">
+        <emissions CO_abs="1568.02" CO2_abs="206986.72" HC_abs="53.32" PMx_abs="18.54" NOx_abs="390.51" fuel_abs="65192.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_17" depart="60.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="223.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="12.97" duration="163.00" routeLength="1112.75" waitingTime="45.00" waitingCount="2" stopTime="0.00" timeLoss="76.22" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_17 emissions_XXI_Aprile_1_17" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="2471.40" CO2_abs="259288.73" HC_abs="80.85" PMx_abs="23.54" NOx_abs="490.23" fuel_abs="81665.81" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_28" depart="73.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="223.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="12.40" duration="150.00" routeLength="1191.67" waitingTime="34.50" waitingCount="2" stopTime="0.00" timeLoss="53.56" rerouteNo="0" devices="tripinfo_Costa_1_28 emissions_Costa_1_28" vType="passenger2a" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2312.61" CO2_abs="252829.36" HC_abs="75.13" PMx_abs="22.94" NOx_abs="480.11" fuel_abs="79631.37" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_1" depart="4.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="223.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.42" duration="219.50" routeLength="1629.80" waitingTime="80.50" waitingCount="3" stopTime="0.00" timeLoss="110.24" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_1 emissions_Vittorio_Veneto_2_1" vType="passenger1" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3818.32" CO2_abs="390127.19" HC_abs="120.55" PMx_abs="35.83" NOx_abs="744.21" fuel_abs="122874.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_27" depart="96.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="224.50" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="13.35" duration="128.50" routeLength="1112.75" waitingTime="25.00" waitingCount="1" stopTime="0.00" timeLoss="45.13" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_27 emissions_XXI_Aprile_1_27" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2395.83" CO2_abs="248288.53" HC_abs="72.85" PMx_abs="23.57" NOx_abs="480.07" fuel_abs="78201.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_6" depart="27.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="225.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.52" duration="198.00" routeLength="1629.80" waitingTime="55.00" waitingCount="1" stopTime="0.00" timeLoss="79.81" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_6 emissions_Vittorio_Veneto_2_6" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3222.57" CO2_abs="343488.69" HC_abs="102.37" PMx_abs="31.42" NOx_abs="655.09" fuel_abs="108185.53" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_9" depart="23.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="225.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.48" duration="202.50" routeLength="1413.55" waitingTime="69.50" waitingCount="2" stopTime="0.00" timeLoss="88.27" rerouteNo="0" devices="tripinfo_Costa_12_9 emissions_Costa_12_9" vType="passenger3" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2813.81" CO2_abs="314189.15" HC_abs="97.02" PMx_abs="27.37" NOx_abs="585.59" fuel_abs="98957.30" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_130_0" depart="0.00" departLane="121_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="226.50" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="13.66" duration="226.50" routeLength="1055.10" waitingTime="64.00" waitingCount="1" stopTime="60.00" timeLoss="71.49" rerouteNo="0" devices="tripinfo_bus_130_0 emissions_bus_130_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2691.31" CO2_abs="2422612.69" HC_abs="1087.16" PMx_abs="331.13" NOx_abs="20267.79" fuel_abs="763027.47" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_13" depart="33.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="226.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.36" duration="193.50" routeLength="1413.55" waitingTime="65.50" waitingCount="1" stopTime="0.00" timeLoss="98.65" rerouteNo="0" devices="tripinfo_Costa_12_13 emissions_Costa_12_13" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3416.93" CO2_abs="329595.47" HC_abs="104.53" PMx_abs="31.19" NOx_abs="635.36" fuel_abs="103809.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_11" depart="50.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="226.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.35" duration="176.50" routeLength="1629.80" waitingTime="44.50" waitingCount="1" stopTime="0.00" timeLoss="64.15" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_11 emissions_Vittorio_Veneto_2_11" vType="passenger1" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="3371.66" CO2_abs="344401.22" HC_abs="101.03" PMx_abs="32.74" NOx_abs="668.50" fuel_abs="108472.96" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_14" depart="36.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="228.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.55" duration="192.00" routeLength="1413.55" waitingTime="63.50" waitingCount="1" stopTime="0.00" timeLoss="94.26" rerouteNo="0" devices="tripinfo_Costa_12_14 emissions_Costa_12_14" vType="passenger3" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="3367.05" CO2_abs="326107.52" HC_abs="102.79" PMx_abs="30.83" NOx_abs="628.20" fuel_abs="102711.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_700_16" depart="41.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="228.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="14.04" duration="187.00" routeLength="2147.44" waitingTime="12.00" waitingCount="1" stopTime="0.00" timeLoss="34.26" rerouteNo="0" devices="tripinfo_Costa_700_16 emissions_Costa_700_16" vType="passenger2b" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="3946.29" CO2_abs="413602.51" HC_abs="112.87" PMx_abs="40.43" NOx_abs="814.26" fuel_abs="130268.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_18" depart="47.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="229.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.41" duration="182.50" routeLength="1416.38" waitingTime="58.50" waitingCount="1" stopTime="0.00" timeLoss="88.51" rerouteNo="0" devices="tripinfo_Costa_12_18 emissions_Costa_12_18" vType="passenger1" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="3538.32" CO2_abs="331827.72" HC_abs="104.39" PMx_abs="32.03" NOx_abs="646.12" fuel_abs="104512.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_9_13" depart="20.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="2.50" arrival="230.50" arrivalLane="54_1" arrivalPos="300.28" arrivalSpeed="13.59" duration="210.00" routeLength="1803.37" waitingTime="55.00" waitingCount="2" stopTime="0.00" timeLoss="81.47" rerouteNo="0" devices="tripinfo_Togliatti_9_13 emissions_Togliatti_9_13" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3051.47" CO2_abs="353519.22" HC_abs="102.34" PMx_abs="30.83" NOx_abs="664.78" fuel_abs="111344.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_23" depart="60.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="231.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.82" duration="171.50" routeLength="1416.38" waitingTime="42.00" waitingCount="1" stopTime="0.00" timeLoss="69.74" rerouteNo="0" devices="tripinfo_Costa_12_23 emissions_Costa_12_23" vType="passenger2b" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="3152.38" CO2_abs="316816.05" HC_abs="95.15" PMx_abs="30.39" NOx_abs="613.47" fuel_abs="99784.68" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Turati_3_3" depart="104.00" departLane="195_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="231.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.45" duration="127.50" routeLength="947.57" waitingTime="46.00" waitingCount="1" stopTime="0.00" timeLoss="58.02" rerouteNo="0" devices="tripinfo_Turati_3_3 emissions_Turati_3_3" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2143.41" CO2_abs="223326.99" HC_abs="68.70" PMx_abs="20.38" NOx_abs="424.18" fuel_abs="70339.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_24" depart="62.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="233.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.83" duration="170.50" routeLength="1416.38" waitingTime="40.50" waitingCount="1" stopTime="0.00" timeLoss="81.87" rerouteNo="0" devices="tripinfo_Costa_12_24 emissions_Costa_12_24" vType="passenger1" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="3795.68" CO2_abs="329709.39" HC_abs="104.10" PMx_abs="34.00" NOx_abs="658.02" fuel_abs="103845.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_7" depart="10.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="233.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="15.41" duration="223.00" routeLength="1965.34" waitingTime="69.00" waitingCount="3" stopTime="0.00" timeLoss="96.00" rerouteNo="0" devices="tripinfo_Togliatti_10_7 emissions_Togliatti_10_7" vType="passenger2a" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="4101.55" CO2_abs="423307.33" HC_abs="126.00" PMx_abs="39.25" NOx_abs="815.46" fuel_abs="133325.32" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_12" depart="20.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="233.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.70" duration="213.50" routeLength="1941.55" waitingTime="47.50" waitingCount="2" stopTime="0.00" timeLoss="71.37" rerouteNo="0" devices="tripinfo_Pepoli_3_12 emissions_Pepoli_3_12" vType="ignoring5" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3103.74" CO2_abs="391719.13" HC_abs="107.95" PMx_abs="33.64" NOx_abs="732.96" fuel_abs="123376.26" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_29" depart="75.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="234.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.23" duration="159.00" routeLength="1413.55" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="65.11" rerouteNo="0" devices="tripinfo_Costa_12_29 emissions_Costa_12_29" vType="passenger2a" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="3706.68" CO2_abs="327856.66" HC_abs="100.73" PMx_abs="34.43" NOx_abs="656.55" fuel_abs="103262.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_14" depart="24.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="235.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.62" duration="211.00" routeLength="1941.55" waitingTime="40.00" waitingCount="2" stopTime="0.00" timeLoss="69.19" rerouteNo="0" devices="tripinfo_Pepoli_3_14 emissions_Pepoli_3_14" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3252.42" CO2_abs="384926.75" HC_abs="107.41" PMx_abs="34.09" NOx_abs="728.33" fuel_abs="121236.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_810_0" depart="4.00" departLane="121_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="236.00" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="13.75" duration="232.00" routeLength="1055.10" waitingTime="56.00" waitingCount="3" stopTime="60.00" timeLoss="73.33" rerouteNo="0" devices="tripinfo_bus_810_0 emissions_bus_810_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2613.55" CO2_abs="2385877.05" HC_abs="1071.21" PMx_abs="324.95" NOx_abs="19896.42" fuel_abs="751457.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_9" depart="13.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="237.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="13.86" duration="224.50" routeLength="1960.85" waitingTime="57.50" waitingCount="3" stopTime="0.00" timeLoss="86.50" rerouteNo="0" devices="tripinfo_Togliatti_10_9 emissions_Togliatti_10_9" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="3317.09" CO2_abs="400243.80" HC_abs="112.92" PMx_abs="34.74" NOx_abs="750.36" fuel_abs="126061.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_12" depart="18.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="238.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="14.46" duration="220.50" routeLength="1965.34" waitingTime="61.50" waitingCount="2" stopTime="0.00" timeLoss="84.49" rerouteNo="0" devices="tripinfo_Togliatti_10_12 emissions_Togliatti_10_12" vType="passenger2b" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="3305.61" CO2_abs="390574.61" HC_abs="111.23" PMx_abs="34.08" NOx_abs="735.20" fuel_abs="123015.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_6" depart="21.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="239.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.48" duration="218.00" routeLength="1343.82" waitingTime="80.00" waitingCount="3" stopTime="0.00" timeLoss="113.26" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_6 emissions_XXI_Aprile_12_6" vType="passenger1" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="3260.80" CO2_abs="331253.01" HC_abs="107.82" PMx_abs="29.36" NOx_abs="622.15" fuel_abs="104331.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_43" depart="74.50" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="239.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.36" duration="164.50" routeLength="1941.55" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="22.66" rerouteNo="0" devices="tripinfo_Pepoli_3_43 emissions_Pepoli_3_43" vType="ignoring2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3170.11" CO2_abs="351026.45" HC_abs="92.79" PMx_abs="33.99" NOx_abs="687.33" fuel_abs="110559.65" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_50_6" depart="16.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="239.50" arrivalLane="60_0" arrivalPos="208.90" arrivalSpeed="13.21" duration="223.50" routeLength="2260.66" waitingTime="22.50" waitingCount="2" stopTime="0.00" timeLoss="47.57" rerouteNo="0" devices="tripinfo_Costa_50_6 emissions_Costa_50_6" vType="passenger2a" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="4059.73" CO2_abs="450580.63" HC_abs="123.50" PMx_abs="43.30" NOx_abs="872.82" fuel_abs="141915.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_50_8" depart="20.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="241.00" arrivalLane="60_0" arrivalPos="208.90" arrivalSpeed="14.86" duration="220.50" routeLength="2260.66" waitingTime="18.00" waitingCount="1" stopTime="0.00" timeLoss="70.97" rerouteNo="0" devices="tripinfo_Costa_50_8 emissions_Costa_50_8" vType="passenger2a" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="5461.27" CO2_abs="486316.14" HC_abs="143.52" PMx_abs="51.89" NOx_abs="983.42" fuel_abs="153170.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_10" depart="35.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="241.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.52" duration="206.00" routeLength="1343.82" waitingTime="60.50" waitingCount="3" stopTime="0.00" timeLoss="104.56" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_10 emissions_XXI_Aprile_12_10" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="3383.76" CO2_abs="328372.03" HC_abs="105.63" PMx_abs="30.50" NOx_abs="628.09" fuel_abs="103424.34" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_28" depart="43.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="4.50" arrival="243.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="13.39" duration="200.00" routeLength="1965.34" waitingTime="28.50" waitingCount="1" stopTime="0.00" timeLoss="56.28" rerouteNo="0" devices="tripinfo_Togliatti_10_28 emissions_Togliatti_10_28" vType="passenger1" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="2713.25" CO2_abs="348140.43" HC_abs="93.21" PMx_abs="29.91" NOx_abs="653.52" fuel_abs="109650.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_11" depart="39.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="243.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.39" duration="204.50" routeLength="1343.82" waitingTime="54.00" waitingCount="2" stopTime="0.00" timeLoss="103.05" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_11 emissions_XXI_Aprile_12_11" vType="passenger4" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="3270.88" CO2_abs="318580.53" HC_abs="101.94" PMx_abs="29.76" NOx_abs="609.91" fuel_abs="100340.40" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_21" depart="75.50" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="245.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.72" duration="169.50" routeLength="1343.82" waitingTime="22.00" waitingCount="2" stopTime="0.00" timeLoss="78.64" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_21 emissions_XXI_Aprile_12_21" vType="passenger2b" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="3206.33" CO2_abs="305872.40" HC_abs="93.34" PMx_abs="30.03" NOx_abs="598.75" fuel_abs="96337.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_23" depart="81.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="247.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.74" duration="166.50" routeLength="1343.82" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="62.61" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_23 emissions_XXI_Aprile_12_23" vType="passenger2b" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2954.13" CO2_abs="293469.62" HC_abs="87.53" PMx_abs="28.66" NOx_abs="572.03" fuel_abs="92431.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_94_3" depart="10.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="248.00" arrivalLane="54_1" arrivalPos="300.28" arrivalSpeed="13.97" duration="238.00" routeLength="2177.58" waitingTime="50.50" waitingCount="2" stopTime="0.00" timeLoss="81.09" rerouteNo="0" devices="tripinfo_XXI_Aprile_94_3 emissions_XXI_Aprile_94_3" vType="passenger4" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3700.47" CO2_abs="439749.65" HC_abs="123.27" PMx_abs="38.49" NOx_abs="829.87" fuel_abs="138503.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_9_21" depart="31.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="2.50" arrival="248.00" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="11.08" duration="216.50" routeLength="1803.37" waitingTime="36.00" waitingCount="1" stopTime="0.00" timeLoss="59.05" rerouteNo="0" devices="tripinfo_Togliatti_9_21 emissions_Togliatti_9_21" vType="passenger1" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="2111.31" CO2_abs="320163.45" HC_abs="85.95" PMx_abs="25.29" NOx_abs="577.64" fuel_abs="100838.98" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_86" depart="147.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="248.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="11.41" duration="101.50" routeLength="692.71" waitingTime="30.00" waitingCount="1" stopTime="0.00" timeLoss="42.44" rerouteNo="0" devices="tripinfo_Pepoli_8_86 emissions_Pepoli_8_86" vType="passenger3" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1204.22" CO2_abs="146248.31" HC_abs="44.61" PMx_abs="12.06" NOx_abs="267.87" fuel_abs="46062.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_10" depart="15.50" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="249.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="12.68" duration="233.50" routeLength="1965.34" waitingTime="50.50" waitingCount="3" stopTime="0.00" timeLoss="81.11" rerouteNo="0" devices="tripinfo_Togliatti_10_10 emissions_Togliatti_10_10" vType="passenger3" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2887.15" CO2_abs="373669.36" HC_abs="104.94" PMx_abs="31.05" NOx_abs="689.91" fuel_abs="117691.27" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_44" depart="103.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="249.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.50" duration="146.00" routeLength="1114.25" waitingTime="61.00" waitingCount="1" stopTime="0.00" timeLoss="71.24" rerouteNo="0" devices="tripinfo_Silvani_11_44 emissions_Silvani_11_44" vType="passenger2b" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2231.72" CO2_abs="239154.82" HC_abs="74.09" PMx_abs="20.67" NOx_abs="449.03" fuel_abs="75324.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_91" depart="156.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="250.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="11.84" duration="94.00" routeLength="692.71" waitingTime="23.00" waitingCount="1" stopTime="0.00" timeLoss="36.78" rerouteNo="0" devices="tripinfo_Pepoli_8_91 emissions_Pepoli_8_91" vType="passenger2a" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1210.83" CO2_abs="145929.65" HC_abs="43.03" PMx_abs="12.53" NOx_abs="270.18" fuel_abs="45962.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_41" depart="107.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="250.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.79" duration="143.50" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="31.53" rerouteNo="0" devices="tripinfo_Costa_12_41 emissions_Costa_12_41" vType="passenger1" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2539.68" CO2_abs="280035.85" HC_abs="76.48" PMx_abs="26.85" NOx_abs="543.78" fuel_abs="88200.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Audinot_3_5" depart="107.00" departLane="131_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="251.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.54" duration="144.50" routeLength="1720.01" waitingTime="4.50" waitingCount="1" stopTime="0.00" timeLoss="18.51" rerouteNo="0" devices="tripinfo_Audinot_3_5 emissions_Audinot_3_5" vType="ignoring2b" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2821.10" CO2_abs="321415.81" HC_abs="83.99" PMx_abs="30.87" NOx_abs="625.78" fuel_abs="101233.46" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_10_20" depart="29.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="252.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="13.52" duration="223.00" routeLength="1965.34" waitingTime="42.00" waitingCount="4" stopTime="0.00" timeLoss="77.70" rerouteNo="0" devices="tripinfo_Togliatti_10_20 emissions_Togliatti_10_20" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="3075.09" CO2_abs="372796.17" HC_abs="104.59" PMx_abs="32.65" NOx_abs="699.78" fuel_abs="117416.26" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_46" depart="120.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="252.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.45" duration="132.00" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="33.48" rerouteNo="0" devices="tripinfo_Costa_12_46 emissions_Costa_12_46" vType="passenger4" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="2598.86" CO2_abs="266907.92" HC_abs="74.04" PMx_abs="26.27" NOx_abs="526.20" fuel_abs="84065.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_22" depart="51.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="253.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="16.01" duration="202.50" routeLength="1454.90" waitingTime="76.50" waitingCount="2" stopTime="0.00" timeLoss="113.31" rerouteNo="0" devices="tripinfo_Silvani_7_22 emissions_Silvani_7_22" vType="passenger1" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="3437.56" CO2_abs="347709.22" HC_abs="109.50" PMx_abs="31.17" NOx_abs="660.95" fuel_abs="109514.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_49" depart="128.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="253.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.79" duration="125.50" routeLength="1416.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="37.00" rerouteNo="0" devices="tripinfo_Costa_12_49 emissions_Costa_12_49" vType="passenger2b" speedFactor="1.19" vaporized="">
+        <emissions CO_abs="3108.05" CO2_abs="285206.84" HC_abs="81.22" PMx_abs="30.43" NOx_abs="577.53" fuel_abs="89829.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_49" depart="115.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="254.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.42" duration="139.00" routeLength="1114.25" waitingTime="40.50" waitingCount="1" stopTime="0.00" timeLoss="64.66" rerouteNo="0" devices="tripinfo_Silvani_11_49 emissions_Silvani_11_49" vType="passenger3" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="1704.65" CO2_abs="217662.56" HC_abs="62.67" PMx_abs="17.70" NOx_abs="400.41" fuel_abs="68555.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_50_20" depart="52.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="254.50" arrivalLane="60_0" arrivalPos="208.90" arrivalSpeed="12.31" duration="202.50" routeLength="2260.66" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.34" rerouteNo="0" devices="tripinfo_Costa_50_20 emissions_Costa_50_20" vType="passenger1" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="3281.79" CO2_abs="412803.21" HC_abs="105.11" PMx_abs="38.08" NOx_abs="789.86" fuel_abs="130016.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_87_120" depart="120.00" departLane="55_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="254.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.49" duration="134.50" routeLength="1058.08" waitingTime="0.00" waitingCount="0" stopTime="40.00" timeLoss="7.15" rerouteNo="0" devices="tripinfo_bus_87_120 emissions_bus_87_120" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1932.27" CO2_abs="1904139.63" HC_abs="663.20" PMx_abs="234.11" NOx_abs="15359.29" fuel_abs="599728.88" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_50_22" depart="57.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="256.00" arrivalLane="60_0" arrivalPos="208.90" arrivalSpeed="14.43" duration="199.00" routeLength="2260.66" waitingTime="2.00" waitingCount="1" stopTime="0.00" timeLoss="45.52" rerouteNo="0" devices="tripinfo_Costa_50_22 emissions_Costa_50_22" vType="passenger5" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="3996.79" CO2_abs="424291.79" HC_abs="115.32" PMx_abs="41.01" NOx_abs="833.52" fuel_abs="133635.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_28" depart="66.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="256.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="14.24" duration="190.00" routeLength="1454.90" waitingTime="64.00" waitingCount="2" stopTime="0.00" timeLoss="88.66" rerouteNo="0" devices="tripinfo_Silvani_7_28 emissions_Silvani_7_28" vType="passenger2b" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2967.22" CO2_abs="315712.75" HC_abs="96.75" PMx_abs="28.32" NOx_abs="597.47" fuel_abs="99437.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_30" depart="70.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="256.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="14.49" duration="186.50" routeLength="1454.90" waitingTime="56.00" waitingCount="2" stopTime="0.00" timeLoss="90.17" rerouteNo="0" devices="tripinfo_Silvani_7_30 emissions_Silvani_7_30" vType="passenger2a" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="3273.13" CO2_abs="334532.67" HC_abs="101.87" PMx_abs="30.98" NOx_abs="640.44" fuel_abs="105364.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_35" depart="82.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="258.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.89" duration="176.00" routeLength="1454.90" waitingTime="56.00" waitingCount="1" stopTime="0.00" timeLoss="75.20" rerouteNo="0" devices="tripinfo_Silvani_7_35 emissions_Silvani_7_35" vType="passenger1" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2453.90" CO2_abs="294168.37" HC_abs="85.11" PMx_abs="25.13" NOx_abs="547.80" fuel_abs="92651.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_37" depart="87.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="258.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="16.87" duration="171.00" routeLength="1454.90" waitingTime="51.50" waitingCount="1" stopTime="0.00" timeLoss="87.85" rerouteNo="0" devices="tripinfo_Silvani_7_37 emissions_Silvani_7_37" vType="passenger3" speedFactor="1.26" vaporized="">
+        <emissions CO_abs="3575.74" CO2_abs="326490.73" HC_abs="101.93" PMx_abs="32.23" NOx_abs="642.71" fuel_abs="102831.84" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_112" depart="192.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="258.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="14.43" duration="66.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="17.89" rerouteNo="0" devices="tripinfo_Pepoli_8_112 emissions_Pepoli_8_112" vType="passenger2a" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1490.43" CO2_abs="143151.79" HC_abs="40.58" PMx_abs="14.85" NOx_abs="286.08" fuel_abs="45087.23" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_21" depart="49.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="258.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.84" duration="209.50" routeLength="1451.40" waitingTime="75.50" waitingCount="2" stopTime="0.00" timeLoss="101.05" rerouteNo="0" devices="tripinfo_Silvani_7_21 emissions_Silvani_7_21" vType="passenger2b" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3096.17" CO2_abs="320680.38" HC_abs="101.57" PMx_abs="28.76" NOx_abs="604.07" fuel_abs="101001.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_86_60" depart="60.00" departLane="55_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="259.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.57" duration="199.50" routeLength="1058.08" waitingTime="61.00" waitingCount="2" stopTime="40.00" timeLoss="69.42" rerouteNo="0" devices="tripinfo_bus_86_60 emissions_bus_86_60" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2399.83" CO2_abs="2008868.49" HC_abs="925.42" PMx_abs="283.25" NOx_abs="17056.23" fuel_abs="632714.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_79" depart="112.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="259.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.87" duration="147.50" routeLength="909.95" waitingTime="68.00" waitingCount="1" stopTime="0.00" timeLoss="81.33" rerouteNo="0" devices="tripinfo_Togliatti_12_79 emissions_Togliatti_12_79" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2309.91" CO2_abs="235704.77" HC_abs="76.88" PMx_abs="20.74" NOx_abs="441.66" fuel_abs="74237.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_104_5" depart="17.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="260.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="13.85" duration="243.00" routeLength="2335.06" waitingTime="33.00" waitingCount="3" stopTime="0.00" timeLoss="72.97" rerouteNo="0" devices="tripinfo_XXI_Aprile_104_5 emissions_XXI_Aprile_104_5" vType="passenger4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3848.24" CO2_abs="461041.09" HC_abs="126.13" PMx_abs="40.94" NOx_abs="875.13" fuel_abs="145209.97" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_31" depart="73.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="260.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="15.76" duration="187.00" routeLength="1451.40" waitingTime="55.50" waitingCount="1" stopTime="0.00" timeLoss="95.59" rerouteNo="0" devices="tripinfo_Silvani_7_31 emissions_Silvani_7_31" vType="passenger1" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="3554.23" CO2_abs="336552.08" HC_abs="104.93" PMx_abs="32.31" NOx_abs="655.00" fuel_abs="106000.76" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_72_5" depart="7.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="261.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="14.26" duration="254.00" routeLength="2323.72" waitingTime="48.50" waitingCount="2" stopTime="0.00" timeLoss="89.27" rerouteNo="0" devices="tripinfo_Togliatti_72_5 emissions_Togliatti_72_5" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="4505.14" CO2_abs="478992.28" HC_abs="138.09" PMx_abs="45.04" NOx_abs="924.69" fuel_abs="150863.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_36" depart="84.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="261.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.57" duration="177.00" routeLength="1454.90" waitingTime="54.00" waitingCount="1" stopTime="0.00" timeLoss="73.60" rerouteNo="0" devices="tripinfo_Silvani_7_36 emissions_Silvani_7_36" vType="passenger2a" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2424.67" CO2_abs="282629.31" HC_abs="83.56" PMx_abs="23.82" NOx_abs="527.34" fuel_abs="89017.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_46" depart="108.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="261.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="11.71" duration="153.00" routeLength="1114.25" waitingTime="50.50" waitingCount="1" stopTime="0.00" timeLoss="62.59" rerouteNo="0" devices="tripinfo_Silvani_11_46 emissions_Silvani_11_46" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1617.12" CO2_abs="219417.81" HC_abs="64.18" PMx_abs="17.06" NOx_abs="394.50" fuel_abs="69108.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_53" depart="125.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="261.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="13.59" duration="136.50" routeLength="1114.25" waitingTime="38.00" waitingCount="1" stopTime="0.00" timeLoss="55.65" rerouteNo="0" devices="tripinfo_Silvani_11_53 emissions_Silvani_11_53" vType="passenger2b" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="1779.06" CO2_abs="218793.56" HC_abs="63.08" PMx_abs="18.26" NOx_abs="405.58" fuel_abs="68911.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_860_0" depart="8.00" departLane="121_0" departPos="0.00" departSpeed="0.00" departDelay="8.00" arrival="262.50" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="13.26" duration="254.50" routeLength="1055.10" waitingTime="67.00" waitingCount="4" stopTime="60.00" timeLoss="87.29" rerouteNo="0" devices="tripinfo_bus_860_0 emissions_bus_860_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2646.52" CO2_abs="2449120.37" HC_abs="1139.94" PMx_abs="336.55" NOx_abs="20425.20" fuel_abs="771376.35" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_47" depart="110.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="262.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.50" duration="152.00" routeLength="1114.25" waitingTime="48.50" waitingCount="1" stopTime="0.00" timeLoss="63.46" rerouteNo="0" devices="tripinfo_Silvani_11_47 emissions_Silvani_11_47" vType="passenger2a" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="1938.60" CO2_abs="225737.75" HC_abs="68.57" PMx_abs="19.03" NOx_abs="417.57" fuel_abs="71098.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_83" depart="118.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="262.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.01" duration="144.50" routeLength="909.95" waitingTime="61.00" waitingCount="1" stopTime="0.00" timeLoss="78.06" rerouteNo="0" devices="tripinfo_Togliatti_12_83 emissions_Togliatti_12_83" vType="passenger3" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2393.02" CO2_abs="235440.46" HC_abs="76.40" PMx_abs="21.64" NOx_abs="446.23" fuel_abs="74154.55" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_27" depart="70.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="263.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="13.34" duration="193.50" routeLength="2101.62" waitingTime="7.50" waitingCount="1" stopTime="0.00" timeLoss="40.95" rerouteNo="0" devices="tripinfo_Costa_70_27 emissions_Costa_70_27" vType="passenger3" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3118.59" CO2_abs="373664.49" HC_abs="98.19" PMx_abs="33.99" NOx_abs="715.99" fuel_abs="117689.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_52" depart="122.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="263.50" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.03" duration="141.00" routeLength="1114.25" waitingTime="39.00" waitingCount="1" stopTime="0.00" timeLoss="59.01" rerouteNo="0" devices="tripinfo_Silvani_11_52 emissions_Silvani_11_52" vType="passenger3" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2031.64" CO2_abs="227906.18" HC_abs="67.98" PMx_abs="20.00" NOx_abs="428.61" fuel_abs="71781.55" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_26" depart="61.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="264.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.19" duration="203.00" routeLength="1451.40" waitingTime="55.50" waitingCount="2" stopTime="0.00" timeLoss="85.73" rerouteNo="0" devices="tripinfo_Silvani_7_26 emissions_Silvani_7_26" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2202.94" CO2_abs="291486.40" HC_abs="85.39" PMx_abs="23.05" NOx_abs="527.42" fuel_abs="91806.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_58" depart="136.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="264.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="13.22" duration="128.00" routeLength="1114.25" waitingTime="25.00" waitingCount="2" stopTime="0.00" timeLoss="44.49" rerouteNo="0" devices="tripinfo_Silvani_11_58 emissions_Silvani_11_58" vType="passenger3" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="1786.03" CO2_abs="221120.68" HC_abs="61.50" PMx_abs="19.25" NOx_abs="413.88" fuel_abs="69644.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_109" depart="155.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="264.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.65" duration="109.50" routeLength="909.95" waitingTime="25.00" waitingCount="1" stopTime="0.00" timeLoss="44.09" rerouteNo="0" devices="tripinfo_Togliatti_12_109 emissions_Togliatti_12_109" vType="passenger1" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2181.17" CO2_abs="208557.78" HC_abs="63.86" PMx_abs="20.28" NOx_abs="407.75" fuel_abs="65687.55" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_40" depart="94.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="265.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="15.31" duration="171.00" routeLength="1454.90" waitingTime="51.00" waitingCount="1" stopTime="0.00" timeLoss="78.57" rerouteNo="0" devices="tripinfo_Silvani_7_40 emissions_Silvani_7_40" vType="passenger1" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="2505.92" CO2_abs="284998.45" HC_abs="83.71" PMx_abs="24.68" NOx_abs="536.18" fuel_abs="89763.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_2_41" depart="145.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="265.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="11.91" duration="120.50" routeLength="976.81" waitingTime="18.50" waitingCount="2" stopTime="0.00" timeLoss="39.73" rerouteNo="0" devices="tripinfo_XXI_Aprile_2_41 emissions_XXI_Aprile_2_41" vType="passenger3" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1986.31" CO2_abs="211557.70" HC_abs="62.47" PMx_abs="19.66" NOx_abs="405.30" fuel_abs="66632.40" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_110" depart="157.50" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="266.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="14.09" duration="108.50" routeLength="909.95" waitingTime="24.00" waitingCount="1" stopTime="0.00" timeLoss="45.20" rerouteNo="0" devices="tripinfo_Togliatti_12_110 emissions_Togliatti_12_110" vType="passenger2a" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2265.19" CO2_abs="213488.10" HC_abs="65.00" PMx_abs="21.40" NOx_abs="420.46" fuel_abs="67240.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_42" depart="99.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="266.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="13.67" duration="167.50" routeLength="1458.40" waitingTime="50.50" waitingCount="1" stopTime="0.00" timeLoss="61.13" rerouteNo="0" devices="tripinfo_Silvani_7_42 emissions_Silvani_7_42" vType="passenger3" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="1979.09" CO2_abs="273167.76" HC_abs="75.53" PMx_abs="22.03" NOx_abs="499.29" fuel_abs="86037.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_26" depart="67.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="267.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="14.18" duration="199.50" routeLength="2101.62" waitingTime="9.50" waitingCount="1" stopTime="0.00" timeLoss="49.83" rerouteNo="0" devices="tripinfo_Costa_70_26 emissions_Costa_70_26" vType="passenger2a" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3301.19" CO2_abs="383080.08" HC_abs="103.06" PMx_abs="35.25" NOx_abs="737.19" fuel_abs="120655.27" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_19" depart="44.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="267.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.29" duration="223.50" routeLength="1451.40" waitingTime="66.50" waitingCount="2" stopTime="0.00" timeLoss="98.41" rerouteNo="0" devices="tripinfo_Silvani_7_19 emissions_Silvani_7_19" vType="passenger3" speedFactor="0.84" vaporized="">
+        <emissions CO_abs="2238.50" CO2_abs="298224.67" HC_abs="90.04" PMx_abs="23.25" NOx_abs="533.94" fuel_abs="93929.11" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_29" depart="68.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="268.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="14.34" duration="200.00" routeLength="1451.40" waitingTime="59.00" waitingCount="1" stopTime="0.00" timeLoss="100.29" rerouteNo="0" devices="tripinfo_Silvani_7_29 emissions_Silvani_7_29" vType="passenger2a" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="3238.46" CO2_abs="326647.73" HC_abs="101.84" PMx_abs="30.56" NOx_abs="624.45" fuel_abs="102881.26" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_66" depart="155.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="268.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.07" duration="113.00" routeLength="1114.25" waitingTime="15.00" waitingCount="1" stopTime="0.00" timeLoss="31.30" rerouteNo="0" devices="tripinfo_Silvani_11_66 emissions_Silvani_11_66" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1531.58" CO2_abs="205571.88" HC_abs="54.12" PMx_abs="17.44" NOx_abs="383.12" fuel_abs="64747.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_123" depart="210.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="269.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="12.90" duration="59.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.84" rerouteNo="0" devices="tripinfo_Pepoli_8_123 emissions_Pepoli_8_123" vType="passenger1" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="995.51" CO2_abs="128868.78" HC_abs="32.30" PMx_abs="11.63" NOx_abs="245.62" fuel_abs="40588.64" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_75" depart="176.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="269.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="14.80" duration="93.00" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="19.13" rerouteNo="0" devices="tripinfo_Silvani_11_75 emissions_Silvani_11_75" vType="passenger2a" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1904.00" CO2_abs="208139.73" HC_abs="55.23" PMx_abs="20.26" NOx_abs="409.00" fuel_abs="65555.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_72" depart="169.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="270.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="14.02" duration="100.50" routeLength="1114.25" waitingTime="5.00" waitingCount="1" stopTime="0.00" timeLoss="20.81" rerouteNo="0" devices="tripinfo_Silvani_11_72 emissions_Silvani_11_72" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1403.55" CO2_abs="195579.53" HC_abs="48.96" PMx_abs="16.84" NOx_abs="366.83" fuel_abs="61599.94" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_80" depart="188.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="271.00" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="16.79" duration="82.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.99" rerouteNo="0" devices="tripinfo_Silvani_11_80 emissions_Silvani_11_80" vType="passenger3" speedFactor="1.21" vaporized="">
+        <emissions CO_abs="1948.00" CO2_abs="203696.23" HC_abs="53.66" PMx_abs="19.97" NOx_abs="404.27" fuel_abs="64156.40" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_113" depart="160.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="271.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.79" duration="111.50" routeLength="909.95" waitingTime="20.50" waitingCount="1" stopTime="0.00" timeLoss="38.86" rerouteNo="0" devices="tripinfo_Togliatti_12_113 emissions_Togliatti_12_113" vType="passenger1" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="1697.25" CO2_abs="193828.82" HC_abs="56.18" PMx_abs="17.27" NOx_abs="366.35" fuel_abs="61048.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_6" depart="8.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="272.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="12.20" duration="264.00" routeLength="2030.48" waitingTime="74.50" waitingCount="3" stopTime="0.00" timeLoss="99.25" rerouteNo="0" devices="tripinfo_Togliatti_71_6 emissions_Togliatti_71_6" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2868.98" CO2_abs="396571.49" HC_abs="112.88" PMx_abs="31.63" NOx_abs="718.31" fuel_abs="124904.54" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_17" depart="24.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="272.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="12.48" duration="248.00" routeLength="2025.50" waitingTime="61.50" waitingCount="2" stopTime="0.00" timeLoss="89.97" rerouteNo="0" devices="tripinfo_Togliatti_71_17 emissions_Togliatti_71_17" vType="passenger3" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2921.57" CO2_abs="385047.99" HC_abs="109.11" PMx_abs="31.35" NOx_abs="706.32" fuel_abs="121275.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_38" depart="89.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="272.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.57" duration="183.50" routeLength="1454.90" waitingTime="50.00" waitingCount="1" stopTime="0.00" timeLoss="63.23" rerouteNo="0" devices="tripinfo_Silvani_7_38 emissions_Silvani_7_38" vType="passenger1" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1749.93" CO2_abs="266896.03" HC_abs="74.21" PMx_abs="20.27" NOx_abs="476.93" fuel_abs="84061.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_62" depart="146.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="272.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.83" duration="126.50" routeLength="1114.25" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="32.98" rerouteNo="0" devices="tripinfo_Silvani_11_62 emissions_Silvani_11_62" vType="passenger2b" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="1356.67" CO2_abs="203275.54" HC_abs="54.02" PMx_abs="16.29" NOx_abs="370.03" fuel_abs="64023.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_80_26" depart="39.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="273.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="14.69" duration="234.00" routeLength="1730.07" waitingTime="77.00" waitingCount="3" stopTime="0.00" timeLoss="119.78" rerouteNo="0" devices="tripinfo_Togliatti_80_26 emissions_Togliatti_80_26" vType="passenger1" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3577.78" CO2_abs="379255.11" HC_abs="116.56" PMx_abs="33.80" NOx_abs="716.31" fuel_abs="119450.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_67" depart="158.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="273.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.16" duration="115.00" routeLength="1114.25" waitingTime="13.00" waitingCount="1" stopTime="0.00" timeLoss="30.06" rerouteNo="0" devices="tripinfo_Silvani_11_67 emissions_Silvani_11_67" vType="passenger4" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="1429.46" CO2_abs="199143.75" HC_abs="52.46" PMx_abs="16.44" NOx_abs="368.86" fuel_abs="62722.52" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_124" depart="176.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="273.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.25" duration="97.00" routeLength="909.95" waitingTime="7.50" waitingCount="1" stopTime="0.00" timeLoss="26.54" rerouteNo="0" devices="tripinfo_Togliatti_12_124 emissions_Togliatti_12_124" vType="passenger2a" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1982.05" CO2_abs="194791.97" HC_abs="56.42" PMx_abs="19.85" NOx_abs="384.81" fuel_abs="61351.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_3" depart="5.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="273.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="12.54" duration="268.50" routeLength="2025.50" waitingTime="87.00" waitingCount="3" stopTime="0.00" timeLoss="112.62" rerouteNo="0" devices="tripinfo_Togliatti_71_3 emissions_Togliatti_71_3" vType="passenger2b" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="3174.92" CO2_abs="404815.86" HC_abs="119.11" PMx_abs="32.93" NOx_abs="739.65" fuel_abs="127501.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_23" depart="105.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="274.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="15.11" duration="169.00" routeLength="1143.28" waitingTime="66.00" waitingCount="2" stopTime="0.00" timeLoss="94.90" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_23 emissions_Vittorio_Veneto_1_23" vType="passenger2a" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="2954.73" CO2_abs="283604.81" HC_abs="91.38" PMx_abs="26.76" NOx_abs="544.12" fuel_abs="89324.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_64" depart="150.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="274.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.47" duration="124.00" routeLength="1114.25" waitingTime="16.50" waitingCount="1" stopTime="0.00" timeLoss="31.00" rerouteNo="0" devices="tripinfo_Silvani_11_64 emissions_Silvani_11_64" vType="passenger3" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="1383.71" CO2_abs="197204.59" HC_abs="52.77" PMx_abs="16.02" NOx_abs="361.64" fuel_abs="62111.75" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_85" depart="121.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="274.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="14.26" duration="153.50" routeLength="1110.28" waitingTime="55.00" waitingCount="1" stopTime="0.00" timeLoss="75.52" rerouteNo="0" devices="tripinfo_Togliatti_3_85 emissions_Togliatti_3_85" vType="passenger2a" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="2653.88" CO2_abs="250259.92" HC_abs="80.44" PMx_abs="24.06" NOx_abs="483.63" fuel_abs="78822.10" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_71_19" depart="27.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="275.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.24" duration="248.00" routeLength="2025.50" waitingTime="56.50" waitingCount="2" stopTime="0.00" timeLoss="84.46" rerouteNo="0" devices="tripinfo_Togliatti_71_19 emissions_Togliatti_71_19" vType="passenger2b" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="2817.71" CO2_abs="374917.12" HC_abs="106.30" PMx_abs="30.55" NOx_abs="687.67" fuel_abs="118084.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_12_132" depart="187.00" departLane="85_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="275.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.54" duration="88.00" routeLength="909.95" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.89" rerouteNo="0" devices="tripinfo_Togliatti_12_132 emissions_Togliatti_12_132" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1775.96" CO2_abs="186249.81" HC_abs="51.65" PMx_abs="18.06" NOx_abs="365.27" fuel_abs="58661.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_76" depart="179.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="275.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="13.18" duration="96.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.79" rerouteNo="0" devices="tripinfo_Silvani_11_76 emissions_Silvani_11_76" vType="passenger5" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="1118.60" CO2_abs="187198.54" HC_abs="43.90" PMx_abs="15.15" NOx_abs="344.49" fuel_abs="58960.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_13" depart="59.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="276.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="13.41" duration="217.00" routeLength="1143.28" waitingTime="106.50" waitingCount="2" stopTime="0.00" timeLoss="130.07" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_13 emissions_Vittorio_Veneto_1_13" vType="passenger5" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2428.82" CO2_abs="281217.27" HC_abs="94.02" PMx_abs="21.86" NOx_abs="503.05" fuel_abs="88572.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_14" depart="64.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="276.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="14.32" duration="212.00" routeLength="1143.28" waitingTime="103.00" waitingCount="2" stopTime="0.00" timeLoss="133.41" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_14 emissions_Vittorio_Veneto_1_14" vType="passenger1" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="2755.60" CO2_abs="279785.26" HC_abs="96.42" PMx_abs="23.31" NOx_abs="514.09" fuel_abs="88121.42" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_77" depart="181.50" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="277.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="13.46" duration="95.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.26" rerouteNo="0" devices="tripinfo_Silvani_11_77 emissions_Silvani_11_77" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1430.73" CO2_abs="197612.14" HC_abs="48.68" PMx_abs="17.28" NOx_abs="373.57" fuel_abs="62240.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_12" depart="55.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="278.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="11.72" duration="223.00" routeLength="1143.28" waitingTime="108.50" waitingCount="2" stopTime="0.00" timeLoss="126.25" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_12 emissions_Vittorio_Veneto_1_12" vType="passenger1" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="2297.01" CO2_abs="281818.87" HC_abs="93.62" PMx_abs="21.39" NOx_abs="497.77" fuel_abs="88761.92" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_3_77" depart="204.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="280.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="12.79" duration="76.00" routeLength="850.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.03" rerouteNo="0" devices="tripinfo_Costa_3_77 emissions_Costa_3_77" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1398.04" CO2_abs="153557.42" HC_abs="41.31" PMx_abs="14.76" NOx_abs="299.76" fuel_abs="48364.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_79" depart="186.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="280.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.86" duration="94.50" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.99" rerouteNo="0" devices="tripinfo_Silvani_11_79 emissions_Silvani_11_79" vType="passenger4" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="1054.31" CO2_abs="174066.52" HC_abs="40.80" PMx_abs="14.09" NOx_abs="321.15" fuel_abs="54824.17" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_27" depart="46.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="286.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="13.02" duration="240.00" routeLength="1470.65" waitingTime="113.50" waitingCount="2" stopTime="0.00" timeLoss="128.81" rerouteNo="0" devices="tripinfo_Pepoli_10_27 emissions_Pepoli_10_27" vType="passenger3" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="2634.11" CO2_abs="321091.21" HC_abs="103.23" PMx_abs="25.01" NOx_abs="576.02" fuel_abs="101131.19" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_87" depart="123.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="286.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="12.69" duration="163.00" routeLength="1145.48" waitingTime="51.00" waitingCount="2" stopTime="0.00" timeLoss="75.09" rerouteNo="0" devices="tripinfo_Togliatti_2_87 emissions_Togliatti_2_87" vType="passenger2a" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2393.51" CO2_abs="251080.48" HC_abs="78.67" PMx_abs="22.73" NOx_abs="473.57" fuel_abs="79080.54" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_113_4" depart="14.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="287.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="15.03" duration="273.00" routeLength="2595.45" waitingTime="60.50" waitingCount="4" stopTime="0.00" timeLoss="99.85" rerouteNo="0" devices="tripinfo_XXI_Aprile_113_4 emissions_XXI_Aprile_113_4" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="4468.62" CO2_abs="512416.85" HC_abs="144.32" PMx_abs="45.74" NOx_abs="975.46" fuel_abs="161391.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_89" depart="128.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="287.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="15.00" duration="159.00" routeLength="1145.48" waitingTime="48.00" waitingCount="2" stopTime="0.00" timeLoss="83.39" rerouteNo="0" devices="tripinfo_Togliatti_2_89 emissions_Togliatti_2_89" vType="passenger4" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="2455.62" CO2_abs="250163.26" HC_abs="78.78" PMx_abs="22.29" NOx_abs="473.76" fuel_abs="78791.66" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_38" depart="65.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="288.00" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.16" duration="223.00" routeLength="1470.65" waitingTime="87.00" waitingCount="2" stopTime="0.00" timeLoss="121.19" rerouteNo="0" devices="tripinfo_Pepoli_10_38 emissions_Pepoli_10_38" vType="passenger2b" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2963.62" CO2_abs="319445.01" HC_abs="102.54" PMx_abs="27.16" NOx_abs="592.78" fuel_abs="100612.70" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_88" depart="125.50" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="288.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="12.69" duration="162.50" routeLength="1110.28" waitingTime="49.00" waitingCount="2" stopTime="0.00" timeLoss="73.74" rerouteNo="0" devices="tripinfo_Togliatti_3_88 emissions_Togliatti_3_88" vType="passenger1" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2087.89" CO2_abs="238048.11" HC_abs="73.63" PMx_abs="20.28" NOx_abs="440.29" fuel_abs="74975.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_34" depart="58.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="289.00" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="13.34" duration="231.00" routeLength="1470.65" waitingTime="95.50" waitingCount="2" stopTime="0.00" timeLoss="123.09" rerouteNo="0" devices="tripinfo_Pepoli_10_34 emissions_Pepoli_10_34" vType="passenger4" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2555.02" CO2_abs="313140.69" HC_abs="98.77" PMx_abs="24.37" NOx_abs="564.31" fuel_abs="98627.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_49" depart="84.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="289.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.64" duration="205.50" routeLength="1470.65" waitingTime="73.50" waitingCount="2" stopTime="0.00" timeLoss="105.70" rerouteNo="0" devices="tripinfo_Pepoli_10_49 emissions_Pepoli_10_49" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="3175.16" CO2_abs="329735.76" HC_abs="103.60" PMx_abs="29.16" NOx_abs="622.15" fuel_abs="103853.89" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_84" depart="198.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="290.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.49" duration="92.00" routeLength="1114.25" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.59" rerouteNo="0" devices="tripinfo_Silvani_11_84 emissions_Silvani_11_84" vType="passenger4" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="1014.23" CO2_abs="172459.72" HC_abs="39.86" PMx_abs="13.85" NOx_abs="317.46" fuel_abs="54318.10" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_40" depart="68.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="291.50" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="12.96" duration="223.50" routeLength="1470.65" waitingTime="84.50" waitingCount="2" stopTime="0.00" timeLoss="113.21" rerouteNo="0" devices="tripinfo_Pepoli_10_40 emissions_Pepoli_10_40" vType="passenger1" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2850.24" CO2_abs="321608.12" HC_abs="101.37" PMx_abs="26.80" NOx_abs="592.31" fuel_abs="101293.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_50" depart="85.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="291.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="15.61" duration="206.50" routeLength="1470.65" waitingTime="71.00" waitingCount="2" stopTime="0.00" timeLoss="112.90" rerouteNo="0" devices="tripinfo_Pepoli_10_50 emissions_Pepoli_10_50" vType="passenger2a" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="3427.28" CO2_abs="332185.92" HC_abs="106.24" PMx_abs="31.11" NOx_abs="636.77" fuel_abs="104625.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_31" depart="53.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="292.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.75" duration="239.00" routeLength="1470.65" waitingTime="97.50" waitingCount="2" stopTime="0.00" timeLoss="118.17" rerouteNo="0" devices="tripinfo_Pepoli_10_31 emissions_Pepoli_10_31" vType="passenger1" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="2300.64" CO2_abs="310603.17" HC_abs="96.30" PMx_abs="23.19" NOx_abs="548.24" fuel_abs="97827.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_31" depart="142.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="292.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="10.26" duration="150.00" routeLength="1143.28" waitingTime="28.50" waitingCount="1" stopTime="0.00" timeLoss="41.29" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_31 emissions_Vittorio_Veneto_1_31" vType="passenger3" speedFactor="0.77" vaporized="">
+        <emissions CO_abs="1471.48" CO2_abs="213936.96" HC_abs="59.47" PMx_abs="17.20" NOx_abs="385.62" fuel_abs="67381.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_1_44" depart="201.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="293.00" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="15.52" duration="92.00" routeLength="1143.28" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="17.64" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_1_44 emissions_Vittorio_Veneto_1_44" vType="passenger4" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="1603.88" CO2_abs="203312.64" HC_abs="50.89" PMx_abs="18.37" NOx_abs="390.48" fuel_abs="64035.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_64" depart="109.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="293.50" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="14.18" duration="184.50" routeLength="1470.65" waitingTime="57.50" waitingCount="1" stopTime="0.00" timeLoss="83.50" rerouteNo="0" devices="tripinfo_Pepoli_10_64 emissions_Pepoli_10_64" vType="passenger3" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="2799.04" CO2_abs="307743.78" HC_abs="92.38" PMx_abs="26.99" NOx_abs="580.42" fuel_abs="96927.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_101" depart="143.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="294.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.04" duration="151.50" routeLength="1145.48" waitingTime="41.50" waitingCount="2" stopTime="0.00" timeLoss="66.14" rerouteNo="0" devices="tripinfo_Togliatti_2_101 emissions_Togliatti_2_101" vType="passenger3" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="2358.10" CO2_abs="258230.22" HC_abs="78.08" PMx_abs="22.81" NOx_abs="486.90" fuel_abs="81332.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_33" depart="56.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="296.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="12.30" duration="240.00" routeLength="1470.65" waitingTime="92.00" waitingCount="2" stopTime="0.00" timeLoss="121.58" rerouteNo="0" devices="tripinfo_Pepoli_10_33 emissions_Pepoli_10_33" vType="passenger2b" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="2478.92" CO2_abs="314622.32" HC_abs="98.72" PMx_abs="24.17" NOx_abs="562.64" fuel_abs="99093.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_3_84" depart="219.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="296.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="11.95" duration="77.00" routeLength="850.23" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.73" rerouteNo="0" devices="tripinfo_Costa_3_84 emissions_Costa_3_84" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="1034.92" CO2_abs="146681.59" HC_abs="36.62" PMx_abs="12.71" NOx_abs="275.40" fuel_abs="46198.98" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_59" depart="101.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="296.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.80" duration="195.50" routeLength="1470.65" waitingTime="56.00" waitingCount="1" stopTime="0.00" timeLoss="96.44" rerouteNo="0" devices="tripinfo_Pepoli_10_59 emissions_Pepoli_10_59" vType="passenger2a" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="3417.47" CO2_abs="328282.40" HC_abs="103.13" PMx_abs="31.66" NOx_abs="635.64" fuel_abs="103396.13" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_2_106" depart="150.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="296.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.22" duration="146.50" routeLength="1145.48" waitingTime="38.00" waitingCount="1" stopTime="0.00" timeLoss="61.75" rerouteNo="0" devices="tripinfo_Togliatti_2_106 emissions_Togliatti_2_106" vType="passenger1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2149.27" CO2_abs="239550.80" HC_abs="71.83" PMx_abs="21.16" NOx_abs="451.02" fuel_abs="75449.15" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_39" depart="67.50" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="1.50" arrival="297.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.84" duration="230.00" routeLength="1470.65" waitingTime="79.00" waitingCount="3" stopTime="0.00" timeLoss="107.87" rerouteNo="0" devices="tripinfo_Pepoli_10_39 emissions_Pepoli_10_39" vType="passenger1" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="2222.64" CO2_abs="302450.25" HC_abs="92.25" PMx_abs="22.80" NOx_abs="536.83" fuel_abs="95260.01" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_56" depart="96.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="297.50" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="13.06" duration="201.50" routeLength="1470.65" waitingTime="59.00" waitingCount="1" stopTime="0.00" timeLoss="93.14" rerouteNo="0" devices="tripinfo_Pepoli_10_56 emissions_Pepoli_10_56" vType="passenger2a" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2713.03" CO2_abs="310409.63" HC_abs="93.90" PMx_abs="26.80" NOx_abs="578.63" fuel_abs="97766.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_55" depart="94.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="298.00" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="13.57" duration="204.00" routeLength="1470.65" waitingTime="61.00" waitingCount="2" stopTime="0.00" timeLoss="100.29" rerouteNo="0" devices="tripinfo_Pepoli_10_55 emissions_Pepoli_10_55" vType="passenger1" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="2699.61" CO2_abs="300515.35" HC_abs="92.76" PMx_abs="25.53" NOx_abs="559.59" fuel_abs="94650.60" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_16" depart="56.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="304.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="14.14" duration="248.00" routeLength="2111.89" waitingTime="37.50" waitingCount="1" stopTime="0.00" timeLoss="94.26" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_16 emissions_XXI_Aprile_7_16" vType="passenger4" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="3499.50" CO2_abs="409040.17" HC_abs="116.55" PMx_abs="36.03" NOx_abs="771.96" fuel_abs="128831.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_19" depart="67.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="304.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="15.28" duration="237.00" routeLength="2111.89" waitingTime="36.00" waitingCount="1" stopTime="0.00" timeLoss="99.47" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_19 emissions_XXI_Aprile_7_19" vType="passenger2a" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="4738.14" CO2_abs="445402.10" HC_abs="133.85" PMx_abs="45.17" NOx_abs="881.13" fuel_abs="140284.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_115" depart="163.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="304.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.35" duration="141.50" routeLength="1110.28" waitingTime="29.00" waitingCount="2" stopTime="0.00" timeLoss="56.09" rerouteNo="0" devices="tripinfo_Togliatti_3_115 emissions_Togliatti_3_115" vType="passenger3" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2328.80" CO2_abs="245585.80" HC_abs="73.55" PMx_abs="22.80" NOx_abs="469.14" fuel_abs="77349.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_32" depart="54.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="305.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.81" duration="251.50" routeLength="1738.36" waitingTime="107.00" waitingCount="2" stopTime="0.00" timeLoss="122.44" rerouteNo="0" devices="tripinfo_Pepoli_11_32 emissions_Pepoli_11_32" vType="passenger2a" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3308.46" CO2_abs="373500.59" HC_abs="117.00" PMx_abs="31.67" NOx_abs="689.49" fuel_abs="117638.11" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_700_30" depart="78.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="307.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="15.06" duration="229.50" routeLength="2147.44" waitingTime="44.50" waitingCount="2" stopTime="0.00" timeLoss="89.29" rerouteNo="0" devices="tripinfo_Costa_700_30 emissions_Costa_700_30" vType="passenger3" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="4500.06" CO2_abs="447021.86" HC_abs="131.24" PMx_abs="43.32" NOx_abs="874.59" fuel_abs="140794.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_30" depart="51.50" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="309.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.78" duration="257.50" routeLength="1735.40" waitingTime="103.00" waitingCount="2" stopTime="0.00" timeLoss="121.62" rerouteNo="0" devices="tripinfo_Pepoli_11_30 emissions_Pepoli_11_30" vType="passenger1" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="2791.79" CO2_abs="356295.23" HC_abs="109.06" PMx_abs="28.03" NOx_abs="640.93" fuel_abs="112219.09" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_20" depart="71.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="309.00" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="14.46" duration="238.00" routeLength="2111.89" waitingTime="35.00" waitingCount="1" stopTime="0.00" timeLoss="90.51" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_20 emissions_XXI_Aprile_7_20" vType="passenger5" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="4195.52" CO2_abs="429139.74" HC_abs="126.12" PMx_abs="40.35" NOx_abs="832.51" fuel_abs="135162.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_15" depart="53.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="310.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="10.68" duration="257.00" routeLength="2111.89" waitingTime="40.00" waitingCount="1" stopTime="0.00" timeLoss="61.30" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_15 emissions_XXI_Aprile_7_15" vType="passenger2b" speedFactor="0.80" vaporized="">
+        <emissions CO_abs="3391.46" CO2_abs="425580.48" HC_abs="119.22" PMx_abs="37.20" NOx_abs="793.61" fuel_abs="134041.21" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_35" depart="60.50" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="311.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.86" duration="250.50" routeLength="1735.40" waitingTime="93.50" waitingCount="2" stopTime="0.00" timeLoss="115.59" rerouteNo="0" devices="tripinfo_Pepoli_11_35 emissions_Pepoli_11_35" vType="passenger2b" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2851.51" CO2_abs="350990.31" HC_abs="107.98" PMx_abs="27.97" NOx_abs="638.10" fuel_abs="110548.24" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_14_0" depart="3.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="3.00" arrival="314.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="13.69" duration="311.00" routeLength="1815.99" waitingTime="32.50" waitingCount="4" stopTime="100.00" timeLoss="60.87" rerouteNo="0" devices="tripinfo_bus_14_0 emissions_bus_14_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3986.22" CO2_abs="3931463.00" HC_abs="1526.88" PMx_abs="499.33" NOx_abs="31969.57" fuel_abs="1238255.81" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_29" depart="49.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="314.00" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="11.65" duration="265.00" routeLength="1738.36" waitingTime="105.00" waitingCount="2" stopTime="0.00" timeLoss="123.50" rerouteNo="0" devices="tripinfo_Pepoli_11_29 emissions_Pepoli_11_29" vType="passenger2b" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2594.36" CO2_abs="359397.05" HC_abs="108.62" PMx_abs="27.17" NOx_abs="637.25" fuel_abs="113196.03" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_37" depart="65.50" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="2.50" arrival="314.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="12.93" duration="248.50" routeLength="1735.40" waitingTime="88.00" waitingCount="2" stopTime="0.00" timeLoss="119.40" rerouteNo="0" devices="tripinfo_Pepoli_11_37 emissions_Pepoli_11_37" vType="passenger3" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2653.13" CO2_abs="355773.70" HC_abs="105.91" PMx_abs="27.56" NOx_abs="640.24" fuel_abs="112054.83" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_58" depart="99.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="314.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="14.08" duration="215.50" routeLength="1735.40" waitingTime="58.00" waitingCount="1" stopTime="0.00" timeLoss="94.88" rerouteNo="0" devices="tripinfo_Pepoli_11_58 emissions_Pepoli_11_58" vType="passenger2b" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="3229.20" CO2_abs="349531.20" HC_abs="104.77" PMx_abs="31.22" NOx_abs="663.06" fuel_abs="110088.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_53" depart="91.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="316.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="12.99" duration="225.00" routeLength="1735.40" waitingTime="64.00" waitingCount="2" stopTime="0.00" timeLoss="95.40" rerouteNo="0" devices="tripinfo_Pepoli_11_53 emissions_Pepoli_11_53" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="2731.35" CO2_abs="341749.55" HC_abs="99.63" PMx_abs="28.23" NOx_abs="628.45" fuel_abs="107637.77" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_29" depart="103.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="316.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="14.79" duration="213.00" routeLength="2111.89" waitingTime="10.00" waitingCount="1" stopTime="0.00" timeLoss="65.85" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_29 emissions_XXI_Aprile_7_29" vType="passenger1" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="4175.15" CO2_abs="422821.01" HC_abs="119.93" PMx_abs="41.53" NOx_abs="832.10" fuel_abs="133172.10" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_41" depart="70.50" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="316.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.22" duration="246.00" routeLength="1735.40" waitingTime="80.00" waitingCount="2" stopTime="0.00" timeLoss="106.40" rerouteNo="0" devices="tripinfo_Pepoli_11_41 emissions_Pepoli_11_41" vType="passenger3" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="2647.33" CO2_abs="348949.25" HC_abs="103.55" PMx_abs="27.56" NOx_abs="629.66" fuel_abs="109905.38" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_61" depart="104.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="316.50" arrivalLane="114_2" arrivalPos="692.70" arrivalSpeed="13.98" duration="212.50" routeLength="1735.40" waitingTime="57.00" waitingCount="1" stopTime="0.00" timeLoss="91.00" rerouteNo="0" devices="tripinfo_Pepoli_11_61 emissions_Pepoli_11_61" vType="passenger2b" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="3097.63" CO2_abs="342474.34" HC_abs="101.91" PMx_abs="30.30" NOx_abs="647.26" fuel_abs="107866.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_3_6" depart="14.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="317.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.27" duration="303.00" routeLength="2572.85" waitingTime="81.50" waitingCount="2" stopTime="0.00" timeLoss="115.54" rerouteNo="0" devices="tripinfo_Silvani_3_6 emissions_Silvani_3_6" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="4315.38" CO2_abs="511923.00" HC_abs="147.03" PMx_abs="44.37" NOx_abs="959.95" fuel_abs="161235.79" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_3_25" depart="59.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="318.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.64" duration="259.50" routeLength="2572.85" waitingTime="37.00" waitingCount="2" stopTime="0.00" timeLoss="72.10" rerouteNo="0" devices="tripinfo_Silvani_3_25 emissions_Silvani_3_25" vType="ignoring3" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="4209.91" CO2_abs="499788.05" HC_abs="136.03" PMx_abs="45.20" NOx_abs="951.85" fuel_abs="157413.75" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_25" depart="88.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="318.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.32" duration="230.50" routeLength="2111.89" waitingTime="14.00" waitingCount="2" stopTime="0.00" timeLoss="46.16" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_25 emissions_XXI_Aprile_7_25" vType="passenger1" speedFactor="0.85" vaporized="">
+        <emissions CO_abs="3285.90" CO2_abs="405657.44" HC_abs="110.30" PMx_abs="36.36" NOx_abs="767.04" fuel_abs="127766.24" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_28" depart="99.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="319.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="12.11" duration="220.50" routeLength="2111.89" waitingTime="10.50" waitingCount="1" stopTime="0.00" timeLoss="45.55" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_28 emissions_XXI_Aprile_7_28" vType="passenger3" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="3724.11" CO2_abs="412293.86" HC_abs="114.23" PMx_abs="39.12" NOx_abs="797.24" fuel_abs="129856.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_31" depart="110.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="320.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="13.24" duration="210.00" routeLength="2111.89" waitingTime="8.50" waitingCount="1" stopTime="0.00" timeLoss="49.46" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_31 emissions_XXI_Aprile_7_31" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="3867.09" CO2_abs="415694.88" HC_abs="114.79" PMx_abs="40.17" NOx_abs="810.08" fuel_abs="130927.66" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Audinot_3_7" depart="150.00" departLane="131_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="320.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.49" duration="170.00" routeLength="1720.01" waitingTime="24.00" waitingCount="1" stopTime="0.00" timeLoss="43.97" rerouteNo="0" devices="tripinfo_Audinot_3_7 emissions_Audinot_3_7" vType="ignoring3" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3193.67" CO2_abs="342512.07" HC_abs="95.71" PMx_abs="32.86" NOx_abs="665.41" fuel_abs="107877.94" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_11_36" depart="63.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="320.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="12.60" duration="257.50" routeLength="1738.36" waitingTime="89.50" waitingCount="2" stopTime="0.00" timeLoss="119.80" rerouteNo="0" devices="tripinfo_Pepoli_11_36 emissions_Pepoli_11_36" vType="passenger1" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2672.16" CO2_abs="358179.17" HC_abs="107.13" PMx_abs="27.83" NOx_abs="642.00" fuel_abs="112812.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_53" depart="138.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="322.00" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="14.37" duration="184.00" routeLength="1188.84" waitingTime="81.50" waitingCount="1" stopTime="0.00" timeLoss="100.74" rerouteNo="0" devices="tripinfo_Costa_1_53 emissions_Costa_1_53" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="2815.83" CO2_abs="281490.88" HC_abs="92.21" PMx_abs="25.19" NOx_abs="530.40" fuel_abs="88658.63" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_55" depart="143.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="322.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="14.49" duration="178.50" routeLength="1182.48" waitingTime="79.00" waitingCount="1" stopTime="0.00" timeLoss="96.12" rerouteNo="0" devices="tripinfo_Costa_1_55 emissions_Costa_1_55" vType="passenger1" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2758.10" CO2_abs="280636.04" HC_abs="90.88" PMx_abs="24.61" NOx_abs="527.24" fuel_abs="88389.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_700_35" depart="91.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="322.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="14.20" duration="231.50" routeLength="2147.44" waitingTime="36.00" waitingCount="3" stopTime="0.00" timeLoss="82.00" rerouteNo="0" devices="tripinfo_Costa_700_35 emissions_Costa_700_35" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="3731.50" CO2_abs="427244.76" HC_abs="119.15" PMx_abs="39.07" NOx_abs="814.89" fuel_abs="134565.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_7_32" depart="113.00" departLane="8_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="323.00" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.99" duration="210.00" routeLength="2111.89" waitingTime="7.50" waitingCount="1" stopTime="0.00" timeLoss="47.42" rerouteNo="0" devices="tripinfo_XXI_Aprile_7_32 emissions_XXI_Aprile_7_32" vType="passenger4" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3352.64" CO2_abs="397222.01" HC_abs="106.57" PMx_abs="36.66" NOx_abs="761.93" fuel_abs="125109.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_50_31" depart="80.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="323.50" arrivalLane="60_0" arrivalPos="208.90" arrivalSpeed="13.28" duration="243.00" routeLength="2260.66" waitingTime="37.00" waitingCount="2" stopTime="0.00" timeLoss="70.32" rerouteNo="0" devices="tripinfo_Costa_50_31 emissions_Costa_50_31" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3805.10" CO2_abs="445694.71" HC_abs="123.42" PMx_abs="40.41" NOx_abs="847.16" fuel_abs="140376.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_35" depart="124.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="323.50" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="14.70" duration="199.50" routeLength="1119.11" waitingTime="88.00" waitingCount="3" stopTime="0.00" timeLoss="125.22" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_35 emissions_XXI_Aprile_1_35" vType="passenger2b" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3511.28" CO2_abs="308805.20" HC_abs="106.97" PMx_abs="29.34" NOx_abs="593.76" fuel_abs="97261.56" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_56" depart="146.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="323.50" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="15.62" duration="177.50" routeLength="1182.48" waitingTime="72.00" waitingCount="1" stopTime="0.00" timeLoss="100.93" rerouteNo="0" devices="tripinfo_Costa_1_56 emissions_Costa_1_56" vType="passenger2a" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="3300.85" CO2_abs="300714.08" HC_abs="98.94" PMx_abs="28.84" NOx_abs="581.60" fuel_abs="94713.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_910_0" depart="12.00" departLane="121_0" departPos="0.00" departSpeed="0.00" departDelay="12.00" arrival="325.50" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="13.59" duration="313.50" routeLength="1055.10" waitingTime="120.50" waitingCount="3" stopTime="60.00" timeLoss="141.54" rerouteNo="0" devices="tripinfo_bus_910_0 emissions_bus_910_0" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3066.78" CO2_abs="2747903.43" HC_abs="1392.65" PMx_abs="392.60" NOx_abs="23252.85" fuel_abs="865481.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Audinot_12_1" depart="21.00" departLane="131_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="326.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.63" duration="305.00" routeLength="2873.40" waitingTime="68.00" waitingCount="1" stopTime="0.00" timeLoss="92.96" rerouteNo="0" devices="tripinfo_Audinot_12_1 emissions_Audinot_12_1" vType="ignoring2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="6081.55" CO2_abs="604921.35" HC_abs="177.26" PMx_abs="59.64" NOx_abs="1184.91" fuel_abs="190526.61" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_66" depart="113.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="327.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.66" duration="214.00" routeLength="1941.55" waitingTime="38.00" waitingCount="2" stopTime="0.00" timeLoss="71.79" rerouteNo="0" devices="tripinfo_Pepoli_3_66 emissions_Pepoli_3_66" vType="ignoring4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3250.02" CO2_abs="389038.33" HC_abs="108.27" PMx_abs="34.34" NOx_abs="734.91" fuel_abs="122531.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_52" depart="135.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="327.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="15.44" duration="192.00" routeLength="1416.38" waitingTime="65.00" waitingCount="1" stopTime="0.00" timeLoss="98.87" rerouteNo="0" devices="tripinfo_Costa_12_52 emissions_Costa_12_52" vType="passenger3" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="3734.15" CO2_abs="344779.92" HC_abs="109.98" PMx_abs="33.56" NOx_abs="671.56" fuel_abs="108592.20" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_85" depart="145.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="328.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.32" duration="183.50" routeLength="1941.55" waitingTime="7.00" waitingCount="2" stopTime="0.00" timeLoss="41.57" rerouteNo="0" devices="tripinfo_Pepoli_3_85 emissions_Pepoli_3_85" vType="ignoring1" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3125.43" CO2_abs="370051.76" HC_abs="98.19" PMx_abs="33.91" NOx_abs="710.15" fuel_abs="116551.88" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_47" depart="167.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="328.50" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="12.28" duration="161.50" routeLength="1119.11" waitingTime="37.00" waitingCount="3" stopTime="0.00" timeLoss="73.37" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_47 emissions_XXI_Aprile_1_47" vType="passenger3" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2329.06" CO2_abs="250565.87" HC_abs="76.99" PMx_abs="22.32" NOx_abs="472.85" fuel_abs="78918.45" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_1_43" depart="152.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="329.50" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="11.90" duration="177.50" routeLength="1112.75" waitingTime="56.00" waitingCount="3" stopTime="0.00" timeLoss="86.82" rerouteNo="0" devices="tripinfo_XXI_Aprile_1_43 emissions_XXI_Aprile_1_43" vType="passenger2a" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="2628.12" CO2_abs="265068.75" HC_abs="85.87" PMx_abs="24.12" NOx_abs="500.06" fuel_abs="83486.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_74" depart="196.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="3.50" arrival="329.50" arrivalLane="86_1" arrivalPos="321.19" arrivalSpeed="13.53" duration="133.00" routeLength="1188.84" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="43.96" rerouteNo="0" devices="tripinfo_Costa_1_74 emissions_Costa_1_74" vType="passenger1" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2497.59" CO2_abs="251631.32" HC_abs="73.69" PMx_abs="24.24" NOx_abs="489.67" fuel_abs="79254.04" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_3_97" depart="166.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="330.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.85" duration="164.00" routeLength="1941.55" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="22.04" rerouteNo="0" devices="tripinfo_Pepoli_3_97 emissions_Pepoli_3_97" vType="ignoring2a" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="3195.22" CO2_abs="362801.54" HC_abs="94.98" PMx_abs="34.74" NOx_abs="707.61" fuel_abs="114268.34" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_83" depart="216.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="331.00" arrivalLane="86_0" arrivalPos="321.19" arrivalSpeed="13.39" duration="114.50" routeLength="1191.67" waitingTime="3.00" waitingCount="1" stopTime="0.00" timeLoss="24.90" rerouteNo="0" devices="tripinfo_Costa_1_83 emissions_Costa_1_83" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2434.95" CO2_abs="242359.14" HC_abs="68.13" PMx_abs="24.26" NOx_abs="479.99" fuel_abs="76333.67" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_17" depart="77.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="331.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="12.34" duration="254.50" routeLength="1629.80" waitingTime="93.50" waitingCount="2" stopTime="0.00" timeLoss="119.81" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_17 emissions_Vittorio_Veneto_2_17" vType="passenger2a" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="3245.24" CO2_abs="364542.38" HC_abs="115.48" PMx_abs="30.71" NOx_abs="671.70" fuel_abs="114816.59" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_73" depart="194.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="331.50" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="12.53" duration="137.50" routeLength="1185.31" waitingTime="26.00" waitingCount="1" stopTime="0.00" timeLoss="43.14" rerouteNo="0" devices="tripinfo_Costa_1_73 emissions_Costa_1_73" vType="passenger3" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2271.17" CO2_abs="245866.19" HC_abs="71.59" PMx_abs="22.98" NOx_abs="471.61" fuel_abs="77438.24" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_57" depart="97.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="332.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="15.07" duration="235.50" routeLength="1470.65" waitingTime="91.50" waitingCount="3" stopTime="0.00" timeLoss="140.16" rerouteNo="0" devices="tripinfo_Pepoli_10_57 emissions_Pepoli_10_57" vType="passenger2b" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="3408.26" CO2_abs="350974.07" HC_abs="114.34" PMx_abs="30.50" NOx_abs="656.70" fuel_abs="110543.12" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_18" depart="82.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="333.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.42" duration="251.00" routeLength="1629.80" waitingTime="90.50" waitingCount="2" stopTime="0.00" timeLoss="139.09" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_18 emissions_Vittorio_Veneto_2_18" vType="passenger1" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="3582.27" CO2_abs="365027.42" HC_abs="118.42" PMx_abs="32.19" NOx_abs="685.71" fuel_abs="114969.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_1_80" depart="209.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="1.00" arrival="333.00" arrivalLane="86_2" arrivalPos="321.19" arrivalSpeed="13.78" duration="124.00" routeLength="1185.31" waitingTime="10.50" waitingCount="2" stopTime="0.00" timeLoss="38.98" rerouteNo="0" devices="tripinfo_Costa_1_80 emissions_Costa_1_80" vType="passenger2a" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="2806.87" CO2_abs="258970.91" HC_abs="76.40" PMx_abs="27.06" NOx_abs="517.55" fuel_abs="81565.72" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_130" depart="222.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="333.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="12.28" duration="111.00" routeLength="692.71" waitingTime="47.50" waitingCount="1" stopTime="0.00" timeLoss="55.43" rerouteNo="0" devices="tripinfo_Pepoli_8_130 emissions_Pepoli_8_130" vType="passenger2a" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1430.23" CO2_abs="160403.55" HC_abs="51.35" PMx_abs="13.39" NOx_abs="294.20" fuel_abs="50520.85" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="bus_190_120" depart="120.00" departLane="121_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="334.00" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="13.33" duration="214.00" routeLength="1055.10" waitingTime="42.50" waitingCount="2" stopTime="60.00" timeLoss="56.36" rerouteNo="0" devices="tripinfo_bus_190_120 emissions_bus_190_120" vType="bus" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="2529.30" CO2_abs="2348288.41" HC_abs="1010.14" PMx_abs="313.54" NOx_abs="19458.24" fuel_abs="739618.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_76" depart="130.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="334.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="15.24" duration="204.50" routeLength="1470.65" waitingTime="78.50" waitingCount="2" stopTime="0.00" timeLoss="107.81" rerouteNo="0" devices="tripinfo_Pepoli_10_76 emissions_Pepoli_10_76" vType="passenger1" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="2810.55" CO2_abs="322832.74" HC_abs="98.71" PMx_abs="26.93" NOx_abs="597.74" fuel_abs="101679.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_54" depart="141.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="334.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="11.87" duration="193.50" routeLength="1416.38" waitingTime="55.50" waitingCount="1" stopTime="0.00" timeLoss="74.92" rerouteNo="0" devices="tripinfo_Costa_12_54 emissions_Costa_12_54" vType="passenger2b" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="2768.31" CO2_abs="310486.94" HC_abs="93.73" PMx_abs="27.44" NOx_abs="582.03" fuel_abs="97791.25" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_136" depart="233.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="334.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="15.64" duration="101.50" routeLength="692.71" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="58.24" rerouteNo="0" devices="tripinfo_Pepoli_8_136 emissions_Pepoli_8_136" vType="passenger1" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="1721.09" CO2_abs="168467.91" HC_abs="53.67" PMx_abs="15.60" NOx_abs="322.25" fuel_abs="53060.80" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_19" depart="87.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="335.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="12.87" duration="248.00" routeLength="1629.80" waitingTime="84.00" waitingCount="2" stopTime="0.00" timeLoss="118.26" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_19 emissions_Vittorio_Veneto_2_19" vType="passenger4" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2748.91" CO2_abs="344658.17" HC_abs="105.84" PMx_abs="27.44" NOx_abs="624.22" fuel_abs="108553.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_60" depart="156.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="336.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.18" duration="180.00" routeLength="1413.55" waitingTime="43.50" waitingCount="1" stopTime="0.00" timeLoss="75.14" rerouteNo="0" devices="tripinfo_Costa_12_60 emissions_Costa_12_60" vType="passenger1" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="2946.62" CO2_abs="305950.50" HC_abs="92.59" PMx_abs="28.34" NOx_abs="585.42" fuel_abs="96362.44" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_25" depart="114.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="336.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.79" duration="222.50" routeLength="1629.80" waitingTime="72.00" waitingCount="1" stopTime="0.00" timeLoss="110.32" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_25 emissions_Vittorio_Veneto_2_25" vType="passenger2a" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="3276.30" CO2_abs="349586.29" HC_abs="108.00" PMx_abs="31.05" NOx_abs="658.94" fuel_abs="110106.03" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_143" depart="245.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="337.50" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="13.09" duration="92.50" routeLength="692.71" waitingTime="26.50" waitingCount="1" stopTime="0.00" timeLoss="40.18" rerouteNo="0" devices="tripinfo_Pepoli_8_143 emissions_Pepoli_8_143" vType="passenger2b" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="1540.93" CO2_abs="156123.05" HC_abs="48.28" PMx_abs="14.44" NOx_abs="298.24" fuel_abs="49172.66" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_27" depart="123.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="338.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.26" duration="215.00" routeLength="1629.80" waitingTime="70.50" waitingCount="1" stopTime="0.00" timeLoss="100.98" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_27 emissions_Vittorio_Veneto_2_27" vType="passenger1" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="3466.58" CO2_abs="359400.56" HC_abs="110.97" PMx_abs="32.58" NOx_abs="683.33" fuel_abs="113197.14" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_71" depart="121.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="338.50" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="13.84" duration="217.50" routeLength="1470.65" waitingTime="78.50" waitingCount="3" stopTime="0.00" timeLoss="112.54" rerouteNo="0" devices="tripinfo_Pepoli_10_71 emissions_Pepoli_10_71" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2582.60" CO2_abs="315763.46" HC_abs="96.38" PMx_abs="25.62" NOx_abs="575.73" fuel_abs="99453.17" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_28" depart="128.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="339.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="15.35" duration="211.50" routeLength="1629.80" waitingTime="69.00" waitingCount="1" stopTime="0.00" timeLoss="103.23" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_28 emissions_Vittorio_Veneto_2_28" vType="passenger3" speedFactor="1.11" vaporized="">
+        <emissions CO_abs="3659.98" CO2_abs="367305.40" HC_abs="113.65" PMx_abs="33.89" NOx_abs="703.99" fuel_abs="115686.86" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_79" depart="135.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="339.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="13.92" duration="204.50" routeLength="1470.65" waitingTime="70.50" waitingCount="2" stopTime="0.00" timeLoss="102.02" rerouteNo="0" devices="tripinfo_Pepoli_10_79 emissions_Pepoli_10_79" vType="passenger3" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="2738.39" CO2_abs="310307.06" HC_abs="95.58" PMx_abs="26.00" NOx_abs="575.54" fuel_abs="97734.62" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_61" depart="159.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="340.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="11.31" duration="181.50" routeLength="1416.38" waitingTime="38.50" waitingCount="1" stopTime="0.00" timeLoss="58.57" rerouteNo="0" devices="tripinfo_Costa_12_61 emissions_Costa_12_61" vType="passenger2b" speedFactor="0.85" vaporized="">
+        <emissions CO_abs="2379.02" CO2_abs="285773.81" HC_abs="82.62" PMx_abs="25.27" NOx_abs="533.18" fuel_abs="90007.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_30" depart="137.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="341.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="13.91" duration="204.00" routeLength="1629.80" waitingTime="55.50" waitingCount="2" stopTime="0.00" timeLoss="88.42" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_30 emissions_Vittorio_Veneto_2_30" vType="passenger3" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="3508.05" CO2_abs="354418.39" HC_abs="108.31" PMx_abs="33.18" NOx_abs="681.49" fuel_abs="111627.95" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_152" depart="260.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="341.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="12.54" duration="81.00" routeLength="692.71" waitingTime="11.50" waitingCount="1" stopTime="0.00" timeLoss="25.39" rerouteNo="0" devices="tripinfo_Pepoli_8_152 emissions_Pepoli_8_152" vType="passenger1" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="1169.05" CO2_abs="140800.21" HC_abs="39.56" PMx_abs="12.46" NOx_abs="264.81" fuel_abs="44346.57" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_64" depart="167.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="342.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.09" duration="175.00" routeLength="1416.38" waitingTime="37.00" waitingCount="1" stopTime="0.00" timeLoss="66.16" rerouteNo="0" devices="tripinfo_Costa_12_64 emissions_Costa_12_64" vType="passenger1" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="2868.20" CO2_abs="304969.83" HC_abs="90.25" PMx_abs="28.24" NOx_abs="582.86" fuel_abs="96053.58" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_40" depart="142.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="343.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.62" duration="201.50" routeLength="1343.82" waitingTime="56.00" waitingCount="3" stopTime="0.00" timeLoss="98.45" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_40 emissions_XXI_Aprile_12_40" vType="passenger2b" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="3277.37" CO2_abs="322085.04" HC_abs="102.74" PMx_abs="30.30" NOx_abs="616.26" fuel_abs="101444.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_37" depart="96.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="345.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="15.01" duration="249.00" routeLength="2101.62" waitingTime="53.00" waitingCount="2" stopTime="0.00" timeLoss="110.20" rerouteNo="0" devices="tripinfo_Costa_70_37 emissions_Costa_70_37" vType="passenger1" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="3800.53" CO2_abs="418802.49" HC_abs="122.83" PMx_abs="37.41" NOx_abs="796.09" fuel_abs="131906.43" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_2_32" depart="146.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="346.50" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="11.79" duration="200.50" routeLength="1629.80" waitingTime="30.00" waitingCount="2" stopTime="0.00" timeLoss="65.45" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_2_32 emissions_Vittorio_Veneto_2_32" vType="passenger1" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="2408.46" CO2_abs="312003.86" HC_abs="87.62" PMx_abs="26.08" NOx_abs="576.83" fuel_abs="98269.02" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_96" depart="164.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="346.50" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="13.57" duration="182.50" routeLength="1470.65" waitingTime="41.00" waitingCount="2" stopTime="0.00" timeLoss="77.05" rerouteNo="0" devices="tripinfo_Pepoli_10_96 emissions_Pepoli_10_96" vType="passenger1" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="2504.55" CO2_abs="293860.92" HC_abs="85.31" PMx_abs="25.62" NOx_abs="550.44" fuel_abs="92554.72" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_119" depart="169.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="346.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="12.40" duration="177.50" routeLength="1107.06" waitingTime="58.00" waitingCount="2" stopTime="0.00" timeLoss="89.43" rerouteNo="0" devices="tripinfo_Togliatti_3_119 emissions_Togliatti_3_119" vType="passenger2b" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="2853.69" CO2_abs="277686.53" HC_abs="90.48" PMx_abs="25.96" NOx_abs="529.03" fuel_abs="87460.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_200_25" depart="65.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="347.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.48" duration="282.00" routeLength="2574.51" waitingTime="35.50" waitingCount="2" stopTime="0.00" timeLoss="67.84" rerouteNo="0" devices="tripinfo_Costa_200_25 emissions_Costa_200_25" vType="passenger3" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="3174.27" CO2_abs="455941.61" HC_abs="120.71" PMx_abs="37.04" NOx_abs="836.81" fuel_abs="143603.81" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_39" depart="101.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="348.00" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="13.80" duration="246.50" routeLength="2101.62" waitingTime="48.00" waitingCount="2" stopTime="0.00" timeLoss="99.86" rerouteNo="0" devices="tripinfo_Costa_70_39 emissions_Costa_70_39" vType="passenger2b" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="3874.66" CO2_abs="419613.94" HC_abs="122.95" PMx_abs="38.43" NOx_abs="802.14" fuel_abs="132162.00" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_12_44" depart="156.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="11.12" duration="192.00" routeLength="1343.82" waitingTime="36.50" waitingCount="3" stopTime="0.00" timeLoss="72.64" rerouteNo="0" devices="tripinfo_XXI_Aprile_12_44 emissions_XXI_Aprile_12_44" vType="passenger2b" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="2607.16" CO2_abs="290020.35" HC_abs="87.85" PMx_abs="26.06" NOx_abs="545.05" fuel_abs="91345.06" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_107" depart="183.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.00" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="16.48" duration="165.00" routeLength="1470.65" waitingTime="26.50" waitingCount="2" stopTime="0.00" timeLoss="79.20" rerouteNo="0" devices="tripinfo_Pepoli_10_107 emissions_Pepoli_10_107" vType="passenger2b" speedFactor="1.24" vaporized="">
+        <emissions CO_abs="3155.95" CO2_abs="313955.16" HC_abs="92.92" PMx_abs="30.01" NOx_abs="611.76" fuel_abs="98883.63" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_3_133" depart="189.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.00" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.12" duration="159.00" routeLength="1110.28" waitingTime="39.50" waitingCount="2" stopTime="0.00" timeLoss="73.17" rerouteNo="0" devices="tripinfo_Togliatti_3_133 emissions_Togliatti_3_133" vType="passenger2b" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="3003.93" CO2_abs="274414.06" HC_abs="88.03" PMx_abs="27.37" NOx_abs="536.32" fuel_abs="86429.69" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="XXI_Aprile_2_71" depart="252.00" departLane="13_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.00" arrivalLane="77[1][1]_0" arrivalPos="463.98" arrivalSpeed="14.37" duration="96.00" routeLength="976.81" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="27.98" rerouteNo="0" devices="tripinfo_XXI_Aprile_2_71 emissions_XXI_Aprile_2_71" vType="passenger3" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="2274.83" CO2_abs="211968.85" HC_abs="60.93" PMx_abs="22.36" NOx_abs="426.14" fuel_abs="66761.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_80" depart="137.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="11.97" duration="211.50" routeLength="1470.65" waitingTime="65.50" waitingCount="2" stopTime="0.00" timeLoss="90.75" rerouteNo="0" devices="tripinfo_Pepoli_10_80 emissions_Pepoli_10_80" vType="passenger4" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="2114.50" CO2_abs="295523.92" HC_abs="86.60" PMx_abs="22.71" NOx_abs="528.44" fuel_abs="93078.49" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_86" depart="202.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="348.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="14.52" duration="146.50" routeLength="1114.25" waitingTime="60.00" waitingCount="1" stopTime="0.00" timeLoss="72.21" rerouteNo="0" devices="tripinfo_Silvani_11_86 emissions_Silvani_11_86" vType="passenger3" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="2203.33" CO2_abs="234622.36" HC_abs="73.00" PMx_abs="20.65" NOx_abs="441.33" fuel_abs="73896.90" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_9_38" depart="56.00" departLane="85_1" departPos="0.00" departSpeed="0.00" departDelay="2.00" arrival="349.00" arrivalLane="54_0" arrivalPos="300.28" arrivalSpeed="15.49" duration="293.00" routeLength="1798.88" waitingTime="94.00" waitingCount="5" stopTime="0.00" timeLoss="176.93" rerouteNo="0" devices="tripinfo_Togliatti_9_38 emissions_Togliatti_9_38" vType="passenger2a" speedFactor="1.13" vaporized="">
+        <emissions CO_abs="4701.07" CO2_abs="442709.46" HC_abs="146.59" PMx_abs="41.98" NOx_abs="847.58" fuel_abs="139436.18" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_119" depart="204.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="349.00" arrivalLane="204[1][1]_2" arrivalPos="435.51" arrivalSpeed="17.29" duration="145.00" routeLength="1470.65" waitingTime="18.50" waitingCount="1" stopTime="0.00" timeLoss="60.29" rerouteNo="0" devices="tripinfo_Pepoli_10_119 emissions_Pepoli_10_119" vType="passenger2b" speedFactor="1.25" vaporized="">
+        <emissions CO_abs="3046.28" CO2_abs="300227.32" HC_abs="86.52" PMx_abs="29.59" NOx_abs="591.81" fuel_abs="94559.91" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Vittorio_Veneto_32_16" depart="73.00" departLane="224[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="349.50" arrivalLane="14_0" arrivalPos="77.26" arrivalSpeed="13.43" duration="276.50" routeLength="1591.38" waitingTime="122.50" waitingCount="3" stopTime="0.00" timeLoss="154.66" rerouteNo="0" devices="tripinfo_Vittorio_Veneto_32_16 emissions_Vittorio_Veneto_32_16" vType="passenger1" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="3988.89" CO2_abs="405719.35" HC_abs="134.31" PMx_abs="35.62" NOx_abs="754.97" fuel_abs="127785.73" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_7_50" depart="117.00" departLane="203[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="349.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="12.77" duration="232.50" routeLength="1451.40" waitingTime="100.00" waitingCount="3" stopTime="0.00" timeLoss="121.08" rerouteNo="0" devices="tripinfo_Silvani_7_50 emissions_Silvani_7_50" vType="passenger3" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="2922.07" CO2_abs="330074.80" HC_abs="105.91" PMx_abs="27.27" NOx_abs="604.15" fuel_abs="103960.66" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_71" depart="189.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.00" arrival="349.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.32" duration="160.50" routeLength="1413.55" waitingTime="23.50" waitingCount="1" stopTime="0.00" timeLoss="54.58" rerouteNo="0" devices="tripinfo_Costa_12_71 emissions_Costa_12_71" vType="passenger2a" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="2996.79" CO2_abs="298304.66" HC_abs="88.07" PMx_abs="29.42" NOx_abs="583.22" fuel_abs="93954.31" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_92" depart="157.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="350.00" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.57" duration="193.00" routeLength="1470.65" waitingTime="48.50" waitingCount="2" stopTime="0.00" timeLoss="94.90" rerouteNo="0" devices="tripinfo_Pepoli_10_92 emissions_Pepoli_10_92" vType="passenger2a" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="3624.06" CO2_abs="328629.67" HC_abs="104.70" PMx_abs="32.49" NOx_abs="644.98" fuel_abs="103505.50" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Togliatti_72_36" depart="51.00" departLane="85_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="350.50" arrivalLane="209_1" arrivalPos="395.59" arrivalSpeed="13.51" duration="299.50" routeLength="2323.72" waitingTime="71.00" waitingCount="3" stopTime="0.00" timeLoss="130.18" rerouteNo="0" devices="tripinfo_Togliatti_72_36 emissions_Togliatti_72_36" vType="passenger4" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="4444.42" CO2_abs="488061.81" HC_abs="146.37" PMx_abs="42.98" NOx_abs="921.93" fuel_abs="153720.41" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_43" depart="112.00" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="350.50" arrivalLane="209_2" arrivalPos="395.59" arrivalSpeed="13.06" duration="238.50" routeLength="2101.62" waitingTime="42.00" waitingCount="2" stopTime="0.00" timeLoss="77.36" rerouteNo="0" devices="tripinfo_Costa_70_43 emissions_Costa_70_43" vType="passenger3" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="3060.34" CO2_abs="390192.10" HC_abs="108.16" PMx_abs="33.10" NOx_abs="726.22" fuel_abs="122895.28" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_81" depart="138.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="351.00" arrivalLane="204[1][1]_0" arrivalPos="435.51" arrivalSpeed="11.98" duration="213.00" routeLength="1470.65" waitingTime="62.00" waitingCount="2" stopTime="0.00" timeLoss="90.10" rerouteNo="0" devices="tripinfo_Pepoli_10_81 emissions_Pepoli_10_81" vType="passenger1" speedFactor="0.86" vaporized="">
+        <emissions CO_abs="2149.15" CO2_abs="285817.26" HC_abs="85.46" PMx_abs="22.32" NOx_abs="514.38" fuel_abs="90021.26" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_12_75" depart="199.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="4.50" arrival="351.50" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="12.20" duration="152.00" routeLength="1413.55" waitingTime="10.50" waitingCount="1" stopTime="0.00" timeLoss="37.18" rerouteNo="0" devices="tripinfo_Costa_12_75 emissions_Costa_12_75" vType="passenger2a" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="2664.95" CO2_abs="279186.90" HC_abs="79.10" PMx_abs="27.67" NOx_abs="544.74" fuel_abs="87932.96" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_89" depart="209.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="351.50" arrivalLane="114_0" arrivalPos="692.70" arrivalSpeed="15.07" duration="142.50" routeLength="1114.25" waitingTime="53.00" waitingCount="1" stopTime="0.00" timeLoss="68.05" rerouteNo="0" devices="tripinfo_Silvani_11_89 emissions_Silvani_11_89" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="1986.67" CO2_abs="232871.21" HC_abs="69.48" PMx_abs="19.52" NOx_abs="432.27" fuel_abs="73345.37" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Silvani_11_92" depart="217.00" departLane="203[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="352.00" arrivalLane="114_1" arrivalPos="692.70" arrivalSpeed="15.61" duration="135.00" routeLength="1114.25" waitingTime="47.50" waitingCount="1" stopTime="0.00" timeLoss="64.40" rerouteNo="0" devices="tripinfo_Silvani_11_92 emissions_Silvani_11_92" vType="passenger3" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="2052.10" CO2_abs="232642.56" HC_abs="68.82" PMx_abs="20.09" NOx_abs="437.26" fuel_abs="73273.36" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_12_42" depart="72.00" departLane="210_2" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="353.00" arrivalLane="136_0" arrivalPos="186.20" arrivalSpeed="13.58" duration="281.00" routeLength="3094.94" waitingTime="2.00" waitingCount="1" stopTime="0.00" timeLoss="53.19" rerouteNo="0" devices="tripinfo_Pepoli_12_42 emissions_Pepoli_12_42" vType="ignoring4" speedFactor="1.00" vaporized="">
+        <emissions CO_abs="4496.65" CO2_abs="553717.70" HC_abs="143.80" PMx_abs="50.12" NOx_abs="1060.77" fuel_abs="174399.49" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_8_170" depart="291.00" departLane="210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="353.00" arrivalLane="134b_0" arrivalPos="156.17" arrivalSpeed="13.28" duration="62.00" routeLength="692.71" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="11.35" rerouteNo="0" devices="tripinfo_Pepoli_8_170 emissions_Pepoli_8_170" vType="passenger2a" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="1359.57" CO2_abs="136122.88" HC_abs="37.58" PMx_abs="14.00" NOx_abs="270.82" fuel_abs="42873.39" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Costa_70_34" depart="88.50" departLane="78[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.50" arrival="353.50" arrivalLane="209_0" arrivalPos="395.59" arrivalSpeed="11.61" duration="265.00" routeLength="2104.45" waitingTime="58.00" waitingCount="4" stopTime="0.00" timeLoss="88.60" rerouteNo="0" devices="tripinfo_Costa_70_34 emissions_Costa_70_34" vType="passenger3" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="3205.65" CO2_abs="410849.05" HC_abs="117.00" PMx_abs="34.52" NOx_abs="757.54" fuel_abs="129401.40" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="Pepoli_10_109" depart="186.00" departLane="210_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="353.50" arrivalLane="204[1][1]_1" arrivalPos="435.51" arrivalSpeed="14.61" duration="167.50" routeLength="1470.65" waitingTime="20.00" waitingCount="2" stopTime="0.00" timeLoss="70.25" rerouteNo="0" devices="tripinfo_Pepoli_10_109 emissions_Pepoli_10_109" vType="passenger1" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="2581.00" CO2_abs="290467.57" HC_abs="82.57" PMx_abs="26.49" NOx_abs="554.58" fuel_abs="91485.96" electricity_abs="0.00"/>
+    </tripinfo>
+</tripinfos>

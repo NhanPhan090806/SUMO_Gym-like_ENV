@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 import os
 
 # CONFIG
-CSV_PATH = "/reports/da_model/steer/data" # Make sure this matches your path
+CSV_PATH = "reports/daft_model/steer_only/" # Make sure this matches your path
 STYLE = 'dark_background' # Looks cool on stream
 
 def find_latest_csv(folder):

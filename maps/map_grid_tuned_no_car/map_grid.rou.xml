@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-10 07:47:04.023024 by Eclipse SUMO randomTrips.py v1.26.0
+<configuration>
+    <net-file value="map_grid.net.xml"/>
+    <route-file value="map_grid.rou.xml"/>
+    <trip-attributes value="type=&quot;DEFAULT_VEHTYPE&quot;"/>
+    <lanes value="True"/>
+    <fringe-factor value="100"/>
+    <random value="True"/>
+    <min-distance value="800.0"/>
+    <maxtries value="250"/>
+    <period value="1.5"/>
+    <flows value="1"/>
+</configuration>
+-->
+
+<!-- generated on 2026-03-10T07:47:04.017461+07:00 by Eclipse SUMO duarouter 1.26.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map_grid.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="map_grid.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <keep-flows value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="0" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" period="1.5">
+        <route edges="-E3 D3C3 C3B3 E1"/>
+    </flow>
+</routes>

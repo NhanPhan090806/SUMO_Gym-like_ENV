@@ -1,0 +1,22 @@
+***Starting server on port 43201 ***
+Loading net-file from 'maps/map2/pasubio_buslanes.net.xml' ... done (21ms).
+Loading additional-files from 'maps/map2/pasubio_vtypes.add.xml' ... done (2ms).
+Loading additional-files from 'maps/map2/pasubio_bus_stops.add.xml' ... done (2ms).
+Loading additional-files from 'maps/map2/pasubio_busses.rou.xml' ... done (10ms).
+Loading additional-files from 'maps/map2/pasubio_detectors.add.xml' ... done (3ms).
+Loading additional-files from 'maps/map2/pasubio_tls.add.xml' ... done (2ms).
+Loading route-files incrementally from 'maps/map2/pasubio.rou.xml'
+Loading done.
+Simulation version 1.26.0 started with time: 0.00.
+Simulation ended at time: 383.50.
+Reason: TraCI requested termination.
+Performance:
+ Duration: 2.25s
+ TraCI-Duration: 1.06s
+ Real time factor: 170.52
+ UPS: 111529.568697
+Vehicles:
+ Inserted: 939 (Loaded: 1082)
+ Running: 490
+ Waiting: 0
+ Teleports: 0 (Collisions: 5)

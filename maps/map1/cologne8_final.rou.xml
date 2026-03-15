@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-31 19:05:57.917070 by Eclipse SUMO randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="cologne8_final.net.xml"/>
+    <route-file value="cologne8_final.rou.xml"/>
+    <trip-attributes value="type=&quot;DEFAULT_VEHTYPE&quot;"/>
+    <lanes value="True"/>
+    <fringe-factor value="100"/>
+    <random value="True"/>
+    <min-distance value="800.0"/>
+    <maxtries value="250"/>
+    <period value="1.5"/>
+    <flows value="30"/>
+</configuration>
+-->
+
+<!-- generated on 2026-01-31T19:05:57.910070+07:00 by Eclipse SUMO duarouter 1.25.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="cologne8_final.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="cologne8_final.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <keep-flows value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="0" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-353069169#0 -225249129#0 -23648008#3 -23648008#1 -23648008#0 -297047307 -297047310#3 -297047310#2 186623965#15 186623965#17"/>
+    </flow>
+    <flow id="1" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-25166682#0 -23648008#0 -297047307 -297047310#3 -297047310#2 186623965#15 -22917421#4"/>
+    </flow>
+    <flow id="10" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="24675285 23656410#0 133081985#0 133081985#1 E11 E12 E13 E14 186623965#17"/>
+    </flow>
+    <flow id="11" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="23647118 -8716807#5 E9 E10 E11 E12 E13 28675510#7"/>
+    </flow>
+    <flow id="12" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-28675510#11 E14 E15 -186623965#14"/>
+    </flow>
+    <flow id="13" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-186623965#18 E15 E16 E17 E18 28675493 297047308 -8716807#6 -8716807#5 E9 23283470#3 23283470#5 24610382"/>
+    </flow>
+    <flow id="14" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-353069169#0 -225249129#0 -23648008#3 -23648008#1 -23648008#0 28675493 297047308 -8716807#6 -8716807#5 E9 E10 -133081985#1 -133081985#0 -309744810#1 -133081987#2 -23686088#1 -23686088#0 155723703#0"/>
+    </flow>
+    <flow id="15" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-323450710#0 -23648008#1 -23648008#0 -297047307 -297047310#3 -297047310#2 -186623965#14"/>
+    </flow>
+    <flow id="16" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-186623965#18 22917421#5 -28675510#5 -28675510#3 -28675510#0 23283579#0 23286179#0 23286179#1 23286180"/>
+    </flow>
+    <flow id="17" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="132042183 -23283472#2 23283473 23686088#1 133081987#0 133081987#3 133081985#0 133081985#1 E11 E12 E13 E14 186623965#17"/>
+    </flow>
+    <flow id="18" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="186623965#9 E16 E17 E18 28675493 297047308 -8716807#6 -8716807#5 E9 E10 -133081985#1 -133081985#0 -309744810#1 23283436"/>
+    </flow>
+    <flow id="19" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="23647118 8716807#6 -297047308 -28675493 -297047307 -297047310#3 -297047310#2 42925825#0"/>
+    </flow>
+    <flow id="2" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-42925825#2 E16 E17 E18 E19 E20 E21 E22"/>
+    </flow>
+    <flow id="20" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="23840712#0 290365598#0 23840888#1 23840887#2 23840887#3 -297047310#2 186623965#15 186623965#17"/>
+    </flow>
+    <flow id="21" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-23840972 23840713#2 23840712#1 23840887#0 23840887#2 23840887#3 -297047310#2 -186623965#14"/>
+    </flow>
+    <flow id="22" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="22917421#3 E15 E16 E17 E18 E19 E20 E21 E24 225249129#1"/>
+    </flow>
+    <flow id="23" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-225249129#1 -225249129#0 -23648008#3 -23648008#1 -23648008#0 -297047307 -297047310#3 -297047310#2 186623965#15 186623965#17"/>
+    </flow>
+    <flow id="24" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-186623965#18 22917421#5 -28675510#5 -28675510#3 -28675510#0 23283579#0 23286179#0 23286179#1 23286180"/>
+    </flow>
+    <flow id="25" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="186623965#9 E16 E17 E18 E19 E20 323450710#0"/>
+    </flow>
+    <flow id="26" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-297047309#0 -28675494#1 -297047308 -28675493 -297047307 -297047310#3 -297047310#2 186623965#15 186623965#17"/>
+    </flow>
+    <flow id="27" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-24610382 24694889 E5 E6 E7 E8 8716807#5 8716807#6 -297047308 -28675493 -297047307 -297047310#3 -297047310#2 42925825#0"/>
+    </flow>
+    <flow id="28" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-353069169#0 -225249129#0 -23648008#3 -23648008#1 -23648008#0 -297047307 -297047310#3 -297047310#2 186623965#15 -22917421#4"/>
+    </flow>
+    <flow id="29" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="E15 E16 E17 E18 28675493 297047308 -8716807#6 -8716807#5 E9 E10 -133081985#1 -133081985#0 -309744810#1 23283436"/>
+    </flow>
+    <flow id="3" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="160807420 133081987#0 133081987#3 133081985#0 133081985#1 E11 E12 E13 E14 -22917421#4"/>
+    </flow>
+    <flow id="4" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-24610382 24694889 E5 E6 E7 E8 8716807#5 8716807#6 -297047308 -28675493 -297047307 -297047310#3 -297047310#2 186623965#15 186623965#17"/>
+    </flow>
+    <flow id="5" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-186623965#18 22917421#5 -28675510#5 -28675510#3 -28675510#0 -133081985#1 -133081985#0 -309744810#1 -133081987#2 -23686088#1 -23686088#0 4936412"/>
+    </flow>
+    <flow id="6" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="186623965#9 E16 E17 22959550#0 22959550#1 22959550#3 -23840712#4 -23840712#3 -23840712#0"/>
+    </flow>
+    <flow id="7" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="-25166682#0 -23648008#0 -297047307 -297047310#3 -297047310#2 -186623965#14"/>
+    </flow>
+    <flow id="8" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="186623965#9 E16 E17 22959550#0 22959550#1 22959550#3 -23840712#4 -23840712#3 -23840712#0"/>
+    </flow>
+    <flow id="9" type="DEFAULT_VEHTYPE" begin="0.00" end="3600.00" probability="0.02">
+        <route edges="186623965#9 E16 E17 E18 28675493 297047308 -8716807#6 -8716807#5 E9 23283470#3 23283470#5 24694889 E5"/>
+    </flow>
+</routes>

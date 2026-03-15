@@ -1,0 +1,21 @@
+***Starting server on port 35247 ***
+Loading net-file from 'maps/map3/acosta_buslanes.net.xml' ... done (24ms).
+Loading additional-files from 'maps/map3/acosta_vtypes.add.xml' ... done (3ms).
+Loading additional-files from 'maps/map3/acosta_detectors.add.xml' ... done (4ms).
+Loading additional-files from 'maps/map3/acosta_bus_stops.add.xml' ... done (2ms).
+Loading additional-files from 'maps/map3/acosta_tls.add.xml' ... done (3ms).
+Loading route-files incrementally from 'maps/map3/acosta.rou.xml'
+Loading route-files incrementally from 'maps/map3/acosta_busses.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 354.00.
+Performance:
+ Duration: 6.78s
+ TraCI-Duration: 0.90s
+ Real time factor: 52.1816
+ UPS: 35113.797170
+Vehicles:
+ Inserted: 852 (Loaded: 977)
+ Running: 528
+ Waiting: 4
+ Emergency Braking: 1

@@ -1,0 +1,10 @@
+<configuration>
+  <input>
+    <net-file value="cologne8_final.net.xml" />
+	<route-files value="cologne8_final.rou.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="3600" />
+  </time>
+</configuration>
